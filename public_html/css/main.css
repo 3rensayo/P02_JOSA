@@ -26,25 +26,25 @@ div.homepage {
 
 /*navigation bar*/
 
-#logo {
+.logo {
+  display: inline-block;
 	left: 0;
-	font-size: 1.2em;
-	font-style: bold;
+/*	font-size: 1.2em;
+	font-style: bold;*/
 }
 
-.navbar {
-  font-family: "Montserrat", sans-serif;
-  /*font-weight: bold;*/
-  font-size: 100%;
-  display: inline-block;
+nav {
+/*  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  display: inline-block;*/
   background-color: #262626; 
   position: fixed;
-  right:0;
   top: 0;
   left: 0;
+  width: 100%;
   letter-spacing: 0.20rem;
-
-  padding: 1.1rem 3rem 1.1rem 3rem;
+/*  padding: 1.1rem 3rem 1.1rem 3rem;*/
 
 
 }
@@ -53,21 +53,20 @@ div.homepage {
 
 .nav-item {
 	display: inline-block;
-  	padding: 1.3em;
-  	color: white;
-	background-color: #262626;
+/*  padding: 1.3em;*/
+  color: rgb(255, 255, 255);
+/*	background-color: #262626;*/
  	text-decoration: none;
 	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
-  	position: relative;
-  	text-align: center;
-  	font-size: 100%;
-  	margin:0em 0.5em 0em 0.5em;
-  	
-
-  
-
-
+  transition: background-color 0.5s ease-out;
+/*  position: relative;*/
+  text-align: center;
+/*  font-size: 100%;*/
+/*  margin:0em 0.5em 0em 0.5em;*/
+  margin: 0em;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  width: 100%;
 
 }
 
@@ -76,8 +75,6 @@ div.homepage {
   font-weight: bold;
   color:#D74227;
   
-
-
 }
 
 /*Reservation Button*/

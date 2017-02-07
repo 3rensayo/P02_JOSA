@@ -1,15 +1,16 @@
 /*Grids file*/
 
 *, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
 [class^='grid-col-'] {
 	float: left;
 	padding: 0; 
-	width: 100%;
-
-	
+	text-align: center; /* center the content in this block by default */
+	width: 100%;  /* defining the default to be mobile first */
 }
 
 
@@ -29,6 +30,8 @@
 	/*width:12.5%; 1of-9
 	/*width: 100%;*/
 }
+
+
 
 
 /*.grid-col-1of2 > .nav-item {
@@ -51,9 +54,7 @@
 
 /*700px / 16 = 43.75em - 16 is the deafult font size? */ 
 
-@media (max-width: 60em) {
-
-
+@media (max-width: 68em) {
 
 	.grid-col-1of8 {
 		width: 100%;
@@ -72,15 +73,15 @@
 }*/
 
 
-/*@media (max-width: 45em) {
+@media (max-width: 45em) {
 
 
 
-	.grid-col-1of9 {
+	.grid-col-1of8 {
 		width: 100%;
 	}
 
-}*/
+}
 
 
 /*@media (max-width: 74.875em) {
