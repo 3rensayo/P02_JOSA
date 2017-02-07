@@ -14,7 +14,7 @@
 }
 
 
-.grid-row::after {
+/*.grid-row::after {
 	content: "";
 	display: block;
 	clear: both;
@@ -23,13 +23,13 @@
 
 .grid-col-1of8 > .nav-item {
 	width: 100%;
-}
+}*/
 
-.grid-col-1of8 {
+/*.grid-col-1of8 {
 	width:12.5%;
+}*/
 	/*width:12.5%; 1of-9
 	/*width: 100%;*/
-}
 
 .grid-col-1of3 {
 	width: 33.33%;
@@ -56,13 +56,13 @@
 
 /*700px / 16 = 43.75em - 16 is the deafult font size? */ 
 
-@media (max-width: 80em) {
+/*@media (max-width: 80em) {
 
 	.grid-col-1of8 {
 		width: 100%;
 	}
 
-}
+}*/
 
 /*@media (max-width: 60em) {
 
@@ -75,7 +75,7 @@
 }*/
 
 
-@media (max-width: 45em) {
+/*@media (max-width: 45em) {
 
 
 
@@ -83,7 +83,7 @@
 		width: 100%;
 	}
 
-}
+}*/
 
 
 /*@media (max-width: 74.875em) {

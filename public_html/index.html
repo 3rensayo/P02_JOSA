@@ -8,12 +8,40 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/grids.css">
+		<link rel="stylesheet" href="css/nav.css">
 	</head>
 
 	<body>
-		<!--NAvigation Bar-->
+		<!--Navigation Bar-->
 		<header>
-			<nav class="grid-row">
+			<nav class="navBar">
+				<nav class="wrapper">
+
+					<div class="logo">
+						<a href="index.html" class="nav-logo">JOSA</a>
+					</div>
+
+		         	<input type="checkbox" id="css-toggle-menu" name="css-toggle-menu"> 
+		         	
+			        <ul>
+		               <li><a href="">ABOUT</a></li>
+		               <li><a href="">EVENTS</a></li>
+		               <li><a href="">MENU</a></li>
+		               <li><a href="">FOOD ORDER</a></li>
+		               <li><a href="">CONTACT</a></li>
+		               <li><a href="opentable.com" id="rsv-button">RESERVATION</a></li>
+		               <li><a href="">CART</a></li>
+			        </ul> 
+
+		         	<label for="css-toggle-menu" id="css-toggle-menu"></label> 
+		        </nav>
+		   </nav>
+		   <!-- citation:
+		   https://codepen.io/torbencolding/pen/OPwwOg
+		   http://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page
+		   http://blog.christopherianmurphy.com/2016/01/responsive-pure-css-menu.html -->
+
+<!-- 			<nav class="grid-row">
 
 				<div class="grid-col-1of8">
 					<a href="index.html" class="nav-item logo">JOSA</a>
@@ -47,7 +75,7 @@
 					<a href="cart.html" class="nav-item">CART</a>
 				</div>
 
-			</nav>
+			</nav> -->
 		</header>
 
 
