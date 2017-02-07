@@ -57,24 +57,27 @@ nav {
   color: rgb(255, 255, 255);
 /*	background-color: #262626;*/
  	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
 /*  position: relative;*/
   text-align: center;
 /*  font-size: 100%;*/
 /*  margin:0em 0.5em 0em 0.5em;*/
   margin: 0em;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   width: 100%;
+
+  -webkit-transition: color 0.5s ease-in;
+  transition: color 0.5s ease-in;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
 
 }
 
 .nav-item:hover, .nav-item:focus {
 /*  background-color: #EEE;*/
-  font-weight: bold;
+/*  font-weight: bold;*/
   color:#D74227;
-  
+
 }
 
 /*Reservation Button*/
@@ -84,14 +87,17 @@ nav {
   background-color: #D74227;
 
 
-  margin: 0.7em 0em 0.5em;
-  padding: 0.5em 0em 0.5em;
+  margin-top: 1em;
+  padding: 0.5em;
   border-style: solid;
   border-color: white;
   border-width: 0.5px;
 
   
-
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color 0.5s ease-in;
+  transition: background-color 0.5s ease-in;
 
 }
 
