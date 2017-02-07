@@ -8,55 +8,39 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/grids.css">
+		<link rel="stylesheet" href="css/nav.css">
 	</head>
 
 	<body>
-
-
-
-<!--NAvigation Bar-->
+		<!--Navigation Bar-->
 		<header>
-		<nav class="navbar grid-row">
+			<nav class="navBar">
+				<nav class="wrapper">
 
-			<div class="grid-col-1of9">
-				<a href="index.html" id="logo" class="nav-item">JOSA</a>
-			</div>
+					<div class="logo">
+						<a href="index.html" class="nav-logo">JOSA</a>
+					</div>
 
-			<!-- <div class="grid-col-1of9">
-				<a href="index.html" class="nav-item">HOME</a>
-			</div> -->
-			
-			<div class="grid-col-1of9">	
-				<a href="about.html" class="nav-item">ABOUT</a>
-			</div>
+		         	<input type="checkbox" id="css-toggle-menu" name="css-toggle-menu"> 
+		         	
+			        <ul>
+		               <li><a href="about.html">ABOUT</a></li>
+		               <li><a href="events.html">EVENTS</a></li>
+		               <li><a href="menu.html">MENU</a></li>
+		               <li><a href="listing.html">FOOD ORDER</a></li>
+		               <li><a href="contact.html">CONTACT</a></li>
+		               <li><a href="opentable.com" id="rsv-button">RESERVATION</a></li>
+		               <li><a href="cart.html">CART</a></li>
+			        </ul> 
 
-			<div class="grid-col-1of9">
-				<a href="events.html" class="nav-item">EVENTS</a>
-			</div>
-
-			<div class="grid-col-1of9">
-				<a href="menu.html" class="nav-item">MENU</a>
-			</div>
-
-			<div class="grid-col-1of9">
-				<a href="listing.html" class="nav-item">FOOD ORDER</a>
-			</div>
-
-			<div class="grid-col-1of9">
-				<a href="contact.html" class="nav-item">CONTACT</a>
-			</div>
-			
-			<div class="grid-col-1of9">	
-				<a href="opentable.com" id="rsv-button" class="nav-item">RESERVATION</a>
-			</div>
-
-			<div class="grid-col-1of9">
-				<a href="cart.html" class="nav-item">CART</a>
-			</div>
-
-		</nav>
-
-	</header>
+		         	<label for="css-toggle-menu" id="css-toggle-menu"></label> 
+		        </nav>
+		   </nav>
+		   <!-- citation:
+		   https://codepen.io/torbencolding/pen/OPwwOg
+		   http://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page
+		   http://blog.christopherianmurphy.com/2016/01/responsive-pure-css-menu.html -->
+		</header>
 
 		<h1>CHECKOUT</h1>
 

@@ -23,6 +23,7 @@
 	background-color: #262626;
 	position: fixed;
 	min-width: 100%;
+	top: 0;
 }
 
 .nav-logo {

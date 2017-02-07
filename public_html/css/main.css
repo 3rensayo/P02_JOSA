@@ -31,7 +31,9 @@ h2 {
   letter-spacing: 0.23rem;
 }
 
-
+::-webkit-scrollbar { 
+      display: none; 
+}
 /* Navigation Bar Styling */
 
 /*.logo {
