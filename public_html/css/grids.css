@@ -31,7 +31,9 @@
 	/*width: 100%;*/
 }
 
-
+.grid-col-1of3 {
+	width: 33.33%;
+}
 
 
 /*.grid-col-1of2 > .nav-item {
