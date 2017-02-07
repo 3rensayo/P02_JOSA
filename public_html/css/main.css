@@ -61,7 +61,7 @@ h2 {
 
 
 
-.nav-item {
+/*.nav-item {
 	display: inline-block;
 
   color: rgb(255, 255, 255);
@@ -79,7 +79,7 @@ h2 {
   transition: color 0.5s ease-in;
   -webkit-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out;
-}
+}*/
   /*  padding: 1.3em;*/
   /*  background-color: #262626;*/
   /*  position: relative;*/
