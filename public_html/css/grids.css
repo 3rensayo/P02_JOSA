@@ -56,7 +56,7 @@
 
 /*700px / 16 = 43.75em - 16 is the deafult font size? */ 
 
-@media (max-width: 68em) {
+@media (max-width: 80em) {
 
 	.grid-col-1of8 {
 		width: 100%;

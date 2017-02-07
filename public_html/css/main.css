@@ -3,6 +3,7 @@
 body {
 	font-family:  "Open Sans", sans-serif; 
 	font-size: 100%;
+  margin: 0;
 
 }
 
@@ -100,7 +101,6 @@ nav {
   border-style: solid;
   border-color: white;
   border-width: 0.5px;
-
   
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
@@ -124,7 +124,5 @@ footer {
   background-color: #262626;
   width: 100%;
   height: 10rem;
-
-
 
 }
