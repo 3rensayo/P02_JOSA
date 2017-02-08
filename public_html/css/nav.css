@@ -122,6 +122,11 @@ nav label:before {
 		transition: all 0.5s ease;
 		-webkit-transition: all 0.5s ease;
   	}
+  	
+  	.white-space {
+		width: 100%;
+  		height: 4.4rem;
+	}
 }
 
 @media only screen and (max-width: 74rem) {
