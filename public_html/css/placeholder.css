@@ -1,0 +1,15 @@
+[class^='block-'] {
+	background-color: #ccc;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.block-slider {
+	width: 100%;
+	height: 37rem;
+}
+
+.note {
+	margin: 0;
+	line-height: 35rem;
+}	
