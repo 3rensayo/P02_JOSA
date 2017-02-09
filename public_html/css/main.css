@@ -1,19 +1,18 @@
 /* Body */
 
 body {
-	font-family:  "Open Sans", sans-serif; 
-	font-size: 100%;
-  margin: 0;
-
+  font-family:  "Open Sans", sans-serif; 
+  font-size: 1rem;
+    margin: 0;
 }
 
 
 section {
-  padding: 2rem 0;
+    padding: 2rem 0;
 }
 
 .top-section {
-  padding-top: 0;
+    padding-top: 0;
 }
 
 section::after {
@@ -23,28 +22,28 @@ section::after {
 }
 
 .white-space {
-	width: 100%;
+  width: 100%;
   height: 5.1rem;
 }
 
 figure {
-  margin: 1em 1.5rem;
+    margin: 1em 1.5rem;
 }
 
 /* Header */
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 
 
-h2 {
+h1 {
   text-align: center;
   letter-spacing: 0.23rem;
 }
 
 ::-webkit-scrollbar { 
-      display: none; 
+  display: none; 
 }
 
 /* Footer Styling */
@@ -54,4 +53,43 @@ footer {
   width: 100%;
   height: 10rem;
 
+}
+
+/* In-Text Links Styling */
+a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+a:hover {
+  color: #D74227;
+}
+
+/* Button Styling */
+
+.button {
+
+  background-color: #D74227;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+
+.button:hover, .button:focus {
+  background-color: #6B2219;
+  color: white;
+
+}
+
+section .button {
+  margin: 1em 0 0 0;
+  padding: 0.8em 0;
 }
