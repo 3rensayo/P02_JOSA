@@ -6,13 +6,10 @@
 	margin: 0;
 }
 
-
-
 .block-slider {
 	width: 100%;
 	height: 0;
-	padding-bottom: 40%;
-	margin-bottom: 4rem;
+	padding-bottom: 43%;
 }
 
 /*citation: http://jonathannicol.com/blog/2011/10/18/responsive-elements-that-retain-their-aspect-ratio/*/
