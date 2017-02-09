@@ -56,18 +56,7 @@ footer {
 }
 
 /* In-Text Links Styling */
-a {
-  text-decoration: none;
-  color: #ffffff;
-  display: block;
 
-  transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-}
-
-a:hover {
-  color: #D74227;
-}
 
 /* Button Styling */
 
@@ -87,6 +76,15 @@ a:hover {
   background-color: #6B2219;
   color: white;
 
+}
+
+a.button {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
 
 section .button {
