@@ -8,137 +8,63 @@
 
 [class^='grid-col-'] {
 	float: left;
-	padding: 0; 
 	text-align: center; /* center the content in this block by default */
 	width: 100%;  /* defining the default to be mobile first */
 }
 
-
-/*.grid-row::after {
+[class^='grid-col-']::after {
 	content: "";
 	display: block;
 	clear: both;
-
 }
 
-.grid-col-1of8 > .nav-item {
-	width: 100%;
-}*/
-
-/*.grid-col-1of8 {
-	width:12.5%;
-}*/
-	/*width:12.5%; 1of-9
-	/*width: 100%;*/
 
 .grid-col-1of3 {
 	width: 33.33%;
 }
 
 
-/*.grid-col-1of2 > .nav-item {
-	width: 100%;
-}
-
-.grid-col-1of2 {
-	width:50%;
-	width:12.5%; 1of-9
-	width: 100%;
-}*/
 
 
 
 
 
 
+/******** MEDIA QUERIES *********/
 
+/* Desktop */
+@media screen and (max-width: 90rem) {
 
-
-/*700px / 16 = 43.75em - 16 is the deafult font size? */ 
-
-/*@media (max-width: 80em) {
-
-	.grid-col-1of8 {
-		width: 100%;
+    .grid-col-1of4 {
+		width: 25%;
+	    display: block;
 	}
 
-}*/
 
-/*@media (max-width: 60em) {
+}
 
+/* Tablet */
+@media screen and (max-width: 60rem) {
 
-
-	.grid-col-1of9 {
+    .grid-col-1of4 {
 		width: 50%;
-	}
-
-}*/
-
-
-/*@media (max-width: 45em) {
-
-
-
-	.grid-col-1of8 {
-		width: 100%;
-	}
-
-}*/
-
-
-/*@media (max-width: 74.875em) {
-
-
-
-	.grid-col-1of9 {
-		width: 30%;
-	}
-
-}
-*/
-
-
-
-
-/*@media (min-width: 48.75em) {
-
-
-
-	.grid-col-1of9 {
-		width: 50%;
+	    display: block;
 	}
 
 }
 
-@media (min-width: 55.68em) {
+/* Mobile */
+@media screen and (max-width: 35rem) {
 
-
-	.grid-col-1of9{
-		width: 50%;
+    figure {
+		margin: 1em 0;
 	}
+
+    .grid-col-1of4 {
+        display: block;
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+
+
 }
-
-@media (min-width: 56.06em) {
-
-
-	.grid-col-1of9{
-		width: 30%;
-	}
-}
-
-@media (min-width: 56.25em) {
-
-
-	.grid-col-1of9{
-		width: 30%;
-	}
-}
-
-@media (min-width: 73em) {
-
-
-	.grid-col-1of9{
-		width: 11%;
-	}
-
-*/
