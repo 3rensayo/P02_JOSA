@@ -1,5 +1,6 @@
 [class^='block-'] {
-	background-color: #ccc;
+	/*background-color: #ccc;*/
+	
 }
 
 .note {
@@ -9,14 +10,48 @@
 .block-slider {
 	width: 100%;
 	height: 0;
-	padding-bottom: 43%;
+	padding-bottom: 65%;
+
 }
+
+.block-slider img{
+	width: 100%;
+	height: auto;
+	margin:0;
+}
+
+figure.slider {
+	margin:0;
+}
+
+
 
 /*citation: http://jonathannicol.com/blog/2011/10/18/responsive-elements-that-retain-their-aspect-ratio/*/
 
 .block-food {
-	width: 100%;
-	height: 0;
-	padding-bottom: 60%;
+	/*width: 100%;
+	height: 0;*/
+	/*padding-bottom: 0%;*/
 }
+
+.block-food img{
+	width: 100%;
+	height: auto;
+}
+
+
+/* section on home page*/
+
+section.story_section {
+	background-color: #EEEFF1;
+}
+
+section.service_section {
+	background-color: #EAE2D0;
+
+}
+
+
+
+
 
