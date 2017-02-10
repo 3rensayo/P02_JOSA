@@ -11,6 +11,10 @@ section {
     padding: 2rem 0;
 }
 
+.need-white-space {
+  padding: 2rem 6rem;
+}
+
 .top-section {
     padding-top: 0;
 }
@@ -30,6 +34,10 @@ figure {
     margin: 1em 1.5rem;
 }
 
+.row-1of4 {
+  padding-bottom: 3rem;
+
+}
 /* Header */
 
 h1,h2,h3,h4,h5,h6 {
@@ -58,6 +66,9 @@ footer {
 
 /* In-Text Links Styling */
 
+a {
+  text-decoration: none;
+}
 
 /* Button Styling */
 
