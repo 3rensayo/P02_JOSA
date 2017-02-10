@@ -28,6 +28,11 @@
 
 }
 
+.grid-col-1of2 {
+	width: 50%;
+
+}
+
 
 /******** MEDIA QUERIES *********/
 
@@ -50,6 +55,12 @@
 	    display: block;
 	}
 
+	  .grid-col-1of2 {
+        display: block;
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+
 }
 
 /* Mobile */
@@ -64,6 +75,8 @@
         width: 100%;
         margin: 0 0 2rem 0;
     }
+
+  
 
  
 
