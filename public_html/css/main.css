@@ -38,6 +38,12 @@ figure {
   padding-bottom: 3rem;
 
 }
+
+.quantity p, .quantity select {
+  display: inline;
+  margin-bottom: 1rem;
+}
+
 /* Header */
 
 h1,h2,h3,h4,h5,h6 {

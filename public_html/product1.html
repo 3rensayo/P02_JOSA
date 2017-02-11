@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/grids.css">
 		<link rel="stylesheet" href="css/nav.css">
+		<link rel="stylesheet" href="css/placeholder.css">
 	</head>
 
 	<body>
@@ -29,7 +30,7 @@
 		               <li><a href="menu.html">MENU</a></li>
 		               <li><a href="listing.html">FOOD ORDER</a></li>
 		               <li><a href="contact.html">CONTACT</a></li>
-		               <li><a href="opentable.com" id="rsv-button">RESERVATION</a></li>
+		               <li><a href="opentable.com" class="button">RESERVATION</a></li>
 		               <li><a href="cart.html">CART</a></li>
 			        </ul> 
 
@@ -42,14 +43,49 @@
 		   http://blog.christopherianmurphy.com/2016/01/responsive-pure-css-menu.html -->
 		</header>
 
-
-		<h1>PRODUCT 1</h1>
+		<div class="white-space"></div>
 
 		<!-- Description Section-->
-		<section>
+		<section class="need-white-space">
 
-			<h2>Description</h2>
-			<button><a href="cart.html">Add to Cart</a></button>
+			
+
+				<div class="grid-col-1of2">
+					<figure>
+						<div class="block-story">
+							<img src="img/food1.jpg">
+						</div>
+						
+					</figure>
+				</div>
+
+				<div class="grid-col-1of2 single-product">
+					<h1>Product 1</h1>
+					<h2> Price</h2>
+					<h3 class="storyp">
+						Description
+					</h3>
+
+					<h3 class="storyp">
+						Note
+					</h3>
+
+					<div class="quantity">
+						<p>Quantity</p>
+						<select>
+						  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="4">4</option>
+						</select>
+					</div>
+
+					<div>
+						<a href="#" class="button1">Add to Cart</a>
+					</div>
+				
+
+				</div>
 
 		</section>
 
@@ -61,26 +97,28 @@
 		</section>
 
 
-		<!-- Footer 1 Section-->
-		<section>
+		<footer>
+			<!-- Footer 1 Section-->
+			<section class="grid-col-1of3">
 
-			<h2>Footer 1</h2>
+				<h1>Footer 1</h1>
 
-		</section>
+			</section>
 
-		<!-- Footer 2 Section-->
-		<section>
+			<!-- Footer 2 Section-->
+			<section class="grid-col-1of3">
 
-			<h2>Footer 2</h2>
+				<h1>Footer 2</h1>
 
-		</section>
+			</section>
 
-		<!-- Footer 3 Section-->
-		<section>
+			<!-- Footer 3 Section-->
+			<section class="grid-col-1of3">
 
-			<h2>Footer 3</h2>
+				<h1>Footer 3</h1>
 
-		</section>
+			</section>
+		</footer>
 
 	</body>
 </html>
