@@ -93,7 +93,7 @@ nav label:before {
 }
 
 /*************** MEDIA QUERIES *******************/
-@media only screen and (max-width: 78rem) {
+@media only screen and (max-width: 85rem) {
 
     nav ul{
 		max-width: 75%;
@@ -108,7 +108,7 @@ nav label:before {
 	}
 }
 
-@media only screen and (max-width: 74rem) {
+@media only screen and (max-width: 78rem) {
 
 	nav ul{
 		max-width: 85%;

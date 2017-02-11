@@ -3,31 +3,6 @@
 	
 }
 
-.note {
-	margin: 0;
-}
-
-.block-slider {
-	background-color: #ccc;
-	width: 100%;
-	height: 0;
-	padding-bottom: 65%;
-
-}
-
-.block-slider img{
-
-	width: 100%;
-	height: auto;
-	margin:0;
-}
-
-figure.slider {
-	margin:0;
-}
-
-
-
 /*citation: http://jonathannicol.com/blog/2011/10/18/responsive-elements-that-retain-their-aspect-ratio/*/
 
 .block-food {
@@ -36,21 +11,11 @@ figure.slider {
 	padding-bottom: 70%;
 }
 
-.block-food img{
-	width: 100%;
-	height: auto;
-}
-
-
 /* Story section on home page*/
 
-section.story_section {
+.story_section {
 	background-color: #EEEFF1;
-	margin: 0;
-	padding: 0;
-
 }
-
 
 
 .block-story {
@@ -72,9 +37,6 @@ section.story_section {
 }
 
 
-
-
-
 figure.storyimg {
 	margin:0;
 	
@@ -82,11 +44,9 @@ figure.storyimg {
 
 p.storyp {
 	margin: 2rem;
-
     padding: 1rem;
 
 }
-
 
     
 .button1 {
@@ -103,18 +63,12 @@ p.storyp {
 	  
 	  border-radius: 0.3rem;
 	  display: inline-block;
-
-
-
 }
 
 .button1:hover, .button1:focus {
   background-color: #ccc;
  
 }
-
-
-
 
 /* other sections*/
 section.service_section {
@@ -127,17 +81,11 @@ section.popular_section {
 
 }
 
-section.top-section {
-	padding-bottom: 0;
-
-}
-
 /*About*/
 section.cheif_section {
 	background-color: #262626;
-	margin: 0;
-	padding: 0;
-
+/*	margin: 0;
+	padding: 0;*/
 }
 
 section.cheif_section p {

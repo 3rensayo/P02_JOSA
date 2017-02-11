@@ -33,19 +33,8 @@
 
 }
 
-
 /******** MEDIA QUERIES *********/
 
-/* Desktop */
-@media screen and (max-width: 90rem) {
-
-    .grid-col-1of4 {
-		width: 25%;
-	    display: block;
-	}
-
-
-}
 
 /* Tablet */
 @media screen and (max-width: 60rem) {
@@ -62,17 +51,19 @@
     }
 
     .need-white-space {
-    	padding: 0;
-    }
+  		padding: 2rem 3rem;
+	}
+
+	.row-1of4 {
+		padding-bottom: 2rem;
+	}
+
+
 
 }
 
 /* Mobile */
 @media screen and (max-width: 35rem) {
-
-    figure {
-		margin: 1em 0;
-	}
 
     .grid-col-1of4 {
         display: block;
