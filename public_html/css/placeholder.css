@@ -1,9 +1,13 @@
 [class^='block-'] {
 	/*background-color: #ccc;*/
-	
 }
 
 /*citation: http://jonathannicol.com/blog/2011/10/18/responsive-elements-that-retain-their-aspect-ratio/*/
+
+#home-image {
+	max-height: 35rem;
+	overflow: hidden;
+}
 
 .block-food {
 	width: 100%;

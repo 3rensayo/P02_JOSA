@@ -55,7 +55,7 @@
 	}
 
 	.row-1of4 {
-		padding-bottom: 2rem;
+		padding-bottom: 0;
 	}
 
 
@@ -68,14 +68,16 @@
     .grid-col-1of4 {
         display: block;
         width: 100%;
-        margin: 0 0 2rem 0;
+/*        margin: 0 0 2rem 0;*/
     }
 
     .need-white-space {
     	padding: 0;
     }
 
-  
+  	.row-1of4 {
+		padding-bottom: 0;
+	}
 
  
 
