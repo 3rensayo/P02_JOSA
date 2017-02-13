@@ -74,12 +74,42 @@ p.storyp {
  
 }
 
+<<<<<<< Updated upstream
 /* other sections*/
+=======
+
+
+
+/* servicesections*/
+>>>>>>> Stashed changes
 section.service_section {
 	background-color: #EAE2D0;
 
 }
 
+.block-service {
+	width: 100%;
+	height: 0;
+	padding-bottom: 70%;
+}
+
+.block-service img{
+	width: 25%;
+
+	padding:0;
+	margin: 3rem;
+}
+
+section.service_section h2{
+	color: color: #c69a50;
+}
+
+
+
+
+
+
+/**/
 section.popular_section {
 	background-color: white;
 
