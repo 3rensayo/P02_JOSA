@@ -17,36 +17,34 @@
 
 /* Story section on home page*/
 
-.story_section {
+section.story_section {
 	background-color: #EEEFF1;
 }
 
 
-.block-story {
+div.block-image {
 	width: 100%;
 	height: 0;
 	padding-bottom: 68.52%;
 }
 
-.block-story img{
+.block-image img{
 	width: 100%;
 
 	padding:0;
 	margin: 0;
+	display: inline-block;
+
 }
 
-.block-story1 {
+.block-p {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
 
 
-figure.storyimg {
-	margin:0;
-	
-}
 
-p.storyp {
+.block-p p {
 	margin: 2rem;
     padding: 1rem;
 
@@ -80,8 +78,8 @@ p.storyp {
 
 
 
-/* servicesections*/
->>>>>>> Stashed changes
+/* servicesections on home*/
+
 section.service_section {
 	background-color: #EAE2D0;
 
@@ -90,19 +88,51 @@ section.service_section {
 .block-service {
 	width: 100%;
 	height: 0;
-	padding-bottom: 70%;
+	padding-bottom: 30%;
 }
 
 .block-service img{
 	width: 25%;
 
-	padding:0;
-	margin: 3rem;
+		
 }
 
-section.service_section h2{
-	color: color: #c69a50;
+section.service_section h3{
+	color: #3F3F3F;
+	letter-spacing: 0rem;
+	margin: 1rem;
 }
+
+section.service_section h1{
+	margin: 0;
+	padding: 3rem;
+}
+
+section.service_section figure {
+	margin: 2rem;
+	
+}
+
+section.service_section p {
+
+	font-size: 0.8em;
+	width: 20em;
+	display: inline-block;
+	padding-bottom: 2rem;
+
+
+
+	
+}
+
+
+/* menu-sections on home*/
+
+
+section.menu_section {
+	background-color: #EAE2D0;
+}
+
 
 
 
@@ -110,10 +140,10 @@ section.service_section h2{
 
 
 /**/
-section.popular_section {
+/*section.popular_section {
 	background-color: white;
 
-}
+}*/
 
 /*About*/
 section.cheif_section {
@@ -131,6 +161,12 @@ section.cheif_section h2 {
 	color: #c69a50;
 
 }
+
+section.cheif_section .block-story {
+	padding-bottom: 66.7%;
+
+}
+
 
 
 

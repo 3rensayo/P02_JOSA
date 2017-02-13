@@ -57,11 +57,14 @@
         margin: 0 0 2rem 0;
     }
 
+ 
+
+
+
     .grid-col-1of3-s {
 	width: 100%;
-}
 
-
+	}
 
 
     .need-white-space {
@@ -94,8 +97,12 @@
 
   	.row-1of4 {
 		padding-bottom: 0;
+		margin-left: 0;
+		margin-right: 0;
+
 	}
 
+	
  
 
 
