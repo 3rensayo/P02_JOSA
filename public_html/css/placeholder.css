@@ -9,6 +9,30 @@
 	overflow: hidden;
 }
 
+section.popular-food-section {
+	background-color: rgb(245, 245, 245);
+
+}
+
+.food-listing {
+	max-height: 10rem;
+	overflow: hidden;
+}
+
+.food-listing::after {
+	content: "";
+	clear: both;
+}
+
+.listing-block {
+	background-color: #ffffff;
+	width: 100%;
+	height: 25rem;
+	text-align: center;
+}
+
+/*citation: https://css-tricks.com/crop-top/*/
+
 .block-food {
 	width: 100%;
 	height: 0;
@@ -17,12 +41,12 @@
 
 /* Story section on home page*/
 
-section.story_section {
+.story_section {
 	background-color: #EEEFF1;
 }
 
 
-div.block-image {
+.block-image {
 	width: 100%;
 	height: 0;
 	padding-bottom: 68.52%;
@@ -78,7 +102,7 @@ div.block-image {
 
 
 
-/* servicesections on home*/
+/* service sections on home*/
 
 section.service_section {
 	background-color: #EAE2D0;

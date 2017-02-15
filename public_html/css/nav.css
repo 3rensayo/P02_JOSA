@@ -25,16 +25,13 @@
 }
 
 nav ul {
+	width: 80%;
 	display: flex; 
 	flex-wrap: wrap; 
 	max-width: 70%; 
 	list-style-type: none;
 	padding: 0;
 	justify-content: space-between;
-}
-
-nav ul, nav li {
-	flex: 1;  
 }
 
 nav li:last-child {

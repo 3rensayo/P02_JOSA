@@ -3,12 +3,12 @@
 body {
   font-family:  "Open Sans", sans-serif; 
   font-size: 1rem;
-    margin: 0;
+  margin: 0;
 }
 
 
 section {
-    padding: 0;
+  padding: 0;
 }
 
 section::after {
@@ -54,7 +54,7 @@ img {
 
 /* Header */
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
     font-family: "Noto Sans", sans-serif;
     margin: 2rem;
     text-align: center;
@@ -63,6 +63,17 @@ h1,h2,h3,h4,h5,h6 {
 
 ::-webkit-scrollbar { 
   display: none; 
+}
+
+/* Single Product Page */
+.single-product, .single-product h1 {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.single-product {
+  margin-left: 4rem;
 }
 
 /* Footer Styling */
@@ -80,6 +91,17 @@ a {
   text-decoration: none;
 }
 
+/* Sub Navigation Styling */
+.sub-nav a, .sub-nav li{
+  color: #000;
+}
+
+.sub-nav {
+  width: 50%;
+  padding-bottom: 0;
+  z-index: -1;
+}
+
 /* Button Styling */
 
 .button {
@@ -87,7 +109,9 @@ a {
   background-color: #D74227;
   border-style: solid;
   border-color: white;
-  border-width: 0.5px;
+  border-width: 0.1rem;
+
+  margin: 0 2rem;
 
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
