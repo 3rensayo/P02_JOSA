@@ -1,0 +1,380 @@
+/*Cart style sheet*/
+
+/*http://bootsnipp.com/snippets/featured/shopping-cart-bs-3*/
+
+
+/*cart product lists*/
+
+
+
+/*cart title*/
+section h3.cart-sutitle {
+	padding-left: 2rem;
+
+	display: inline-block;
+	float: left;
+	clear: left;
+
+
+	
+}
+
+
+.line {
+	border-bottom: 0.08em solid #333;
+    display: inline-block;
+    width: 100%;
+}
+
+
+/*cart content*/
+.cart-img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	display: block;
+	padding:1rem 1rem 1rem 2rem;
+}
+
+.carttitle, .carttitle1 {
+    padding: 3rem 0rem 0rem 1rem;
+	text-align: left;
+	font-size: 1em;
+
+}
+
+.text p {
+	padding: 0rem 0rem 0rem 1rem;
+	text-align: left;
+}
+
+
+input.qutform {
+	padding: 1rem;
+	margin:3rem 2rem 2rem 4rem;
+	width: 39%;
+	border-radius: 0.4rem
+	font-size:1rem;
+	text-align: center;
+	
+}
+
+
+/*price summart*/
+
+
+.sumtitle {
+	
+	margin:1rem 0rem 0rem 0rem;
+
+}
+
+/*buttons*/
+
+ .grid-col-cart-b-4of12 .button1 {
+	display: block;
+	width: 100%;
+	margin: 1rem 0rem 0rem 0rem;
+
+
+}
+
+
+
+
+/*grid*/
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+[class^='grid-col-cart-'] {
+	float: left;
+	text-align: center; /* center the content in this block by default */
+	width: 100%;  /* defining the default to be mobile first */
+}
+
+[class^='grid-col-cart-']::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*cart title*/
+.grid-col-cart-6of12 {
+	width:55%;
+	padding-left: 2rem;
+	
+
+}
+
+.grid-col-cart-2of12 {
+	width: 15%;
+	display: inline-block;
+
+
+}
+
+/*cart content*/
+.grid-col-cart-d-3of12 {
+	width: 25%;
+	
+}
+
+
+
+.grid-col-cart-d-2of12 {
+	width: 16.6%;
+	padding-top: 1.5rem;
+	padding-left: 3.5rem;
+	
+
+}
+
+.grid-col-cart-2of12-1{
+	display: none;
+}
+
+
+/*price summary*/
+.grid-col-cart-s-2of12 {
+	width: 16.5%;
+}
+
+.grid-col-cart-s-8of12 {
+	width: 64.5%;
+}
+
+/*buttons*/
+.grid-col-cart-b-8of12 {
+	width: 66.67%;
+}
+.grid-col-cart-b-4of12{
+	width: 33.33%;
+	padding: 0rem 2rem 0rem 0rem;
+
+}
+
+
+
+
+
+
+
+
+/*tablet*/
+@media only screen and (max-width: 69rem) {
+
+
+	/*cart title*/
+
+	.grid-col-cart-6of12 {
+	display: none;
+
+}
+
+.grid-col-cart-2of12 {
+	display: none;
+
+}
+
+
+/*cart content*/
+.grid-col-cart-d-3of12 {
+	width: 50%;
+
+}
+
+.cart-img {
+	padding-left: 1rem;
+	
+}
+
+.grid-col-cart-d-2of12 {
+	width: 16%;
+	padding-top: 1rem;
+	padding-left: 0;
+	padding-right: 1.8rem;
+
+	
+	
+}
+
+
+.carttitle {
+	padding-top: 0;
+}
+
+
+
+input.qutform {
+	margin-left: 1rem;
+	width: 100%;
+	margin-top: 0;
+
+
+}
+
+/*price summary*/
+.grid-col-cart-s-2of12 {
+	width: 16.5%;
+}
+
+.grid-col-cart-s-8of12 {
+	width: 64.5%;
+}
+
+
+
+
+}
+
+
+
+/*moile*/
+@media screen and (max-width: 40rem) {
+
+
+/*cart content*/
+.grid-col-cart-d-3of12 {
+	width: 100%;
+	
+}
+
+.cart-img {
+
+	padding:0rem
+}
+
+
+
+.text {
+	padding-left: 2.5rem;
+
+}
+
+.grid-col-cart-d-2of12 {
+	width: 25%;
+	padding-left: 2.5rem;
+	padding-right: 0;
+	
+	
+}
+
+/*price summary*/
+.grid-col-cart-s-2of12 {
+	width: 50%;
+	text-align: center;
+}
+
+.sumtitile {
+	text-align: left;
+}
+
+.grid-col-cart-s-8of12 {
+	width: 0%;
+}
+
+/*buttons*/
+.grid-col-cart-b-8of12 {
+	width: 0%;
+}
+.grid-col-cart-b-4of12{
+	width: 100%;
+	padding: 0rem 1rem 1rem 1rem;
+}
+
+
+
+
+
+
+
+}
+
+/*table td[class*="grid-col-cart-"], table th[class*="grid-col-cart-"] {
+    display: table-cell;
+    float: none;
+    text-align: left;
+}
+
+table td[class*="grid-col-cart-"], table th[class*="grid-col-cart-"]::after {
+    content: "";
+	display: block;
+	clear: both;
+}
+
+.grid-col-cart-1of5 {
+	width: 100%;
+}
+*/
+
+/*
+@media only screen and (max-width: 69rem) {
+
+
+.grid-col-cart-1of5 {
+	width:10%;
+}
+
+ .proimg {
+	
+	max-width: 100%;
+
+	
+
+
+}
+
+
+
+}*/
+
+/*.grid-col-price-1of12{
+	width: 20%;
+
+}
+
+.grid-col-price-1of2 {
+	width: 50%;
+}
+*/
+
+
+
+
+/*http://spyrestudios.com/html5-css3-shopping-cart-layout/*/
+/*section.cart_section table {
+	margin: 3rem;
+}
+
+
+section.cart_section th{
+	padding: 3rem;
+	display: : inline-block;
+	width: 100%;
+	border-bottom: : 0.15em solid #333;
+}
+
+
+section.cart_section td{
+	padding: 3rem;
+	display: : inline-block;
+	width: 100%;
+}
+
+section.cart_section thead{
+	margin: 0;
+	display: : inline-block;
+	width: 100%;
+}*/
+
+
+
+
+
+
+
+
+
