@@ -15,8 +15,9 @@ section.popular-food-section {
 }
 
 .food-listing {
-	max-height: 10rem;
-	overflow: hidden;
+	background-color: #ccc;
+	height: 16rem;
+	overflow: hidden;	
 }
 
 .food-listing::after {
@@ -29,6 +30,65 @@ section.popular-food-section {
 	width: 100%;
 	height: 25rem;
 	text-align: center;
+	position: relative;
+
+}
+
+.product-name {
+	background-color: #bbb;
+	margin-top: 14.7rem;
+	margin-left: 10%;
+	width: 80%;
+	position: absolute;
+}
+
+.product-name h2 {
+	margin: 0.4rem 0;
+}
+
+.food-detail {
+	margin-top: 2.5rem;
+}
+
+/* Review Form Styling */
+
+#review-container {
+	height: 35rem;
+	overflow: scroll;
+
+}
+
+#review-form{
+	text-align: left;
+	margin-left: 2.5rem;
+}
+
+#review-form .button {
+	text-align: center;
+	margin: 0;
+}
+
+#review-form input {
+	width: 100%;
+	height: 3rem;
+	margin-top: 0.2rem;
+}
+
+#review-form textarea {
+	width: 100%;
+	height: 5rem;
+	margin-top: 0.2rem;
+}
+
+#review-form p {
+	padding-bottom: 0.5rem;
+}
+
+.review-block {
+	border-bottom: solid 0.1rem #000;
+	text-align: left;
+	padding-bottom: 1rem;
+	margin-right: 2.5rem;
 }
 
 /*citation: https://css-tricks.com/crop-top/*/
