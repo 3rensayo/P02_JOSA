@@ -50,7 +50,7 @@
 
 			
 
-		<h1>CHECKOUT</h1>
+		<h1>PAYMENT</h1>
 
 		
 		
@@ -62,9 +62,9 @@
 				<ul>
 	               <li><a href="cart.html">Order Lists</a></li>
 	               <li>/</li>
-	               <li><a href="checkout.html" style="color: #D74227">Check Out</a></li>
+	               <li><a href="checkout.html">Check Out</a></li>
 	               <li>/</li>
-	               <li><a href="payment.html">Payment</a></li>
+	               <li><a href="payment.html " style="color: #D74227">Payment</a></li>
 	               
 	               
 		        </ul>
@@ -77,48 +77,31 @@
 
 
 					<p>
-						Name<br>
-						<input type="text" name="Name" value="Name" onblur="if(this.value == '') { this.value = 'Name'; }" onfocus="if(this.value == 'Name') { this.value = ''; }" type="text">
+						Cash (Pay Later)<br>
+						<input type="radio" name="Payment" value="Cash" checked>
 					</p>
 					
 					<p>
-						Phone Number<br>
-						<input type="text" name="Phone" value="Phone" onblur="if(this.value == '') { this.value = 'Phone'; }" onfocus="if(this.value == 'Phone') { this.value = ''; }" type="text">
+						Credit/Debit Card<br>
+						<input type="radio" name="Payment" value="Credit">
 					</p>
 
 					<p>
-						Email<br>
-						<input type="text" name="Email" value="Email" onblur="if(this.value == '') { this.value = 'Email'; }" onfocus="if(this.value == 'Email') { this.value = ''; }" type="text">
+						Card Name<br>
+						<input type="text" name="CardName" value="Name" onblur="if(this.value == '') { this.value = 'CardName'; }" onfocus="if(this.value == 'CardName') { this.value = ''; }" type="text">
+					</p>
+					
+					<p>
+						Card Number<br>
+						<input type="text" name="CardNum" value="Card Number" onblur="if(this.value == '') { this.value = 'CardNum'; }" onfocus="if(this.value == 'CardNum') { this.value = ''; }" type="text">
 					</p>
 
 					<p>
-						Pickup Time<br>
-						<select >
-						  <option value="1">10:00AM</option>
-							<option value="2">10:30AM</option>
-							 <option value="3">11:00AM</option>
-							 <option value="4">11:30AM</option>
-							 <option value="1">12:00PM</option>
-							<option value="2">12:30PM</option>
-							 <option value="3">01:00PM</option>
-							 <option value="4">01:30PM</option>
-							  <option value="1">02:00PM</option>
-							<option value="2">02:30PM</option>
-							 <option value="3">03:00PM</option>
-							 <option value="4">03:30PM</option>
-							 <option value="1">04:00PM</option>
-							<option value="2">04:30PM</option>
-							 <option value="3">05:00PM</option>
-							 <option value="4">5:30PM</option>
-							  <option value="1">06:00PM</option>
-							<option value="2">06:30PM</option>
-							 <option value="3">07:00PM</option>
-							 <option value="4">07:30PM</option>
-							 <option value="3">08:00PM</option>
-							 <option value="4">08:30PM</option>
-							  <option value="1">09:00PM</option>
-						</select>	 
+						Expired Date<br>
+						<input type="text" name="Date" value="Date" onblur="if(this.value == '') { this.value = 'Email'; }" onfocus="if(this.value == 'Date') { this.value = ''; }" type="Date">
 					</p>
+
+					
 
 					
 					
@@ -220,7 +203,7 @@
 				</div>
 
 				<div class="grid-col-cart-b-4of12">
-					<a href="payment.html" class="button1">PAY</a>
+					<a href="confirm.html" class="button1">PLACE ORDER</a>
 				</div>
 
 				<div class="grid-col-cart-b-8of12">
@@ -228,7 +211,7 @@
 				</div>
 
 				<div class="grid-col-cart-b-4of12">
-					<a href="cart.html" class="button1">EDIT</a>
+					<a href="checkout.html" class="button1">EDIT</a>
 				</div>
 
 

@@ -61,6 +61,7 @@ section.popular-food-section {
 #review-form{
 	text-align: left;
 	margin-left: 2.5rem;
+	margin-right: 2.5rem;
 }
 
 #review-form .button {
