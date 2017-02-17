@@ -31,6 +31,14 @@ section::after {
   padding: 3rem 6rem;
 }
 
+.cart_section .need-white-space {
+  padding: 3rem 4.5rem;
+}
+
+.checkout_section .need-white-space {
+  padding: 3rem 2.5rem;
+}
+
 
 .white-space {
   width: 100%;

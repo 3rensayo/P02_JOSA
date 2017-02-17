@@ -33,6 +33,12 @@
 
 }
 
+.checkout_section .grid-col-1of2 {
+	width: 50%;
+	padding-right: 2rem;
+
+}
+
 .grid-col-1of3-s {
 	width: 33.33%;
 }
@@ -62,6 +68,14 @@
         display: block;
         width: 100%;
         margin: 0 0 2rem 0;
+    }
+
+    .checkout_section .grid-col-1of2{
+    	display: block;
+        width: 100%;
+        margin: 0 0 2rem 0;
+        padding-right: 0rem;
+
     }
 
  

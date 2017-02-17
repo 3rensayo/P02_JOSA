@@ -74,10 +74,56 @@ input.qutform {
  .grid-col-cart-b-4of12 .button1 {
 	display: block;
 	width: 100%;
-	margin: 1rem 0rem 0rem 0rem;
+	margin: 1rem 0rem 1rem 0rem;
 
 
 }
+
+/*checkout-section*/
+
+.checkout_section .cart-img {
+
+	padding:0rem;
+}
+
+.checkout_section .carttitle1 {
+    padding: 0rem 0rem 0rem 1rem;
+
+}
+
+.checkout_section .carttitle {
+    padding: 0;
+
+}
+
+.checkout_section .cart-sutitle {
+	padding-left: 0;
+}
+
+.checkout_section .qutform {
+	margin:0rem 0rem 0rem 1rem;
+}
+
+.checkout_section .grid-col-cart-6of12 {
+	padding-left: 0rem;
+}
+
+.carttitle2 {
+	 margin:3.5rem;
+	text-align: left;
+	font-size: 1.2em;
+	border-bottom: 0.08em solid #333;
+
+}
+
+.conf-nam {
+	text-align: left;
+	font-size: 0.9em;
+	margin: 0rem 2rem 2rem 3.5rem;
+}
+
+
+
 
 
 
@@ -284,6 +330,8 @@ input.qutform {
 	width: 100%;
 	padding: 0rem 1rem 1rem 1rem;
 }
+
+
 
 
 
