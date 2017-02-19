@@ -252,7 +252,23 @@ section.cheif_section .block-story {
 
 }
 
+/*menu page styling*/
+.toggle:not(#content1) {
+	display: none;
+	width: 100%;
 
+}
+
+.toggle {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.menu-section .grid-col-1of3{
+	text-align: left;
+	padding: 1rem 1rem 2rem 1rem;
+}
 
 
 
