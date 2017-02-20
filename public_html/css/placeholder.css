@@ -3,13 +3,35 @@
 }
 
 /*citation: http://jonathannicol.com/blog/2011/10/18/responsive-elements-that-retain-their-aspect-ratio/*/
+#home-block {
+	margin-top: 15%;
+	margin-left: 10%;
+	width: 80%;
+	height: 10%;
+	position: absolute;
+	z-index: 0;
+}
+
+#home-block h1 {
+	margin: 0.4rem 0;
+	color: #fff;
+	font-size: 4rem;
+}
 
 #home-image {
 	max-height: 35rem;
 	overflow: hidden;
 }
 
-section.popular-food-section {
+.home-wrapper {
+	width: 100%;
+	height: 25rem;
+	text-align: center;
+	position: relative;
+	z-index: -1;
+}
+
+.popular-food-section {
 	background-color: rgb(245, 245, 245);
 
 }
@@ -255,12 +277,6 @@ section.cheif_section .block-story {
 /*menu page styling*/
 .toggle:not(#content1) {
 	display: none;
-}
-
-.toggle {
-	content: "";
-	display: block;
-	clear: both;
 }
 
 .menu-section .grid-col-1of2{
