@@ -187,7 +187,7 @@
 
 /* service sections on home*/
 
-section.service_section {
+.service_section {
 	background-color: #EAE2D0;
 
 }
@@ -204,43 +204,37 @@ section.service_section {
 		
 }
 
-section.service_section h3{
+.service_section h3{
 	color: #3F3F3F;
 	letter-spacing: 0rem;
 	margin: 1rem;
 }
 
-section.service_section h1{
+.service_section h1{
 	margin: 0;
 	padding: 3rem;
 }
 
-section.service_section figure {
+.service_section figure{
 	margin: 2rem;
 	
 }
 
-section.service_section p {
+.service_section p{
 
 	font-size: 0.8em;
 	width: 20em;
 	display: inline-block;
 	padding-bottom: 2rem;
-
-
-
-	
 }
 
 
 /* menu-sections on home*/
 
 
-section.menu_section {
+.menu_section {
 	background-color: #EAE2D0;
 }
-
-
 
 
 
