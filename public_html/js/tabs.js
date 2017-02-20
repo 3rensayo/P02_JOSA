@@ -1,4 +1,4 @@
-$("#nav a").click(function(e){
+$("#menu-nav a").click(function(e){
     e.preventDefault();
     $(".toggle").hide();
     var toShow = $(this).attr('href');
