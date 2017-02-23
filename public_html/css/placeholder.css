@@ -36,6 +36,21 @@
 	text-align: center;
 }
 
+/*listing page styling*/
+#listing-title-section {
+	background-image: url('../img/food2.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 20rem;
+	display: flex;
+    align-items: center; 
+
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
+}
+
 .food-listing {
 	background-color: #ccc;
 	height: 16rem;
@@ -135,6 +150,13 @@
 .block-content .button1 {
 	margin-top: 2rem;
 }
+
+.block-content ul {
+	padding-top: 1rem;
+}
+.block-content ul li {
+	font-size: 0.75rem;
+}
     
 .button1 {
 	font-size: 0.75rem;
@@ -175,55 +197,41 @@
 	width: 40%;
 }
 
-
 .service-block p{
 	font-size: 0.85rem;
 }
 
 
-/* menu-sections on home*/
-
-
-/*.menu_section {
-	background-color: #EAE2D0;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-
-
-
-
-
-/**/
-/*section.popular_section {
-	background-color: white;
-
-}*/
-
 /*About*/
-section.cheif_section {
-	background-color: #262626;
-/*	margin: 0;
-	padding: 0;*/
-}
+#about-title-section {
+	background-image: url('../img/food2.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 20rem;
+	display: flex;
+    align-items: center; 
 
-section.cheif_section p {
-	color: white;
-
-}
-
-section.cheif_section h2 {
-	color: #c69a50;
-
-}
-
-section.cheif_section .block-story {
-	padding-bottom: 66.7%;
-
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
 
 /*menu page styling*/
+#menu-title-section {
+	background-image: url('../img/food5.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 20rem;
+	display: flex;
+    align-items: center; 
+
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
+}
+
 .toggle:not(#content1) {
 	display: none;
 }
@@ -254,6 +262,21 @@ section.cheif_section .block-story {
 }
 
 /*events page styling*/
+
+#news-title-section {
+	background-image: url('../img/food4.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 20rem;
+	display: flex;
+    align-items: center; 
+
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
+}
+
 .news-listing {
 	background-color: #ccc;
 	height: 22rem;
@@ -279,6 +302,20 @@ section.cheif_section .block-story {
 }
 
 /*contact section*/
+#contact-title-section {
+	background-image: url('../img/food3.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 20rem;
+	display: flex;
+    align-items: center; 
+
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
+}
+
 .contact-section .grid-col-1of2 {
 	padding: 3rem 0;
 }
