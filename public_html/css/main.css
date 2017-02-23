@@ -7,14 +7,26 @@ header, nav {
 
 body {
   font-family: 'BrandonTextRegular', Verdana, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 21px;
   margin: 0;
   letter-spacing: 0.01rem;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'BrandonTextMedium', Verdana, sans-serif;
+  font-family: 'LoraRegular', Georgia, serif;
+  letter-spacing: 0.05rem;
   font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
 }
 
 section {
@@ -60,8 +72,12 @@ img {
 }
 
 .row-1of4 {
-  margin: 1rem 1rem 2rem 1rem;
+  margin: 1rem;
 
+}
+
+.row-1of3 {
+  margin: 1rem 2rem;
 }
 
 .quantity p, .quantity select {
@@ -72,11 +88,10 @@ img {
 /* Header */
 
 h1 {
-    font-family: 'BrandonTextBold', Verdana, sans-serif;
-    margin: 2rem;
-    font-size: 1.5rem;
-    text-align: center;
-    letter-spacing: 0.23rem;
+    font-family: 'BrandonTextMedium', Verdana, sans-serif;
+    margin: 1rem 0 3rem 0;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
 }
 
 ::-webkit-scrollbar { 
@@ -102,6 +117,8 @@ footer {
 }
 
 #copyright p {
+  font-family: 'BrandonTextLight', Verdana, sans-serif;
+  font-size: 0.73rem;
   display: inline;
   float: left;
   text-align: left;
@@ -144,19 +161,8 @@ a {
   border-width: 0.1rem;
 
   margin: 0 2rem;
+  padding: 0.5em 0;
 
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-
-.button:hover, .button:focus {
-  background-color: #6B2219;
-  color: white;
-
-}
-
-a.button {
   text-decoration: none;
   color: #ffffff;
   display: block;
@@ -166,8 +172,11 @@ a.button {
   border-radius: 0.3rem;
 }
 
-section .button {
-  padding: 0.5em 0;
+
+.button:hover, .button:focus {
+  background-color: #6B2219;
+  color: white;
+
 }
 
 

@@ -3,37 +3,37 @@
 }
 
 /*citation: http://jonathannicol.com/blog/2011/10/18/responsive-elements-that-retain-their-aspect-ratio/*/
-#home-block {
-	margin-top: 15%;
-	margin-left: 10%;
-	width: 80%;
-	height: 10%;
-	position: absolute;
-	z-index: 0;
-}
 
-#home-block h1 {
-	margin: 0.4rem 0;
+.home-block h1 {
+	line-height: 4rem;
 	color: #fff;
 	font-size: 4rem;
+	margin-bottom: 1rem;
 }
 
-#home-image {
-	max-height: 35rem;
-	overflow: hidden;
+.home-block p {
+	color: #fff;
+	font-size: 1.3rem;
+	padding-bottom: 2rem;
 }
 
-.home-wrapper {
+#home-image-section {
+	background-image: url('../img/food3.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100%;
-	height: 25rem;
-	text-align: center;
-	position: relative;
-	z-index: -1;
+	height: 35rem;
+	display: flex;
+    align-items: center; 
+
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
 
-.popular-food-section {
+.multi-col-section {
 	background-color: rgb(245, 245, 245);
-
+	text-align: center;
 }
 
 .food-listing {
@@ -116,62 +116,42 @@
 
 /*citation: https://css-tricks.com/crop-top/*/
 
-.block-food {
-	width: 100%;
-	height: 0;
-	padding-bottom: 70%;
-}
 
 /* Story section on home page*/
 
-.story_section {
-	background-color: #EEEFF1;
+.half-col-section {
+	background-color: #ccc;
 }
 
-
-.block-image {
+.half-col-img {
 	width: 100%;
-	height: 0;
-	padding-bottom: 68.52%;
+	height: auto;
 }
 
-.block-image img{
-	width: 100%;
-
-	padding:0;
-	margin: 0;
-	display: inline-block;
-
+.block-content {
+	text-align: left;
 }
 
-.block-p {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+.block-content .button1 {
+	margin-top: 2rem;
 }
-
-
-
-.block-p p {
-	margin: 2rem;
-    padding: 1rem;
-
-}
-
     
 .button1 {
-	  text-decoration: none;
-	  border-color: #231F20;
-	  border-style: solid;
-	  color:  #231F20;
-	  border-width: 2px;
+	font-size: 0.75rem;
+	letter-spacing: 0.05rem;
+	text-decoration: none;
+	border-color: #231F20;
+	border-style: solid;
+	color:  #231F20;
+	border-width: 2px;
 
-	  -webkit-transition: all 0.5s ease;
-	  transition: all 0.5s ease;
-	 
-	  padding: 0.8em 5em 0.8em 5em ;
-	  
-	  border-radius: 0.3rem;
-	  display: inline-block;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+	padding: 0.8em 5em 0.8em 5em ;
+
+	border-radius: 0.3rem;
+	display: inline-block;
 }
 
 .button1:hover, .button1:focus {
@@ -187,54 +167,29 @@
 
 /* service sections on home*/
 
-.service_section {
-	background-color: #EAE2D0;
-
-}
-
-.block-service {
+.service-block {
 	width: 100%;
-	height: 0;
-	padding-bottom: 30%;
 }
 
-.block-service img{
-	width: 25%;
-
-		
+.service-block img{
+	width: 40%;
 }
 
-.service_section h3{
-	color: #3F3F3F;
-	letter-spacing: 0rem;
-	margin: 1rem;
-}
 
-.service_section h1{
-	margin: 0;
-	padding: 3rem;
-}
-
-.service_section figure{
-	margin: 2rem;
-	
-}
-
-.service_section p{
-
-	font-size: 0.8em;
-	width: 20em;
-	display: inline-block;
-	padding-bottom: 2rem;
+.service-block p{
+	font-size: 0.85rem;
 }
 
 
 /* menu-sections on home*/
 
 
-.menu_section {
+/*.menu_section {
 	background-color: #EAE2D0;
-}
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
 
 
 

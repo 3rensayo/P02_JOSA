@@ -39,10 +39,6 @@
 
 }
 
-.grid-col-1of3-s {
-	width: 33.33%;
-}
-
 
 
 
@@ -57,14 +53,14 @@
 
 
 /* Tablet */
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 75rem) {
 
     .grid-col-1of4 {
 		width: 50%;
 	    display: block;
 	}
 
-	  .grid-col-1of2 {
+	.grid-col-1of2 {
         display: block;
         width: 100%;
         margin: 0 0 2rem 0;
@@ -78,15 +74,14 @@
 
     }
 
- 
-
-
-
-    .grid-col-1of3-s {
+    .grid-col-1of3 {
 	width: 100%;
 
 	}
 
+	.half-col-section {
+		display: block;
+	}
 
     .need-white-space {
   		padding: 2rem 3rem;
@@ -110,11 +105,8 @@
 /*        margin: 0 0 2rem 0;*/
     }
 
- 
-
-
     .need-white-space {
-    	padding: 0;
+    	padding: 2rem 0;
     }
 
   	.row-1of4 {
@@ -125,6 +117,9 @@
 	}
 
 	
+	.block-content {
+		padding: 0 1.5rem;
+	}
  
 
 
