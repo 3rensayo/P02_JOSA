@@ -91,6 +91,11 @@
 		padding-bottom: 0;
 	}
 
+	.service-block img{
+	width: 10%;
+}
+
+
 
 
 
@@ -120,7 +125,11 @@
 	.block-content {
 		padding: 0 1.5rem;
 	}
- 
+
+
+
+
+
 
 
 }

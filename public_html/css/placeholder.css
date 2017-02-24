@@ -17,6 +17,41 @@
 	padding-bottom: 2rem;
 }
 
+.home-block .button1 {
+	color: #fff;
+	border-color: #fff;
+}
+
+
+
+@media screen and (max-width: 75rem) {
+
+	.home-block h1 {
+
+	font-size: 3rem;
+
+	}
+
+
+
+}
+
+
+
+@media screen and (max-width: 35rem) {
+
+	.home-block h1 {
+
+	font-size: 2rem;
+
+	}
+
+	.home-block p {
+		font-size: 1rem;
+	}
+
+}
+
 #home-image-section {
 	background-image: url('../img/food3.jpg');
 	background-position: top center;
@@ -135,7 +170,7 @@
 /* Story section on home page*/
 
 .half-col-section {
-	background-color: #ccc;
+	background-color: #eee;
 }
 
 .half-col-img {
@@ -176,6 +211,7 @@
 	display: inline-block;
 }
 
+
 .button1:hover, .button1:focus {
   background-color: #ccc;
  
@@ -194,28 +230,55 @@
 }
 
 .service-block img{
-	width: 40%;
+	width: 28%;
 }
 
 .service-block p{
-	font-size: 0.85rem;
+	font-size: 0.75rem;
+	padding:0rem 2rem 2rem 2rem;
+}
+
+@media screen and (max-width: 75rem) {
+
+	.service-block img{
+	width: 15%;
+	}
+
+
+
+}
+
+@media screen and (max-width: 35rem) {
+
+	.service-block img{
+	width: 30%;
+	}
+
+
+
 }
 
 
 /*About*/
 #about-title-section {
-	background-image: url('../img/food2.jpg');
+	background-image: url('../img/abou1.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 20rem;
+	height: 25rem;
 	display: flex;
     align-items: center; 
 
 /*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
+
+.whole-col-sec {
+	padding: 5rem;
+}
+
+
 
 /*menu page styling*/
 #menu-title-section {
@@ -264,13 +327,13 @@
 /*events page styling*/
 
 #news-title-section {
-	background-image: url('../img/food4.jpg');
+	background-image: url('../img/rest2.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 20rem;
+	height: 33rem;
 	display: flex;
     align-items: center; 
 
@@ -303,13 +366,13 @@
 
 /*contact section*/
 #contact-title-section {
-	background-image: url('../img/food3.jpg');
+	background-image: url('../img/rest1.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 20rem;
+	height: 30rem;
 	display: flex;
     align-items: center; 
 
@@ -325,3 +388,27 @@
 	border: none;
 
 }
+
+.contact_block {
+	text-align: left;
+	margin:0rem 4rem 0rem 4rem;
+	
+	
+}
+
+.contact_block .button1 {
+
+	display: block;
+	text-align: center;
+	margin-bottom: 2rem;
+	width: 60%;
+
+	
+}
+
+
+
+
+
+
+

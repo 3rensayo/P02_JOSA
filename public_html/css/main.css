@@ -6,8 +6,8 @@ header, nav {
 }
 
 body {
-  font-family: 'BrandonTextRegular', Verdana, sans-serif;
-  font-size: 15px;
+  font-family: 'Brandon TextRegular', Verdana, sans-serif;
+  font-size: 13px;
   line-height: 21px;
   margin: 0;
   letter-spacing: 0.01rem;
@@ -16,11 +16,11 @@ body {
 h2, h3, h4, h5, h6 {
   font-family: 'LoraRegular', Georgia, serif;
   letter-spacing: 0.05rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.7rem;
 }
 
@@ -53,7 +53,7 @@ section::after {
 
 .white-space {
   width: 100%;
-  height: 5rem;
+  height: 4rem;
 }
 
 figure {
@@ -127,11 +127,12 @@ footer {
 }
 
 #social-media-icons img {
-  width: 4rem;
+  width: 3rem;
   text-align: left;
   float: left;
   display: inline;
-  padding: 0 0.5rem;
+  padding: 0.5rem;
+  margin-left: 2rem;
 }
 
 /* In-Text Links Styling */
