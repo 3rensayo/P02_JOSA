@@ -75,7 +75,7 @@
     }
 
     .grid-col-1of3 {
-	width: 100%;
+		width: 100%;
 
 	}
 
@@ -92,12 +92,8 @@
 	}
 
 	.service-block img{
-	width: 10%;
-}
-
-
-
-
+		width: 10%;
+	}
 
 }
 
@@ -115,9 +111,8 @@
     }
 
   	.row-1of4 {
-		padding-bottom: 0;
-		margin-left: 0;
-		margin-right: 0;
+		padding: 0;
+		margin: 0;
 
 	}
 
