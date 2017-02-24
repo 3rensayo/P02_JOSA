@@ -172,10 +172,20 @@
 }
 
 .half-col-img {
-	width: 100%;
-	height: auto;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
 }
 
+.half-col-img img {
+	flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+/*citation: http://stackoverflow.com/questions/14142378/css-filling-a-div-with-an-image-while-staying-in-proportion
+*/
 .block-content {
 	text-align: left;
 }
