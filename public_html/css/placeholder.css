@@ -17,7 +17,7 @@
 	padding-bottom: 2rem;
 }
 
-.home-block .button1 {
+.home-block .button1, #menu-nav .button1 {
 	color: #fff;
 	border-color: #fff;
 }
@@ -341,33 +341,57 @@
 /*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
 
+
 .toggle:not(#content1) {
 	display: none;
 }
 
-.menu-section .grid-col-1of2{
+.menu-section .grid-col-1of2 {
 	text-align: left;
 }
 
 .menu-section .left {
 	border-right: dotted 0.1rem #ccc;
-	padding-left: 1.5rem;
+	padding-right: 1rem;
 }
 
 .menu-section .right {
-	padding-left: 3rem;
-}
-
-.dish-title h3, .dish-title p {
-	margin: 0 0 0.5rem 0;
+	padding-left: 2rem;
 }
 
 .dish-title span {
-	padding-left: 1rem;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
+
+.dish-info {
+	margin-bottom: 1rem;
+}
+
 .dish-title {
-	margin-bottom: 2rem;
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 85%;
+}
+
+.dish-title h2 {
+	margin-bottom: 0;
+}
+
+.price {
+	display: inline;
+	float: left;
+	margin: 0;
+	padding-top: 3rem;
+	padding-left: 2rem;
+	width: 15%;
+}
+
+.dish-info::after {
+	content: "";
+	clear: both;
+	display: block;
 }
 
 /*events page styling*/
