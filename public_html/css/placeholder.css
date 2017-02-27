@@ -175,6 +175,11 @@
     
 }
 
+.food-detail .button1 {
+	display: block;
+	width: 100%;
+}
+
 /* Review Form Styling */
 
 #review-container {
