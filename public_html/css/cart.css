@@ -8,8 +8,15 @@
 
 
 /*cart title*/
+
+.cart_h {
+	text-align: center;
+	padding-top: 2rem;
+}
+
 section h3.cart-sutitle {
 	padding-left: 2rem;
+
 
 	display: inline-block;
 	float: left;
@@ -25,6 +32,7 @@ section h3.cart-sutitle {
     display: inline-block;
     width: 100%;
 }
+
 
 
 /*cart content*/
@@ -109,9 +117,8 @@ input.qutform {
 }
 
 .carttitle2 {
-	 margin:3.5rem;
+	 margin:2.5rem;
 	text-align: left;
-	font-size: 1.2em;
 	border-bottom: 0.08em solid #333;
 
 }
@@ -120,6 +127,18 @@ input.qutform {
 	text-align: left;
 	font-size: 0.9em;
 	margin: 0rem 2rem 2rem 3.5rem;
+}
+
+.confirm_section .line {
+
+	border-bottom: 0.08em solid #fff;
+   
+
+
+}
+
+.checkout_section #review-form {
+	padding: 2rem;
 }
 
 
@@ -205,8 +224,21 @@ input.qutform {
 
 
 
+@media only screen and (max-width: 75rem) {
+
+	section h3.cart-sutitle {
+		margin-left: 2.5rem;
+		}
+
+	.confirm_section .line {
+
+	border-bottom: 0.08em solid #333;
+	
 
 
+
+}
+}
 
 
 /*tablet*/
@@ -215,14 +247,16 @@ input.qutform {
 
 	/*cart title*/
 
-	.grid-col-cart-6of12 {
-	display: none;
-
-}
 
 .grid-col-cart-2of12 {
 	display: none;
 
+}
+
+/*cart nav*/
+
+.cart_section nav ul {
+	visibility: visible;
 }
 
 
@@ -270,6 +304,8 @@ input.qutform {
 .grid-col-cart-s-8of12 {
 	width: 64.5%;
 }
+
+
 
 
 

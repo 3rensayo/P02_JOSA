@@ -25,6 +25,43 @@
 	justify-content: space-between;
 }
 
+.cart_icon {
+/*	background-image: url('../img/icons/cart.png');*/
+/*	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	display: block;
+*/
+
+
+	width: 30%;
+	margin-top: 0.25rem;
+
+
+
+
+	
+/*citation:http://stackoverflow.com/questions/4717117/css-image-link-change-on-hover*/
+
+}
+
+.cart_icon:hover {
+	background-image: url('../img/icons/cart-h.png');
+
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	z-index: 5;
+	background-size: cover;
+
+	
+
+
+}
+
+
+
+
+
 nav ul {
 	width: 80%;
 	display: flex; 
@@ -118,6 +155,12 @@ nav label:before {
 
 @media only screen and (max-width: 69rem) {
 
+	.cart_icon {
+	width: 8%;
+	
+
+}
+
 	nav ul {
 		transition: all 1s ease;
 		visibility: hidden;
@@ -170,6 +213,12 @@ nav label:before {
 }
 
 @media only screen and (max-width: 40rem) {
+
+		.cart_icon {
+		width: 13%;
+	
+
+}
 
 	nav input, nav label {
 		width: 2.5rem; 
