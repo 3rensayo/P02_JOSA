@@ -27,13 +27,8 @@
 @media screen and (max-width: 75rem) {
 
 	.home-block h1 {
-
-	font-size: 3rem;
-
+		font-size: 3rem;
 	}
-
-
-
 }
 
 
@@ -41,15 +36,12 @@
 @media screen and (max-width: 35rem) {
 
 	.home-block h1 {
-
-	font-size: 2rem;
-
+		font-size: 2rem;
 	}
 
 	.home-block p {
 		font-size: 1rem;
 	}
-
 }
 
 #home-image-section {
@@ -522,9 +514,23 @@
 	
 }
 
+/* cart section styling*/
 
+#cart-section {
+	width: 100%;
+	height: 20rem;
+	display: flex;
+    align-items: center; 
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
+}
 
+#cart-section h1 {
+	color: #000;
+}
 
-
+.cart-content h2 {
+	padding: 0;
+	margin: 0;
+}
 
 

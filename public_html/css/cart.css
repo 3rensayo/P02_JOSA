@@ -9,12 +9,12 @@
 
 /*cart title*/
 
-.cart_h {
+/*.cart_h {
 	text-align: center;
 	padding-top: 2rem;
 }
-
-section h3.cart-sutitle {
+*/
+/*section h3.cart-sutitle {
 	padding-left: 2rem;
 
 
@@ -24,7 +24,7 @@ section h3.cart-sutitle {
 
 
 	
-}
+}*/
 
 
 .line {
@@ -41,25 +41,28 @@ section h3.cart-sutitle {
 	height: auto;
 	margin: 0;
 	display: block;
-	padding:1rem 1rem 1rem 2rem;
+/*	padding:1rem 1rem 1rem 2rem;*/
 }
 
-.carttitle, .carttitle1 {
-    padding: 3rem 0rem 0rem 1rem;
+.carttitle1 {
+    padding: 3rem 0rem 0rem 0;
 	text-align: left;
-	font-size: 1em;
 
+}
+
+.carttitle {
+	padding-top: 5rem;
 }
 
 .text p {
-	padding: 0rem 0rem 0rem 1rem;
+	/*padding: 0rem 0rem 0rem 1rem;*/
 	text-align: left;
 }
 
 
 input.qutform {
 	padding: 1rem;
-	margin:3rem 2rem 2rem 4rem;
+	margin-top: 5.5rem;
 	width: 39%;
 	border-radius: 0.4rem
 	font-size:1rem;
@@ -74,6 +77,7 @@ input.qutform {
 .sumtitle {
 	
 	margin:1rem 0rem 0rem 0rem;
+	text-align: center;
 
 }
 
@@ -82,7 +86,7 @@ input.qutform {
  .grid-col-cart-b-4of12 .button1 {
 	display: block;
 	width: 100%;
-	margin: 1rem 0rem 1rem 0rem;
+	margin: 1rem 0;
 
 
 }
@@ -117,7 +121,7 @@ input.qutform {
 }
 
 .carttitle2 {
-	 margin:2.5rem;
+	margin:2.5rem;
 	text-align: left;
 	border-bottom: 0.08em solid #333;
 
@@ -169,30 +173,29 @@ input.qutform {
 /*cart title*/
 .grid-col-cart-6of12 {
 	width:55%;
-	padding-left: 2rem;
-	
-
+	text-align: left;
 }
 
 .grid-col-cart-2of12 {
 	width: 15%;
 	display: inline-block;
+	text-align: center;
 
 
 }
 
 /*cart content*/
 .grid-col-cart-d-3of12 {
-	width: 25%;
+	width: 27.5%;
 	
 }
 
 
 
 .grid-col-cart-d-2of12 {
-	width: 16.6%;
-	padding-top: 1.5rem;
-	padding-left: 3.5rem;
+	width: 15%;
+/*	padding-top: 1.5rem;
+	padding-left: 3.5rem;*/
 	
 
 }
@@ -204,20 +207,19 @@ input.qutform {
 
 /*price summary*/
 .grid-col-cart-s-2of12 {
-	width: 16.5%;
+	width: 15%;
 }
 
 .grid-col-cart-s-8of12 {
-	width: 64.5%;
+	width: 70%;
 }
 
 /*buttons*/
 .grid-col-cart-b-8of12 {
-	width: 66.67%;
+	width: 70%;
 }
 .grid-col-cart-b-4of12{
-	width: 33.33%;
-	padding: 0rem 2rem 0rem 0rem;
+	width: 30%;
 
 }
 
@@ -273,17 +275,18 @@ input.qutform {
 
 .grid-col-cart-d-2of12 {
 	width: 16%;
-	padding-top: 1rem;
+/*	padding-top: 1rem;
 	padding-left: 0;
-	padding-right: 1.8rem;
+	padding-right: 1.8rem;*/
 
 	
 	
 }
 
 
-.carttitle {
-	padding-top: 0;
+.grid-col-cart-d-2of12 h3 {
+	padding-top: 5rem;
+	text-align: center;
 }
 
 
@@ -338,8 +341,9 @@ input.qutform {
 
 .grid-col-cart-d-2of12 {
 	width: 25%;
-	padding-left: 2.5rem;
-	padding-right: 0;
+
+/*	padding-left: 2.5rem;
+	padding-right: 0;*/
 	
 	
 }
