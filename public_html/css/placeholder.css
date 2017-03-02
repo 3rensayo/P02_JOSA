@@ -53,7 +53,7 @@
 }
 
 #home-image-section {
-	background-image: url('../img/food3.jpg');
+	background-image: url('../img/dishes/food3.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -354,7 +354,7 @@
 
 /*menu page styling*/
 #menu-title-section {
-	background-image: url('../img/food5.jpg');
+	background-image: url('../img/dishes/food5.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
