@@ -9,22 +9,6 @@
 
 /*cart title*/
 
-/*.cart_h {
-	text-align: center;
-	padding-top: 2rem;
-}
-*/
-/*section h3.cart-sutitle {
-	padding-left: 2rem;
-
-
-	display: inline-block;
-	float: left;
-	clear: left;
-
-
-	
-}*/
 
 
 .line {
@@ -138,57 +122,6 @@
 	padding-left: 1.25rem;
 }
 
-/*.checkout_section .cart-img {
-
-	padding:0rem;
-}*/
-
-/*.checkout_section .carttitle1 {
-    padding: 0rem 0rem 0rem 1rem;
-
-}*/
-
-/*.checkout_section .carttitle {
-    padding: 0;
-
-}*/
-
-/*.checkout_section .cart-sutitle {
-	padding-left: 0;
-}
-
-.checkout_section .qutform {
-	margin:0rem 0rem 0rem 1rem;
-}
-
-.checkout_section .grid-col-cart-6of12 {
-	padding-left: 0rem;
-}
-
-.carttitle2 {
-	margin:2.5rem;
-	text-align: left;
-	border-bottom: 0.08em solid #333;
-
-}*/
-
-/*.conf-nam {
-	text-align: left;
-	font-size: 0.9em;
-	margin: 0rem 0 2rem 0;
-}*/
-
-/*.confirm_section .line {
-
-	border-bottom: 0.08em solid #fff;
-   
-
-
-}
-*/
-/*.checkout_section #review-form {
-	padding: 2rem;
-}*/
 
 
 
@@ -270,16 +203,6 @@
 	width: 20%;
 	margin-right: 0.1rem;
 }
-/*.grid-col-cart-2of12-1{
-	display: none;
-}
-*/
-
-/*price summary*/
-
-/*buttons*/
-
-
 
 
 
@@ -430,92 +353,7 @@ input.qutform {
 }
 
 
-
-
-
-
-
-
-
 }
-
-/*table td[class*="grid-col-cart-"], table th[class*="grid-col-cart-"] {
-    display: table-cell;
-    float: none;
-    text-align: left;
-}
-
-table td[class*="grid-col-cart-"], table th[class*="grid-col-cart-"]::after {
-    content: "";
-	display: block;
-	clear: both;
-}
-
-.grid-col-cart-1of5 {
-	width: 100%;
-}
-*/
-
-/*
-@media only screen and (max-width: 69rem) {
-
-
-.grid-col-cart-1of5 {
-	width:10%;
-}
-
- .proimg {
-	
-	max-width: 100%;
-
-	
-
-
-}
-
-
-
-}*/
-
-/*.grid-col-price-1of12{
-	width: 20%;
-
-}
-
-.grid-col-price-1of2 {
-	width: 50%;
-}
-*/
-
-
-
-
-/*http://spyrestudios.com/html5-css3-shopping-cart-layout/*/
-/*section.cart_section table {
-	margin: 3rem;
-}
-
-
-section.cart_section th{
-	padding: 3rem;
-	display: : inline-block;
-	width: 100%;
-	border-bottom: : 0.15em solid #333;
-}
-
-
-section.cart_section td{
-	padding: 3rem;
-	display: : inline-block;
-	width: 100%;
-}
-
-section.cart_section thead{
-	margin: 0;
-	display: : inline-block;
-	width: 100%;
-}*/
-
 
 
 
