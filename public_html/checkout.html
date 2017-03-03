@@ -50,7 +50,7 @@
 		<section id="cart-section">
 			<div class="grid-col-12of12">
 				<div class="home-block">
-					<h1>CHECK OUT</h1>
+					<h1>CHECKOUT</h1>
 				</div>
 			</div>
 		</section>
@@ -59,11 +59,11 @@
 		<section class="need-white-space cart-content">
 			
 
-			<div class="grid-col-1of2">
-				<div class="grid-col-cart-6of12">
-					<h2 class="cart-sutitle">Contact Information</h32>
-				</div>
+			<div class="grid-col-1of2 left">
 				
+				<h1>CUSTOMER CONTACT</h1>
+				
+
 				<form id="review-form">
 
 					<!-- citation: http://www.webdesignerforum.co.uk/topic/50139-simple-form-fields-initial-values-disappear-and-re-appear-on-click-and-click-out/ -->
@@ -85,8 +85,8 @@
 					</p>
 
 					<p>
-						Pickup Time<br>
-						<select >
+						Pickup Time
+						<select>
 						  <option value="1">10:00AM</option>
 							<option value="2">10:30AM</option>
 							 <option value="3">11:00AM</option>
@@ -111,53 +111,67 @@
 							 <option value="4">08:30PM</option>
 							  <option value="1">09:00PM</option>
 						</select>	 
-					</p>
-
-					
-					
+					</p>		
 					
 				</form>
+
+				<!-- buttons -->
+
+				<!-- <div class="grid-col-checkout-8of12">
+					<h3 ></h3>
+				</div> -->
+				<div class="checkout-button">
+					<div class="grid-col-checkout-6of12">
+						<a href="cart.html" class="button1">RETURN TO CART</a>
+					</div>
+
+					<div class="grid-col-checkout-6of12">
+						<a href="payment.html" class="button1">PROCEED TO PAYMENT</a>
+					</div>
+				</div>
+
+				<!-- <div class="grid-col-checkout-4of12">
+					<h3 ></h3>
+				</div> -->
+
+				
 			</div>
 
 
 			<!-- Order summary -->
-			<div class="grid-col-1of2">
+			<div class="grid-col-1of2 right">
 
 			<!-- cart-title -->
 
-				<div class="grid-col-cart-6of12">
-					<h2 class="cart-sutitle">Order Summary</h32>
-				</div>
-
-				
-
+				<h1>ORDER SUMMARY</h1>
 
 				<!-- Line -->
 				<div class="line grid-col-cart-12of12"></div>
 
 				<!-- cart content -->
+				<div class="order-summary">
+					<div class="grid-col-cart-4of12">
+						<img class= "cart-img" src="img/dishes/yogurt-parfait.jpg">
+					</div>
 
-				<div class="grid-col-cart-d-3of12 cart-img">	
-					<img   class= "cart-img" src="img/food1.jpg">
-				</div>
+					<div class="grid-col-cart-4of12">	
+						<h3>Yogurt Parfait</h3>
+					</div>
 
-				<div class="grid-col-cart-d-3of12 text">	
-					<h3 class="carttitle1">Food1</h3>
-					<p>Food Descrption/status</p>
-				</div>
+					<div class="grid-col-checkout-2of12">	
+						<p>2</p>
+					</div>
+
+					<div class="grid-col-checkout-2of12">	
+						<p>$15.00</p>
+					</div>
 
 
-				<div class="grid-col-cart-d-2of12">	
-					<p> 2</p>
-				</div>
+				</div>	
 
-				<div class="grid-col-cart-d-2of12">	
-					<h3 class="carttitle">$15.00</h3>
-				</div>
-
-				<div class="grid-col-cart-d-2of12">	
-					<h3 class="carttitle">$30.00</h3>
-				</div>
+				<!-- <div class="grid-col-cart-2of12">	
+					<p class="carttitle">$30.00</p>
+				</div> -->
 
 
 				<!-- Line -->
@@ -167,62 +181,48 @@
 
 
 				<!-- price summary -->
-				<div class="grid-col-cart-s-8of12">
-					<h3 ></h3>
+				<div class="grid-col-checkout-8of12">
+					<h3></h3>
 				</div>
 
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">Subtotal</h3>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-price">Subtotal</p>
 				</div>
 		
 
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">$30.00</h3>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-price">$30.00</p>
 				</div>
 
-				<div class="grid-col-cart-s-8of12">
-					<h3 ></h3>
-				</div>
-
-
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">Tax</h3>
-				</div>
-
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">$3.60</h3>
-				</div>
-
-				<div class="grid-col-cart-s-8of12">
-					<h3 ></h3>
+				<div class="grid-col-checkout-8of12">
+					<h3></h3>
 				</div>
 
 
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">Total</h3>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-price">Tax</p>
 				</div>
 
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">$33.60</h3>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-price">$3.60</p>
 				</div>
 
-				<!-- buttons -->
-
-				<div class="grid-col-cart-b-8of12">
-					<h3 ></h3>
+				<div class="grid-col-checkout-8of12">
+					<h3></h3>
 				</div>
 
-				<div class="grid-col-cart-b-4of12">
-					<a href="payment.html" class="button1">PAY</a>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-total">Total</p>
 				</div>
 
-				<div class="grid-col-cart-b-8of12">
-					<h3 ></h3>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-total">$33.60</p>
 				</div>
+			
 
-				<div class="grid-col-cart-b-4of12">
-					<a href="cart.html" class="button1">EDIT</a>
-				</div>
+				
+
+				
 
 
 

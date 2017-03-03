@@ -51,64 +51,104 @@
 }
 
 .cart-product-price{
-	padding-top: 6rem;
+	padding-top: 5.5rem;
+	text-align: center;
 }
-
+/*
 .text p {
-	/*padding: 0rem 0rem 0rem 1rem;*/
 	text-align: left;
-}
+}*/
 
 
-.qty {
+.cart-qty {
 	padding: 1rem;
 	margin-top: 5.5rem;
 	width: 39%;
 	border-radius: 0.4rem
 	font-size:1rem;
 	text-align: center;
-	
 }
 
+.checkout-qty {
+	padding: 1rem;
+	width: 39%;
+	border-radius: 0.4rem
+	font-size:1rem;
+	text-align: center;
+}
 
 /*price summart*/
-
-
-.sumtitle {
-	
-	margin:1rem 0rem 0rem 0rem;
+.cart-price p {
+	margin-top: 1rem;
+	padding: 0;
+	font-weight: bold;
 	text-align: center;
+	font-size: 1rem;
+}
 
+.cart-price {
+	margin-bottom: 7rem;
+}
+
+.checkout-price {
+	margin: 0;
+	padding-top: 1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.checkout-total {
+	padding: 0;
+	margin-top: 1.5rem;
+	margin-bottom: 5rem;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1rem;
 }
 
 /*buttons*/
 
- .grid-col-cart-b-4of12 .button1 {
+.button1 {
 	display: block;
 	width: 100%;
-	margin: 1rem 0;
+	margin-bottom: 1rem;
+}
 
-
+.checkout-button .button1 {
+	width: 95%;
+	text-align: center;
+	margin-top: 2rem;
 }
 
 /*checkout-section*/
 
+.order-summary p, .order-summary h3 {
+	text-align: center;
+	margin-top: 3rem;
+}
 
+.cart-content .left {
+	padding-right: 1.25rem;
+}
 
-.checkout_section .cart-img {
+.cart-content .right {
+	padding-left: 1.25rem;
+}
+
+/*.checkout_section .cart-img {
 
 	padding:0rem;
-}
+}*/
 
-.checkout_section .carttitle1 {
+/*.checkout_section .carttitle1 {
     padding: 0rem 0rem 0rem 1rem;
 
-}
+}*/
 
-.checkout_section .carttitle {
+/*.checkout_section .carttitle {
     padding: 0;
 
-}
+}*/
 
 .checkout_section .cart-sutitle {
 	padding-left: 0;
@@ -173,47 +213,56 @@
 }
 
 /*cart title*/
+.grid-col-cart-8of12 {
+	width: 70%;
+}
+
+.grid-col-checkout-8of12 {
+	width: 60%;
+}
+
 .grid-col-cart-6of12 {
 	width:55%;
 	text-align: left;
+}
+
+.grid-col-checkout-6of12 {
+	width: 50%;
+}
+
+.grid-col-cart-4of12{
+	width: 30%;
+}
+
+.grid-col-checkout-4of12 {
+	width: 40%;
 }
 
 .grid-col-cart-2of12 {
 	width: 15%;
 	display: inline-block;
 	text-align: center;
-
-
 }
 
-/*cart content*/
-.grid-col-cart-d-3of12 {
-	width: 27.5%;
-	
+.grid-col-cart-3of12 {
+	width: 27.5%;	
 }
 
 
+.grid-col-checkout-2of12 {
+	width: 20%;
+}
 
-.grid-col-cart-2of12-1{
+/*.grid-col-cart-2of12-1{
 	display: none;
 }
-
+*/
 
 /*price summary*/
 
-
-.grid-col-cart-8of12 {
-	width: 70%;
-}
-
 /*buttons*/
-.grid-col-cart-b-8of12 {
-	width: 70%;
-}
-.grid-col-cart-b-4of12{
-	width: 30%;
 
-}
+
 
 
 
@@ -292,12 +341,12 @@ input.qutform {
 }
 
 /*price summary*/
-.grid-col-cart-s-2of12 {
-	width: 16.5%;
+.grid-col-checkout-2of12 {
+	width: 20%;
 }
 
-.grid-col-cart-s-8of12 {
-	width: 64.5%;
+.grid-col-checkout-8of12 {
+	width: 80%;
 }
 
 
