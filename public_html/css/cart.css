@@ -44,14 +44,14 @@
 /*	padding:1rem 1rem 1rem 2rem;*/
 }
 
-.carttitle1 {
-    padding: 3rem 0rem 0rem 0;
+.cart-product-info {
+    padding: 3.5rem 0rem 0rem 0;
 	text-align: left;
 
 }
 
-.carttitle {
-	padding-top: 5rem;
+.cart-product-price{
+	padding-top: 6rem;
 }
 
 .text p {
@@ -60,7 +60,7 @@
 }
 
 
-input.qutform {
+.qty {
 	padding: 1rem;
 	margin-top: 5.5rem;
 	width: 39%;
@@ -92,6 +92,8 @@ input.qutform {
 }
 
 /*checkout-section*/
+
+
 
 .checkout_section .cart-img {
 
@@ -192,25 +194,15 @@ input.qutform {
 
 
 
-.grid-col-cart-d-2of12 {
-	width: 15%;
-/*	padding-top: 1.5rem;
-	padding-left: 3.5rem;*/
-	
-
-}
-
 .grid-col-cart-2of12-1{
 	display: none;
 }
 
 
 /*price summary*/
-.grid-col-cart-s-2of12 {
-	width: 15%;
-}
 
-.grid-col-cart-s-8of12 {
+
+.grid-col-cart-8of12 {
 	width: 70%;
 }
 

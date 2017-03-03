@@ -15,6 +15,7 @@
 	color: #fff;
 	font-size: 1.3rem;
 	padding-bottom: 2rem;
+	text-align: center;
 }
 
 .home-block .button1, #menu-nav .button1 {
@@ -60,7 +61,6 @@
 
 .multi-col-section {
 	background-color: rgb(245, 245, 245);
-	text-align: center;
 }
 
 /*listing page styling*/
