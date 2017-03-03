@@ -150,7 +150,7 @@
 
 }*/
 
-.checkout_section .cart-sutitle {
+/*.checkout_section .cart-sutitle {
 	padding-left: 0;
 }
 
@@ -167,7 +167,7 @@
 	text-align: left;
 	border-bottom: 0.08em solid #333;
 
-}
+}*/
 
 .conf-nam {
 	text-align: left;
@@ -253,6 +253,20 @@
 	width: 20%;
 }
 
+.grid-col-payment-4of6 {
+	width: 59%;
+	margin-right: 0.1rem;
+}
+
+.grid-col-payment-2of6 {
+	width: 33%;
+	margin-right: 0.1rem;
+}
+
+.grid-col-payment-1of6 {
+	width: 20%;
+	margin-right: 0.1rem;
+}
 /*.grid-col-cart-2of12-1{
 	display: none;
 }

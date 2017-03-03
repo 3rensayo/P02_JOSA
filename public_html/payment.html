@@ -46,108 +46,143 @@
 		</header>
 
 		<div class="white-space"></div>
-
-
-			
-
-		<h1 class="cart_h">PAYMENT</h1>
+		
+		<section id="cart-section">
+			<div class="grid-col-12of12">
+				<div class="home-block">
+					<h1>PAYMENT</h1>
+				</div>
+			</div>
+		</section>
 
 		
 		
 
 		<!-- Basic Info Section-->
-		<section class="checkout_section">
+		<section class="need-white-space cart-content">
+			<div class="grid-col-1of2 left">
 
-			<nav class="need-white-space sub-nav ">
-				<ul>
-	               <li><a href="cart.html">Order Lists</a></li>
-	               <li>/</li>
-	               <li><a href="checkout.html">Check Out</a></li>
-	               <li>/</li>
-	               <li><a href="payment.html " style="color: #D74227">Payment</a></li>
-	               
-	               
-		        </ul>
-			</nav>
+				<h1>PAYMENT METHOD</h1>
 
-			<div class="grid-col-1of2">
-				<form id="review-form">
+				<form class="review-form">
 
 					<!-- citation: http://www.webdesignerforum.co.uk/topic/50139-simple-form-fields-initial-values-disappear-and-re-appear-on-click-and-click-out/ -->
 
 
 					<p>
-						Cash (Pay Later)<br>
-						<input type="radio" name="Payment" value="Cash" checked>
+						<input type="radio" name="Payment" value="Cash" checked class="radio-option"> Cash (Pay Later)
+						
 					</p>
 					
 					<p>
-						Credit/Debit Card<br>
-						<input type="radio" name="Payment" value="Credit">
+						<input type="radio" name="Payment" value="Credit" class="radio-option"> Credit Card
+						
 					</p>
 
-					<p>
-						Card Name<br>
-						<input type="text" name="CardName" value="Name" onblur="if(this.value == '') { this.value = 'CardName'; }" onfocus="if(this.value == 'CardName') { this.value = ''; }" type="text">
-					</p>
-					
-					<p>
-						Card Number<br>
-						<input type="text" name="CardNum" value="Card Number" onblur="if(this.value == '') { this.value = 'CardNum'; }" onfocus="if(this.value == 'CardNum') { this.value = ''; }" type="text">
-					</p>
+								
+					<input type="text" name="CardNumber" value="Card Number" onblur="if(this.value == '') { this.value = 'Card Number'; }" onfocus="if(this.value == 'Card Number') { this.value = ''; }" type="text">
+			
+				
 
-					<p>
-						Expired Date<br>
-						<input type="text" name="Date" value="Date" onblur="if(this.value == '') { this.value = 'Email'; }" onfocus="if(this.value == 'Date') { this.value = ''; }" type="Date">
-					</p>
+					<div class="grid-col-payment-4of6">
+				
+						
+						<input type="text" name="CardName" value="Name on Card" onblur="if(this.value == '') { this.value = 'Name on Card'; }" onfocus="if(this.value == 'Name on Card') { this.value = ''; }" type="text">
+					
+					
+					</div>
 
+					<div class="grid-col-payment-1of6">
+					
+						
+						<input type="text" name="Date" value="MM/YY" onblur="if(this.value == '') { this.value = 'MM/YY'; }" onfocus="if(this.value == 'MM/YY') { this.value = ''; }" type="Date">
+					
+					</div>
+					
+					<div class="grid-col-payment-1of6">
+					
+						
+						<input type="text" name="CVV" value="CVV" onblur="if(this.value == '') { this.value = 'CVV'; }" onfocus="if(this.value == 'CVV') { this.value = ''; }" type="Number">
+					
+					</div>
+
+
+					<p>Billing Address</p>
+
+					<input type="text" name="Name" value="Name" onblur="if(this.value == '') { this.value = 'Name'; }" onfocus="if(this.value == 'Name') { this.value = ''; }" type="text">
+
+					<input type="text" name="Address" value="Address" onblur="if(this.value == '') { this.value = 'Address'; }" onfocus="if(this.value == 'Address') { this.value = ''; }" type="text">
+				
+				
+				
+					<input type="text" name="City" value="City" onblur="if(this.value == '') { this.value = 'City'; }" onfocus="if(this.value == 'City') { this.value = ''; }" type="text">
 					
 
+					<div class="grid-col-payment-2of6">
 					
+						<input type="text" name="Address" value="Country" onblur="if(this.value == '') { this.value = 'Country'; }" onfocus="if(this.value == 'Country') { this.value = ''; }" type="text">
 					
+					</div>
+
+					<div class="grid-col-payment-2of6">
 					
+						<input type="text" name="Provice" value="Provice" onblur="if(this.value == '') { this.value = 'Provice'; }" onfocus="if(this.value == 'Provice') { this.value = ''; }" type="text">
+					
+					</div>
+
+					<div class="grid-col-payment-2of6">
+					
+						<input type="text" name="Postal Code" value="Postal Code" onblur="if(this.value == '') { this.value = 'Postal Code'; }" onfocus="if(this.value == 'Postal Code') { this.value = ''; }" type="text">
+					
+					</div>
 				</form>
+
+				<div class="checkout-button">
+					<div class="grid-col-checkout-6of12">
+						<a href="checkout.html" class="button1">EDIT CONTACT</a>
+					</div>
+
+					<div class="grid-col-checkout-6of12">
+						<a href="confirm.html" class="button1">PLACE ORDER</a>
+					</div>
+				</div>
 			</div>
 
 
 			<!-- Order summary -->
-			<div class="grid-col-1of2">
+			<div class="grid-col-1of2 right">
 
 			<!-- cart-title -->
 
-				<div class="grid-col-cart-6of12">
-					<h3 class="cart-sutitle">Order Summary</h3>
-				</div>
-
-				
-
+				<h1>ORDER SUMMARY</h1>
 
 				<!-- Line -->
-				<div class="line grid-col-cart-12of12"></div>
+				<!-- <div class="line grid-col-cart-12of12"></div> -->
 
 				<!-- cart content -->
+				<div class="order-summary">
+					<div class="grid-col-cart-4of12">
+						<img class= "cart-img" src="img/dishes/yogurt-parfait.jpg">
+					</div>
 
-				<div class="grid-col-cart-d-3of12 cart-img">	
-					<img   class= "cart-img" src="img/food1.jpg">
-				</div>
+					<div class="grid-col-cart-4of12">	
+						<h3>Yogurt Parfait</h3>
+					</div>
 
-				<div class="grid-col-cart-d-3of12 text">	
-					<h3 class="carttitle1">Food1</h3>
-					<p>Food Descrption/status</p>
-				</div>
+					<div class="grid-col-checkout-2of12">	
+						<p>2</p>
+					</div>
+
+					<div class="grid-col-checkout-2of12">	
+						<p>$15.00</p>
+					</div>
 
 
-				<div class="grid-col-cart-d-2of12">	
-					<p> 2</p>
-				</div>
+				</div>	
 
-				<div class="grid-col-cart-d-2of12">	
-					<h3 class="carttitle">$15.00</h3>
-				</div>
-
-				<div class="grid-col-cart-d-2of12">	
-					<h3 class="carttitle">$30.00</h3>
-				</div>
+				<!-- <div class="grid-col-cart-2of12">	
+					<p class="carttitle">$30.00</p>
+				</div> -->
 
 
 				<!-- Line -->
@@ -157,62 +192,48 @@
 
 
 				<!-- price summary -->
-				<div class="grid-col-cart-s-8of12">
-					<h3 ></h3>
+				<div class="grid-col-checkout-8of12">
+					<h3></h3>
 				</div>
 
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">Subtotal</h3>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-price">Subtotal</p>
 				</div>
 		
 
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">$30.00</h3>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-price">$30.00</p>
 				</div>
 
-				<div class="grid-col-cart-s-8of12">
-					<h3 ></h3>
-				</div>
-
-
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">Tax</h3>
-				</div>
-
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">$3.60</h3>
-				</div>
-
-				<div class="grid-col-cart-s-8of12">
-					<h3 ></h3>
+				<div class="grid-col-checkout-8of12">
+					<h3></h3>
 				</div>
 
 
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">Total</h3>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-price">Tax</p>
 				</div>
 
-				<div class="grid-col-cart-s-2of12">	
-					<h3 class="sumtitle">$33.60</h3>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-price">$3.60</p>
 				</div>
 
-				<!-- buttons -->
-
-				<div class="grid-col-cart-b-8of12">
-					<h3 ></h3>
+				<div class="grid-col-checkout-8of12">
+					<h3></h3>
 				</div>
 
-				<div class="grid-col-cart-b-4of12">
-					<a href="confirm.html" class="button1">PLACE ORDER</a>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-total">Total</p>
 				</div>
 
-				<div class="grid-col-cart-b-8of12">
-					<h3 ></h3>
+				<div class="grid-col-checkout-2of12">	
+					<p class="checkout-total">$33.60</p>
 				</div>
+			
 
-				<div class="grid-col-cart-b-4of12">
-					<a href="checkout.html" class="button1">EDIT</a>
-				</div>
+				
+
+				
 
 
 
