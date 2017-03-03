@@ -60,6 +60,24 @@
 
 		<!-- Basic Info Section-->
 		<section class="need-white-space cart-content">
+
+			<nav class="checkout-nav">
+
+		    	<a href="cart.html">Cart</a>
+
+		    	<p> > </p>
+
+		    	<a href="checkout.html">Contact Information</a>
+		    
+		    	<p> > </p>
+		    	
+		    	<p>Payment Method</a>			 
+		    
+		    	<p class="checkout-preview"> > </p>
+		 
+		    	<p class="checkout-preview">Confirmation</a>
+		    </nav>
+		
 			<div class="grid-col-1of2 left">
 
 				<h1>PAYMENT METHOD</h1>
@@ -70,13 +88,13 @@
 
 
 					<p>
-						<input type="radio" name="Payment" value="Cash" checked class="radio-option"> Cash (Pay Later)
-						
+						<input type="radio" name="Payment" value="Cash" checked class="radio-option">
+						Cash (Pay Later)
 					</p>
 					
 					<p>
-						<input type="radio" name="Payment" value="Credit" class="radio-option"> Credit Card
-						
+						<input type="radio" name="Payment" value="Credit" class="radio-option">
+						Credit Card
 					</p>
 
 								
@@ -106,8 +124,9 @@
 					
 					</div>
 
-
+					<div class="grid-col-1of2">
 					<p>Billing Address</p>
+					</div>
 
 					<input type="text" name="Name" value="Name" onblur="if(this.value == '') { this.value = 'Name'; }" onfocus="if(this.value == 'Name') { this.value = ''; }" type="text">
 
@@ -126,7 +145,7 @@
 
 					<div class="grid-col-payment-2of6">
 					
-						<input type="text" name="Provice" value="Provice" onblur="if(this.value == '') { this.value = 'Provice'; }" onfocus="if(this.value == 'Provice') { this.value = ''; }" type="text">
+						<input type="text" name="Province" value="Province" onblur="if(this.value == '') { this.value = 'Province'; }" onfocus="if(this.value == 'Province') { this.value = ''; }" type="text">
 					
 					</div>
 

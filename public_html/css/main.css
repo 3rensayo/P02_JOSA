@@ -151,7 +151,7 @@ a {
 
 /* Sub Navigation Styling */
 
-.sub-nav a, .sub-nav li{
+.sub-nav a, .checkout-nav a{
   color: #000;
 }
 
@@ -161,7 +161,12 @@ a {
   padding-bottom: 1rem;
 }
 
-.sub-nav a, .sub-nav p {
+.checkout-nav {
+  text-align: center;
+  padding-bottom: 8rem;
+}
+
+.sub-nav a, .sub-nav p, .checkout-nav a, .checkout-nav p {
   display: inline;
   padding: 0 0.5rem;
   margin: 0;
