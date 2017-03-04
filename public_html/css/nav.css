@@ -46,12 +46,13 @@
 }
 
 .cart_icon:hover {
-	background-image: url('../img/icons/cart-h.png');
+	    content: url('../img/icons/cart-h.png');
+	/*background-image: url('../img/icons/cart-h.png');
 
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	z-index: 5;
-	background-size: cover;
+	background-size: cover;*/
 
 	
 
@@ -81,12 +82,14 @@ nav a {
 	color: #ffffff;
 	display: block;
 
-	transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
+
+
+	-webkit-transition: color .3s linear;
+	transition: color .3s linear;
 }
 
 nav a:hover {
-	color: #D74227;
+	color: rgb(198, 154, 80);
 }
 
 nav li {

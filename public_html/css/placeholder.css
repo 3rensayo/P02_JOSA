@@ -135,15 +135,34 @@
 
 }
 
-@media screen and (max-width: 35rem) {
-	.listing-block {
-
-		box-shadow: none;
-
-	
-	}
+.overlay {
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	width: 100%;
+	height:0;
+	transition: 0.7s ease;
+	background-color: #e3d5ae;
 }
 
+.listing-block:hover .overlay {
+    bottom: 0;
+  	height: 100%;
+}
+
+.order-now {
+	font-size: 1.5rem;
+	white-space: nowrap; 
+	color: white;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
 
 .product-name {
 	background-color: #fff;
@@ -234,6 +253,7 @@
 	flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
+
 }
 
 /*citation: http://stackoverflow.com/questions/14142378/css-filling-a-div-with-an-image-while-staying-in-proportion
@@ -537,4 +557,13 @@
 	margin: 0;
 }
 
+#cart_icon {
+	width: 30%;
+	margin-top: 0.25rem;
+}
+#cart_icon:hover {
+    content: url('../img/icons/cart-h.png');
+/*    height: 70px;
+    width: 120px;*/
+}
 
