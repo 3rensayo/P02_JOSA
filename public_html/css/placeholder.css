@@ -18,7 +18,7 @@
 	text-align: center;
 }
 
-.home-block .button1, #menu-nav .button1 {
+.home-block .button1 {
 	color: #fff;
 	border-color: #fff;
 }
@@ -139,8 +139,9 @@
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: default;
 }
+
+/*citation:https://miketricking.github.io/dist/*/
 
 .listing-block .overlay {
     width: 100%;
@@ -169,19 +170,19 @@
 }
 
 .listing-block:hover .listing-responsive {
--webkit-transform: translate3d(0,-10%,0);
+    -webkit-transform: translate3d(0,-10%,0);
 	transform: translate3d(0,-10%,0);
 }
 
 .listing-block .order-now {
-  text-decoration: none;
-    width: 100%	;
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    padding: 10px 0;
-    background: rgb(213, 181, 123);
+	text-decoration: none;
+	width: 100%	;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	padding: 10px 0;
+	background-color: rgb(213, 181, 123);
 	float: left;
 	margin: 0px;
 	display: inline-block;
@@ -202,6 +203,9 @@
 .listing-block:hover .order-now {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .listing-block:hover .order-now {
@@ -209,6 +213,10 @@
 	transition-delay: 0.05s;
 }
 
+.listing-block:hover .overlay:hover,
+.listing-block:hover .order-now:hover {
+	background-color: rgb(227, 212, 171);
+}
 
 
 /*.order-now {
@@ -225,9 +233,9 @@
 
 .product-name {
 	background-color: #fff;
-	margin-top: 14.7rem;
-	margin-left: 10%;
-	width: 80%;
+	margin-top: 14.8rem;
+	margin-left: 7.5%;
+	width: 85%;
 	position: absolute;
 	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.1), 
 	0 0px 0.1rem 0 rgba(0, 0, 0, 0.1);
@@ -235,8 +243,8 @@
 	/*citation: https://www.w3schools.com/css/css3_shadows.asp*/
 }
 
-.product-name h2 {
-	margin: 0.4rem 0;
+.product-name h4 {
+	margin: 0.5rem 0;
 }
 
 .food-detail {
@@ -268,16 +276,28 @@
 	margin: 0;
 }
 
-.review-form input:not(.radio-option) {
-	width: 100%;
+input:not(.radio-option) {	
 	height: 3rem;
-	margin-top: 0.2rem;
+
 }
 
-.review-form textarea {
-	width: 100%;
+textarea {
 	height: 5rem;
+}
+
+input, textarea {
+	font-family: 'BrandonTextLight', Verdana, sans-serif;
+	font-style: italic;
+	padding-left: 0.5rem;
+	width: 100%;
+	color: rgb(219, 193, 124);
 	margin-top: 0.2rem;
+	border: 0.1rem solid rgb(0, 0, 0);
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	border: 0.1rem solid rgb(219, 193, 124);
 }
 
 .review-form p {
@@ -317,7 +337,11 @@
 
 /*citation: http://stackoverflow.com/questions/14142378/css-filling-a-div-with-an-image-while-staying-in-proportion
 */
-.block-content {
+.block-content h2 {
+	margin: 2.5rem 0;
+}
+
+.block-content h3 {
 	text-align: left;
 }
 
@@ -327,12 +351,15 @@
 
 .block-content ul {
 	padding: 0;
+	padding-top: 1rem;
 	margin: 0;
 	list-style: none;
 }
 
 .block-content ul li {
-	font-size: 0.75rem;
+	text-align: left;
+	font-size: 0.7rem;
+	font-style: italic;
 }
 
 .block-content p {
@@ -346,7 +373,7 @@
 	border-color: #231F20;
 	border-style: solid;
 	color:  #231F20;
-	border-width: 2px;
+	border-width: 0.1rem;
 
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
@@ -359,7 +386,9 @@
 
 
 .button1:hover, .button1:focus {
-  background-color: #ccc;
+  background-color: rgb(227, 212, 171);
+  border-color: rgb(227, 212, 171);
+  color: rgb(255, 255, 255);
  
 }
 
@@ -460,14 +489,6 @@
 	padding-left: 2rem;
 }
 
-.dish-title span {
-	font-size: 0.9rem;
-}
-
-.dish-info {
-	margin-bottom: 1rem;
-}
-
 .dish-title {
 	display: inline;
 	float: left;
@@ -476,15 +497,23 @@
 	width: 85%;
 }
 
-.dish-title h2 {
-	margin-bottom: 0;
+.dish-info {
+	margin-bottom: 2rem;
+}
+
+#dinner h2, #other h2 {
+	margin-top: 0;
+}
+.dish-title h4 {
+	margin:0;
+	padding: 0;
 }
 
 .price {
 	display: inline;
 	float: left;
 	margin: 0;
-	padding-top: 3rem;
+	padding-top: 1.5rem;
 	padding-left: 2rem;
 	width: 15%;
 }
@@ -511,17 +540,27 @@
 /*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
 
+.news-detail {
+	padding: 1.5rem;
+}
 
-.news-detail h2 {
-	font-size: 1.2em;
-	padding: 0rem 1rem 2rem 1rem;
+.news-detail h4 {
+	margin: 0;
+	padding: 0 0 1rem 0;
+	text-align: left;
 
 }
 
 .news-detail p {
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+	margin: 0;
 	text-align: left;
+}
+
+.news-detail .date {
+	padding: 0 0 1rem 0;
+	font-size: 0.75rem;	
+	margin: 0;
+	color: rgb(219, 193, 124);
 }
 
 .news-listing {
@@ -543,16 +582,18 @@
 .news-block {
 	background-color: #ffffff;
 	width: 100%;
-	height: 47rem;
+	height: 40rem;
 	text-align: center;
 	position: relative;
 
 }
 
 .news-section {
-	margin-bottom: 5rem;
 	background-color: rgb(245, 245, 245);
+
+	
 }
+
 
 /*contact section*/
 #contact-title-section {
@@ -580,22 +621,6 @@
 
 }
 
-.contact_block {
-	text-align: left;
-	margin:0rem 4rem 0rem 4rem;
-	
-	
-}
-
-.contact_block .button1 {
-
-	display: block;
-	text-align: center;
-	margin-bottom: 2rem;
-	width: 60%;
-
-	
-}
 
 /* cart section styling*/
 
@@ -607,7 +632,7 @@
 /*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
 
-#cart-section h1 {
+#cart-section h1, #cart-section p {
 	color: #000;
 }
 
