@@ -152,7 +152,7 @@ footer {
   display: inline;
   float: left;
   text-align: left;
-  padding: 0 0.5rem;
+  padding: 0.4rem 0.5rem 0 0.5rem;
   color: #fff;
 }
 
@@ -197,29 +197,29 @@ a {
 /* Button Styling */
 
 .button {
-
-  background-color: #D74227;
+  font-size: 0.75rem;
+  letter-spacing: 0.05rem;
+  text-decoration: none;
+  border-color: #231F20;
   border-style: solid;
-  border-color: white;
+  color:  #231F20;
   border-width: 0.1rem;
 
-  margin: 0 2rem;
-  padding: 0.5em 0;
-
-  text-decoration: none;
-  color: #ffffff;
-  display: block;
-
-  transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
+  padding: 0.8em 5em 0.8em 5em ;
+
   border-radius: 0.3rem;
+  display: inline-block;
 }
 
-
+.home-block .button:hover, .home-block .button:focus,
 .button:hover, .button:focus {
-  background-color: #6B2219;
-  color: white;
-
+  background-color: rgb(227, 212, 171);
+  border-color: rgb(227, 212, 171);
+  color: rgb(255, 255, 255);
+ 
 }
 
 

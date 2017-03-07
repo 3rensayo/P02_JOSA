@@ -6,24 +6,22 @@
 
 .home-block h1 {
 	line-height: 4rem;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-size: 3rem;
 	margin-bottom: 1rem;
 }
 
 .home-block p {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-size: 1.3rem;
 	padding-bottom: 2rem;
 	text-align: center;
 }
 
-.home-block .button1 {
-	color: #fff;
-	border-color: #fff;
+.home-block .button {
+	color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255);
 }
-
-
 
 @media screen and (max-width: 75rem) {
 
@@ -92,37 +90,18 @@
 }
 
 .food-listing img {
-    width: auto;
+	width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .food-listing::after {
 	content: "";
+	display: block;
 	clear: both;
 }
 
-@media screen and (max-width: 75rem) {
-	.food-listing img {
-		width: 100%;
-		height: auto;
-	}
-}
-
-@media screen and (max-width: 58rem) {
-	.food-listing img {
-   		width: auto;
-    	height: 100%;
-	}
-}
-
-@media screen and (max-width: 35rem) {
-	.food-listing img {
-		width: 100%;
-		height: auto;
-	}
-
-
-}
 
 .listing-block {
 	background-color: #ffffff;
@@ -254,7 +233,7 @@
     
 }
 
-.food-detail .button1 {
+.food-detail .button {
 	display: block;
 	width: 100%;
 }
@@ -350,7 +329,7 @@ input:focus, textarea:focus {
 	text-align: left;
 }
 
-.block-content .button1 {
+.block-content .button {
 	margin-top: 2rem;
 }
 
@@ -371,31 +350,7 @@ input:focus, textarea:focus {
 	margin: 0;
 }
     
-.button1 {
-	font-size: 0.75rem;
-	letter-spacing: 0.05rem;
-	text-decoration: none;
-	border-color: #231F20;
-	border-style: solid;
-	color:  #231F20;
-	border-width: 0.1rem;
 
-	-webkit-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-
-	padding: 0.8em 5em 0.8em 5em ;
-
-	border-radius: 0.3rem;
-	display: inline-block;
-}
-
-
-.button1:hover, .button1:focus {
-  background-color: rgb(227, 212, 171);
-  border-color: rgb(227, 212, 171);
-  color: rgb(255, 255, 255);
- 
-}
 
 <<<<<<< Updated upstream
 /* other sections*/
@@ -415,7 +370,7 @@ input:focus, textarea:focus {
 
 .service-block p{
 	font-size: 0.75rem;
-	padding:0rem 2rem 2rem 2rem;
+	padding:0rem 2rem;
 	text-align: left;
 }
 
@@ -575,12 +530,15 @@ input:focus, textarea:focus {
 }
 
 .news-listing img {
-    width: auto;
+    width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .news-listing::after {
 	content: "";
+	display: block;
 	clear: both;
 }
 

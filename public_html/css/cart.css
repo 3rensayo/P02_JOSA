@@ -100,13 +100,13 @@
 
 /*buttons*/
 
-.button1 {
+.button {
 	display: block;
 	width: 100%;
 	margin-bottom: 1rem;
 }
 
-.checkout-button .button1 {
+.checkout-button .button {
 	width: 95%;
 	text-align: center;
 	margin-top: 2rem;
