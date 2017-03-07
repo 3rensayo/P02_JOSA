@@ -629,11 +629,12 @@ input:focus, textarea:focus {
 	height: 20rem;
 	display: flex;
     align-items: center; 
+    background-color: #262626;
 /*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
 
 #cart-section h1, #cart-section p {
-	color: #000;
+	color: #fff;
 }
 
 .cart-title h2 {
