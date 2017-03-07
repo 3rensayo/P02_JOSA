@@ -81,6 +81,10 @@
 		display: block;
 	}
 
+	.half-col-section .box-1 {
+		order: 0;
+	}
+
     .need-white-space {
   		padding: 2rem 3rem;
 	}
@@ -88,10 +92,12 @@
 	.row-1of4 {
 		padding-bottom: 0;
 	}
-	
+
 	.service-block img{
 		width: 10%;
 	}
+
+	
 
 }
 
