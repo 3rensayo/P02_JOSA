@@ -133,7 +133,7 @@
     }
 
     .need-white-space {
-    	padding: 2rem 1.5rem;
+    	padding: 2rem 0;
     }
 
   	.row-1of4 {
@@ -149,7 +149,9 @@
 
 
 	/*menu page*/
-
+	.menu-section {
+		padding: 2rem 1.5rem;
+	}
 	.menu-section [id^='content'] .grid-col-1of2 {
 		margin: 0;
 	}
@@ -172,8 +174,6 @@
 	.menu-section [id^='content'] .right {
 		padding-left: 0;
 	}
-
-
 
 
 }
