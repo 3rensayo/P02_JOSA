@@ -61,7 +61,7 @@
 	.grid-col-1of2 {
         display: block;
         width: 100%;
-        margin: 0 0 2rem 0;
+        margin: 0 0 2rem 0rem;
     }
 
     .checkout_section .grid-col-1of2{
@@ -97,6 +97,9 @@
 		width: 10%;
 	}
 
+	.single-product {
+  	margin-left: 0rem;
+
 }
 
 /* Mobile */
@@ -107,6 +110,9 @@
         width: 100%;
 /*        margin: 0 0 2rem 0;*/
     }
+
+
+   
 
     .need-white-space {
     	padding: 2rem 0;
@@ -122,6 +128,11 @@
 	.block-content {
 		padding: 0 1.5rem;
 	}
+
+	.single-product {
+  	margin-left: 1.5rem;
+}
+
 
 
 

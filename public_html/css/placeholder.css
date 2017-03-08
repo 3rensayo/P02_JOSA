@@ -28,6 +28,8 @@
 	.home-block h1 {
 		font-size: 3rem;
 	}
+
+
 }
 
 
@@ -380,6 +382,12 @@ input:focus, textarea:focus {
 	width: 15%;
 	}
 
+	.review-block {
+    
+    margin-right: 0;
+	}
+
+
 
 
 }
@@ -390,6 +398,19 @@ input:focus, textarea:focus {
 	width: 30%;
 	}
 
+	.review-block {
+    
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+	}
+
+	.review-form {
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+
+
+	
 
 
 }

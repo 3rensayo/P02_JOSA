@@ -107,10 +107,15 @@
 }
 
 .checkout-button .button {
-	width: 95%;
-	text-align: center;
-	margin-top: 2rem;
+	width: 99%;
+	margin-top: 1rem;
+
+
 }
+
+
+
+
 
 
 /*checkout-section*/
@@ -126,6 +131,12 @@
 
 .cart-content .right {
 	padding-left: 2.5rem;
+}
+
+/*confirm section*/
+
+.confirm_section {
+	margin-left: 5rem;
 }
 
 
@@ -159,6 +170,17 @@
 	height: 1rem;
 }
 
+.grid-col-cart-8of12-1 {
+	width: 40%;
+	height: 1rem;
+}
+
+.grid-col-cart-4of12{
+	width: 30%;
+	padding-left:1rem;
+
+}
+
 
 .grid-col-cart-2of12 {
 	width: 16.5%;
@@ -173,9 +195,17 @@
 }
 
 .grid-col-cart-6of12 {
-	width:55%;
+	width:50%;
 	text-align: left;
 }
+
+
+.homebut {
+	width:100%;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+
 
 
 .grid-col-checkout-6of12 {
@@ -183,9 +213,14 @@
 
 }
 
-.grid-col-cart-4of12{
-	width: 30%;
-}
+.grid-col-checkout-6of12-homebut {
+		width: 100%;
+		padding: 0rem 4rem 0rem 4rem;
+
+	}
+
+
+
 
 .grid-col-checkout-4of12 {
 	width: 40%;
@@ -229,7 +264,6 @@
 
 
 	.grid-col-1of2 {
-		margin-top: 1rem;
 		margin-bottom: 0rem;
 	}
 
@@ -245,6 +279,11 @@
 	.cart-content .left .line1 {
 		visibility: visible;
 	}
+
+	.confirm_section {
+	margin-left: 0rem;
+	}
+
 
 
 
@@ -353,6 +392,14 @@
 		
 	}
 
+	.cart-content .left {
+		padding-top: 5rem;
+	}
+
+	.cart-content .right {
+		padding-top: 5rem;
+	}
+
 
 	.sum {
 		width: 50%;
@@ -407,6 +454,11 @@
 		padding: 0rem 1.5rem 0rem 1.5rem;
 	}
 
+	.grid-col-checkout-6of12-homebut {
+		padding: 0rem 1.5rem 0rem 1.5rem;
+
+	}
+
 
 
 	/*payment*/
@@ -435,6 +487,7 @@
 		width: 21.2%;
 		
 	}
+
 
 
 
