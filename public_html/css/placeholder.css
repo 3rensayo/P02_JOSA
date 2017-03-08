@@ -45,7 +45,7 @@
 	}
 }
 
-#home-image-section {
+.title-section-home {
 	background-image: url('../img/dishes/food3.jpg');
 	background-position: top center;
 	background-attachment: fixed;
@@ -67,7 +67,7 @@
 
 
 /*listing page styling*/
-#listing-title-section {
+.title-section-listing {
 	background-image: url('../img/orderonline.jpg');
 	background-position: center center;
 	background-attachment: fixed;
@@ -427,7 +427,7 @@ input:focus, textarea:focus {
 
 
 /*About*/
-#about-title-section {
+.title-section-about {
 	background-image: url('../img/abou1.jpg');
 	background-position: top center;
 	background-attachment: fixed;
@@ -448,7 +448,7 @@ input:focus, textarea:focus {
 
 
 /*menu page styling*/
-#menu-title-section {
+.title-section-menu {
 	background-image: url('../img/dishes/food5.jpg');
 	background-position: top center;
 	background-attachment: fixed;
@@ -517,7 +517,7 @@ input:focus, textarea:focus {
 
 /*events page styling*/
 
-#news-title-section {
+.title-section-news {
 	background-image: url('../img/rest2.jpg');
 	background-position: top center;
 	background-attachment: fixed;
@@ -588,7 +588,7 @@ input:focus, textarea:focus {
 
 
 /*contact section*/
-#contact-title-section {
+.title-section-contact {
 	background-image: url('../img/rest1.jpg');
 	background-position: top center;
 	background-attachment: fixed;
