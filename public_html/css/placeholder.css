@@ -298,7 +298,7 @@ input:focus, textarea:focus {
 
 /* Story section on home page*/
 
-.half-col-section {
+.half-col-flexbox {
 	background-color: #eee;
 
   	display: flex;
@@ -308,7 +308,7 @@ input:focus, textarea:focus {
   	
 }
 
-.half-col-section::after {
+.half-col-flexbox::after {
 	content: "";
 	clear: both;
 	display: block;
@@ -319,10 +319,21 @@ input:focus, textarea:focus {
 }
 
 .half-col-img {
-	display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 35rem;
     overflow: hidden;
+}
+
+.half-col-img img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.half-col-img::after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
 /*citation: http://stackoverflow.com/questions/14142378/css-filling-a-div-with-an-image-while-staying-in-proportion
@@ -456,16 +467,16 @@ input:focus, textarea:focus {
 	display: none;
 }
 
-.menu-section .grid-col-1of2 {
+.half-col-section .grid-col-1of2 {
 	text-align: left;
 }
 
-.menu-section .left {
+.half-col-section .left {
 	border-right: dotted 0.1rem #ccc;
 	padding-right: 1rem;
 }
 
-.menu-section .right {
+.half-col-section .right {
 	padding-left: 2rem;
 }
 

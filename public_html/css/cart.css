@@ -263,7 +263,7 @@
 @media only screen and (max-width: 75rem) {
 
 
-	.grid-col-1of2 {
+	.cart-content .grid-col-1of2 {
 		margin-bottom: 0rem;
 	}
 
@@ -464,6 +464,7 @@
 	/*payment*/
 	.review-form p {
 		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.review-form {
@@ -487,9 +488,6 @@
 		width: 21.2%;
 		
 	}
-
-
-
 
 
 }
