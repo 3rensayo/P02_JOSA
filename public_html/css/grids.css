@@ -144,6 +144,12 @@
 /* Mobile */
 @media screen and (max-width: 35rem) {
 
+
+	.row-1of3 {
+ 	 margin: 1rem 1.5rem;
+	}
+
+
     .grid-col-1of4 {
         display: block;
         width: 100%;
