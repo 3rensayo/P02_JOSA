@@ -15,6 +15,13 @@
     width: 100%;
 }
 
+.cart-content .food_quan {
+
+	width: 30%;
+	margin-top: 1rem;
+
+}
+
 
 /*cart content*/
 .cart-img {
@@ -138,6 +145,7 @@
 .confirm_section {
 	margin-left: 5rem;
 }
+
 
 
 
@@ -399,6 +407,15 @@
 	.cart-content .right {
 		padding-top: 5rem;
 	}
+
+
+	.cart-content .food_quan {
+
+	width: 40%;
+
+
+	}
+
 
 
 	.sum {
