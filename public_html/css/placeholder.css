@@ -293,8 +293,13 @@ input:focus, textarea:focus {
 	border: 0.1rem solid rgb(219, 193, 124);
 }
 
-label:not(#css-toggle-menu) {
+label:not(#css-toggle-menu):not(.quan_label) {
 	padding-top: 1rem;
+	font-family: 'BrandonTextMedium', Verdana, sans-serif;
+	display: block;
+}
+
+.quan_label {
 	font-family: 'BrandonTextMedium', Verdana, sans-serif;
 	display: block;
 }
