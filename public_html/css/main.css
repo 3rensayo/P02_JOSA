@@ -157,8 +157,7 @@ img {
 
 .food_quan {
     border: 1px solid rgb(0, 0, 0);
-    width: 25%;
-    border-radius: 0.3rem;
+    width: 29%;
     padding: 0.5rem 1rem;
     margin-bottom: 1rem;
    
@@ -237,6 +236,7 @@ a {
   border-style: solid;
   color:  #231F20;
   border-width: 0.1rem;
+  text-transform: uppercase;
 
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;

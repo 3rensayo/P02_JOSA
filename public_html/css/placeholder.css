@@ -299,6 +299,8 @@ label:not(#css-toggle-menu):not(.quan_label) {
 .food_quan label,
 .food_quan .food_num {
 	padding: 0;
+	   display: inline;
+    margin-right: 1rem;
 }
 
 .review-block {
@@ -366,13 +368,18 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 /*citation: http://stackoverflow.com/questions/14142378/css-filling-a-div-with-an-image-while-staying-in-proportion
 */
+.block-content {
+	text-align: center;
+}
+
+
 .block-content h3 {
 	text-align: left;
 }
 
 .block-content .button {
    
-    display: block;
+    
     text-align: center;
     margin-top: 1rem;
 }
@@ -383,6 +390,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	margin: 0rem 0rem 0rem 2rem;
 	list-style: none;
 	margin-bottom: 2rem;
+	text-align: left;
 
 }
 
@@ -395,6 +403,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	font-size: 0.7rem;
 	font-style: italic;
 }
+
 
 .block-content p {
 	margin: 0;
@@ -529,6 +538,8 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 .half-col-section .right {
 	padding-left: 2rem;
+	text-align: center;
+
 }
 
 .dish-title {
@@ -719,8 +730,11 @@ label:not(#css-toggle-menu):not(.quan_label) {
     width: 120px;*/
 }
 
-
-
+@media screen and (max-width: 75rem) {
+	.half-col-section .right {
+		padding-left: 0rem;
+	}
+}
 
 
 @media screen and (max-width: 35rem) {
