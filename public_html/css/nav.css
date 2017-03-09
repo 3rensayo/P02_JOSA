@@ -121,7 +121,7 @@ nav input, nav label {
 	display: none;
 	width: 3rem; 
 	height: 3rem; 
-	background: #D74227; 
+	background: rgb(213, 181, 123);
 	color: #ffffff; 
 	text-align: center; 
 	line-height: 3rem;
