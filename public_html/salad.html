@@ -55,9 +55,9 @@
 	            <p> > </p>
 	            <a href="listing.html">All Dishes</a>
 	            <p> > </p>
-	            <a href="menu.html">Brunch</a>
+	            <a href="listing.html">Brunch</a>
 	            <p> > </p>
-	            <a href="yogurt-parfait.html">Yogurt Parfait</a>
+	            <a href="salad.html">Summer Salad</a>
 	        </nav>
 	    </nav>
 
@@ -66,18 +66,18 @@
 
 				<div class="grid-col-1of2">
 					<figure>
-						<div class="block-story">
-							<img src="img/dishes/yogurt-parfait.jpg">
-						</div>
+						
+						<img src="img/dishes/summer-salad.jpg">
+						
 						
 					</figure>
 				</div>
 
 				<div class="grid-col-1of2">
 					<div class="single-product">
-						<h4>Yogurt Parfait</h4>
-						<h5>$8.00</h5>
-						<p>Granola made in house served with cinnamon spiced honey yogurt.</p>
+						<h4>Oysters Rockefeller</h4>
+						<h5>$10.50</h5>
+						<p>A simple spinach salad topped with pomegranate and packed with vitamins and antioxidants that taste delicious.</p>
 
 						<div class="quantity">
 							<div class="food_quan">
@@ -88,8 +88,9 @@
 									  <option value="3">3</option>
 									  <option value="4">4</option>
 									</select>
-							</div>	
-						</div>
+								
+							</div>
+						</div>	
 
 						<div>
 							<a href="cart.html" class="button">Add to Cart</a>
@@ -106,38 +107,38 @@
 
 			<div class="grid-col-1of2" id="review-container">
 				<div class="review-block">
-					<p>Alisa Popok</p>
-					<p>I really like how Josa makes this dessert in differnt layers to surprise me. Strawerry, cereal, yogurt.. What a good combo!</p>
+					<p class="emphasis">Jo Coo</p>
+					<p>The osyster is very fresh, but I do not like the green onion on the top. The price is too expensive! I could've just ordered the main dish rather than this...</p>
 				</div>
 
 				<div class="review-block">
-					<p>Nicola Wang</p>
-					<p>A good choice for dessert that gives a fresh tast after the meal.</p>
+					<p class="emphasis">Frank Smith</p>
+					<p>Tasted good! The garlic helps to increase the tast. It's all good for 2 people.</p>
 				</div>
 
 				<div class="review-block">
-					<p>Jenson Liu</p>
-					<p>I would say this dessert is also good for men!</p>
+					<p class="emphasis">Jimmy William</p>
+					<p>delicious!</p>
 				</div>
 
 				<div class="review-block">
-					<p>Henry Pan</p>
-					<p>It doesn't look so much different, but tastes good. Too less for men tho. I would suggest to have different fav yogurt like strawerry, blueberry..</p>
+					<p class="emphasis">Sam Alvaro</p>
+					<p>all good!</p>
 				</div>
 
 				<div class="review-block">
-					<p>Aira Sau</p>
-					<p>Tasted good! I suggested to have ice cream inside.</p>
+					<p class="emphasis">Amy Wang</p>
+					<p>too much garlic</p>
 				</div>
 
 				<div class="review-block">
-					<p>Jeffery Shen</p>
-					<p>This is a good choice for breakfast and bruch for people like me who is having a diet control. Nice healthy food!</p>
+					<p class="emphasis">Doris Ng</p>
+					<p>I like their baked oysters. Very good tast!</p>
 				</div>
 
 				<div class="review-block">
-					<p>Ashely Zhu</p>
-					<p>Fresh and delicious!</p>
+					<p class="emphasis">Sayo Li</p>
+					<p>I will definitely come here for next time!</p>
 				</div>
 					
 			</div>
@@ -147,32 +148,25 @@
 
 					<!-- citation: http://www.webdesignerforum.co.uk/topic/50139-simple-form-fields-initial-values-disappear-and-re-appear-on-click-and-click-out/ -->
 
-					<p>
-						Order Number For Verification<br>
-						<input type="text" name="OrderNumber" value="Given in the confirmation email" onblur="if(this.value == '') { this.value = 'Given in the confirmation email'; }" onfocus="if(this.value == 'Given in the confirmation email') { this.value = ''; }" type="text">
-					</p>
+					<label>Order Number For Verification</label>
+					<input type="text" name="OrderNumber" placeholder="Given in the confirmation email">
 
-					<p>
-						First Name<br>
-						<input type="text" name="FirstName" value="First" onblur="if(this.value == '') { this.value = 'First'; }" onfocus="if(this.value == 'First') { this.value = ''; }" type="text">
-					</p>
+					<label>First Name</label>
+					<input type="text" name="FirstName" placeholder="First">
 					
-					<p>
-						Last Name<br>
-						<input type="text" name="LastName" value="Last" onblur="if(this.value == '') { this.value = 'Last'; }" onfocus="if(this.value == 'Last') { this.value = ''; }" type="text">
-					</p>
+					<label>Last Name</label>
+						<input type="text" name="LastName" placeholder="Last">
 
-					<p>
-						Subject<br>
-						<input type="text" name="Subject" value="Subject" onblur="if(this.value == '') { this.value = 'Subject'; }" onfocus="if(this.value == 'Subject') { this.value = ''; }" type="text">
-					</p>
+					<label>Subject</label>
+					<input type="text" name="Subject" placeholder="Subject">
 
-					<p>
-						Comment<br>
-						<textarea onblur="if(this.value == '') { this.value = 'How was your meal and our service?'; }" onfocus="if(this.value == 'How was your meal and our service?') { this.value = ''; }" type="text">How was your meal and our service?</textarea> 
-					</p>
+					<label>Comment</label>
+					<textarea type="text" name="Comment" placeholder="Give us a review"></textarea> 
 					
-					<a href="#" class="button">Submit</a>
+						
+						
+						<a href="#" class="button">Submit</a>
+						
 				</form>
 
 

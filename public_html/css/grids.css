@@ -46,6 +46,55 @@
 
 /******** MEDIA QUERIES *********/
 
+@media screen and (min-width:75rem) {
+
+	.grid-col-1of4 .listing-block .overlay {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,100%,0);
+		transform: translate3d(0,100%,0);
+		visibility: hidden;
+	}
+
+	.grid-col-1of4 .listing-block .listing-responsive {
+	    display: block;
+	    position: relative;
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+	}
+
+	.grid-col-1of4 .listing-block:hover .listing-responsive {
+	    -webkit-transform: translate3d(0,-10%,0);
+		transform: translate3d(0,-10%,0);
+	}	
+
+	.listing-block .order-now {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,200%,0);
+		transform: translate3d(0,200%,0);
+		visibility: visible;
+	}
+
+	.grid-col-1of4 .listing-block:hover .overlay,
+	.grid-col-1of4 .listing-block:hover .order-now {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+
+		-webkit-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+
+	.grid-col-1of4 .listing-block:hover .order-now {
+		-webkit-transition-delay: 0.05s;
+		transition-delay: 0.05s;
+	}
+
+	.grid-col-1of4 .listing-block:hover .overlay:hover,
+	.grid-col-1of4 .listing-block:hover .order-now:hover {
+		background-color: rgb(227, 212, 171);
+	}
+}
 
 /* Tablet */
 @media screen and (max-width: 75rem) {
@@ -87,12 +136,11 @@
 	}
 
 	.single-product {
-  	margin-left: 0rem;
+  		margin-left: 0rem;
   	}
 
   	.food_quan {
-    width: 18%;
-    
+    	width: 18%;  
    
 	}
 
@@ -119,6 +167,8 @@
 	.half-col-section [id^='content'] .right {
 		padding-left: 0;
 	}
+
+
 
 }
 
@@ -211,6 +261,9 @@
 	    object-position: 50% 50%;
 	}
 
+	.grid-col-1of4 .listing-block {
+		margin-bottom: 2rem;
+	}
 	/*menu page*/
 	.half-col-section {
 		padding: 2rem 1.5rem;
