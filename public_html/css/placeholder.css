@@ -255,6 +255,8 @@
 .review-form .button {
 	text-align: center;
 	margin: 0;
+	display: block;
+	margin-top: 1rem;
 }
 
 input:not(.radio-option) {	
@@ -343,7 +345,10 @@ input:focus, textarea:focus {
 }
 
 .block-content .button {
-	margin-top: 2rem;
+   
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .block-content ul {
@@ -351,6 +356,7 @@ input:focus, textarea:focus {
 	padding-top: 1rem;
 	margin: 0rem 0rem 0rem 2rem;
 	list-style: none;
+	margin-bottom: 2rem;
 
 }
 
@@ -363,6 +369,13 @@ input:focus, textarea:focus {
 .block-content p {
 	margin: 0;
 }
+
+.block-content .checkout-button .button {
+    width: 95%;
+   
+}
+
+
     
 
 
@@ -398,6 +411,15 @@ input:focus, textarea:focus {
     
     margin-right: 0;
 	}
+
+	.block-content .checkout-button .button {
+    width: 100%;
+   
+}
+
+
+	
+
 
 
 
@@ -666,6 +688,9 @@ input:focus, textarea:focus {
 /*    height: 70px;
     width: 120px;*/
 }
+
+
+
 
 
 @media screen and (max-width: 35rem) {
