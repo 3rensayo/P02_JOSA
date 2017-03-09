@@ -183,25 +183,25 @@
 					<!-- citation: http://www.webdesignerforum.co.uk/topic/50139-simple-form-fields-initial-values-disappear-and-re-appear-on-click-and-click-out/ -->
 
 
-					<p>
+					<label>
 						<input type="radio" name="Payment" value="Cash" checked class="radio-option">
 						Cash (Pay Later)
-					</p>
+					</label>
 					
-					<p>
+					<label>
 						<input type="radio" name="Payment" value="Credit" class="radio-option">
 						Credit Card
-					</p>
+					</label>
 
 								
-					<input type="text" name="CardNumber" value="Card Number" onblur="if(this.value == '') { this.value = 'Card Number'; }" onfocus="if(this.value == 'Card Number') { this.value = ''; }" type="text">
+					<input type="text" name="CardNumber" placeholder="Card Number">
 			
 				
 
 					<div class="grid-col-payment-4of6">
 				
 						
-						<input type="text" name="CardName" value="Name on Card" onblur="if(this.value == '') { this.value = 'Name on Card'; }" onfocus="if(this.value == 'Name on Card') { this.value = ''; }" type="text">
+						<input type="text" name="CardName" placeholder="Name on Card">
 					
 					
 					</div>
@@ -209,45 +209,43 @@
 					<div class="grid-col-payment-1of6">
 					
 						
-						<input type="text" name="Date" value="MM/YY" onblur="if(this.value == '') { this.value = 'MM/YY'; }" onfocus="if(this.value == 'MM/YY') { this.value = ''; }" type="Date">
+						<input type="text" name="Date" placeholder="MM/YY">
 					
 					</div>
 					
 					<div class="grid-col-payment-1of6">
 					
 						
-						<input type="text" name="CVV" value="CVV" onblur="if(this.value == '') { this.value = 'CVV'; }" onfocus="if(this.value == 'CVV') { this.value = ''; }" type="Number">
+						<input type="text" name="CVV" placeholder="CVV">
 					
 					</div>
 
 					<div class="grid-col-1of2">
-					<p>Billing Address</p>
+					<label>Billing Address</label>
 					</div>
 
-					<input type="text" name="Name" value="Name" onblur="if(this.value == '') { this.value = 'Name'; }" onfocus="if(this.value == 'Name') { this.value = ''; }" type="text">
-
-					<input type="text" name="Address" value="Address" onblur="if(this.value == '') { this.value = 'Address'; }" onfocus="if(this.value == 'Address') { this.value = ''; }" type="text">
+					<input type="text" name="Name" placeholder="Name">
+					
+					<input type="text" name="Address" placeholder="Address">	
 				
-				
-				
-					<input type="text" name="City" value="City" onblur="if(this.value == '') { this.value = 'City'; }" onfocus="if(this.value == 'City') { this.value = ''; }" type="text">
+					<input type="text" name="City" placeholder="City">
 					
 
 					<div class="grid-col-payment-2of6">
 					
-						<input type="text" name="Address" value="Country" onblur="if(this.value == '') { this.value = 'Country'; }" onfocus="if(this.value == 'Country') { this.value = ''; }" type="text">
-					
-					</div>
-
-					<div class="grid-col-payment-2of6">
-					
-						<input type="text" name="Province" value="Province" onblur="if(this.value == '') { this.value = 'Province'; }" onfocus="if(this.value == 'Province') { this.value = ''; }" type="text">
+						<input type="text" name="Address" placeholder="Country">
 					
 					</div>
 
 					<div class="grid-col-payment-2of6">
 					
-						<input type="text" name="Postal Code" value="Postal Code" onblur="if(this.value == '') { this.value = 'Postal Code'; }" onfocus="if(this.value == 'Postal Code') { this.value = ''; }" type="text">
+						<input type="text" name="Province" placeholder="Province">
+					
+					</div>
+
+					<div class="grid-col-payment-2of6">
+					
+						<input type="text" name="Postal Code" placeholder="Postal Code">
 					
 					</div>
 				</form>

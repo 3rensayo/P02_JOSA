@@ -68,24 +68,25 @@
 						<h2>FIND US</h2>
 						
 						<ul>
-
-					
-
-
 							<li>
 								<img src="img/icons/time-y.png" class="contact_icon" style="vertical-align: middle">
-								Monday - Sunday 10:00AM - 11:30PM 
+								<span class="emphasis">Open Hour: </span> Monday - Sunday 10:00AM - 11:30PM 
 								
 							</li>
 
-							<li><img src="img/icons/phone-y.png" class="contact_icon" style="vertical-align: middle">
-							Phone - 604-716-2947
+							<li>
+								<img src="img/icons/phone-y.png" class="contact_icon" style="vertical-align: middle">
+								<span class="emphasis">Phone: </span>604-716-2947
 							</li>
 							
-							<li> <img src="img/icons/email-y.png" class="contact_icon" style="vertical-align: middle">Email - hello@josa.com
+							<li> 
+								<img src="img/icons/email-y.png" class="contact_icon" style="vertical-align: middle">
+								<span class="emphasis">Email: </span>hello@josa.com
 							</li>
 
-							<li><img src="img/icons/loc-y.png" class="contact_icon" style="vertical-align: middle">Location - 870 Denman Street, Vancouver BC
+							<li>
+								<img src="img/icons/loc-y.png" class="contact_icon" style="vertical-align: middle">
+								<span class="emphasis">Location: </span>870 Denman Street, Vancouver BC
 							</li>
 						</ul>
 
@@ -105,16 +106,7 @@
 						<!-- <a href="#" class="button">Book A Table</a>
 						<a href="menu.html" class="button">View Menu</a> -->
 					</div>
-
-
-					
-
 				</div>	
-
-
-
-
-				</div>
 
 				<div class="grid-col-1of2">
 					<div class="need-white-space block-content">
@@ -124,27 +116,18 @@
 
 						<!-- citation: http://www.webdesignerforum.co.uk/topic/50139-simple-form-fields-initial-values-disappear-and-re-appear-on-click-and-click-out/ -->
 
-							<p>
-								Name<br>
-								<input type="text" name="Name" value="Your full name" onblur="if(this.value == '') { this.value = 'Your full name'; }" onfocus="if(this.value == 'Your full name') { this.value = ''; }" type="text">
-							</p>
+							<label>Name</label>
+								<input type="text" name="Name" placeholder="Your full name">
 							
-							<p>
-								Email<br>
-								<input type="text" name="Email" value="Email address" onblur="if(this.value == '') { this.value = 'Email address'; }" onfocus="if(this.value == 'Email address') { this.value = ''; }" type="text">
-							</p>
+							<label>Email</label>
+								<input type="text" name="Email" placeholder="Email address">
 
-							<p>
-								Subject<br>
-								<input type="text" name="Subject" value="Subject" onblur="if(this.value == '') { this.value = 'Subject'; }" onfocus="if(this.value == 'Subject') { this.value = ''; }" type="text">
-							</p>
+							<label>Subject</label>
+								<input type="text" name="Subject" placeholder="Subject">
 
-							<p>
-								Message<br>
-								<textarea onblur="if(this.value == '') { this.value = 'Tell us about your experience'; }" onfocus="if(this.value == 'Tell us about your experience') { this.value = ''; }" type="text">Tell us about your experience</textarea> 
-							</p>
-							
-							
+							<label>Message</label>
+							<textarea type="text" name="Message" placeholder="Tell us about your experience"></textarea> 
+														
 						</form>
 
 						<a href="#" class="button">Submit</a>

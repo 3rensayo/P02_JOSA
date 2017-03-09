@@ -241,6 +241,9 @@
 }
 
 /* Review Form Styling */
+.review-form .grid-col-1of2 {
+	text-align: left;
+}
 
 #review-container {
 	height: 35rem;
@@ -248,7 +251,7 @@
 
 }
 
-.review-form{
+.review-form {
 	text-align: left;
 }
 
@@ -270,12 +273,14 @@ textarea {
 
 input, textarea {
 	font-family: 'BrandonTextLight', Verdana, sans-serif;
-	font-style: italic;
 	padding-left: 0.5rem;
-	width: 100%;
-	color: rgb(219, 193, 124);
+	color: rgb(0, 0, 0);
 	margin-top: 0.2rem;
 	border: 0.1rem solid rgb(0, 0, 0);
+}
+
+input:not(.radio-option), textarea {
+	width: 100%;
 }
 
 input:focus, textarea:focus {
@@ -283,9 +288,15 @@ input:focus, textarea:focus {
 	border: 0.1rem solid rgb(219, 193, 124);
 }
 
-.review-form p {
-	margin: 0;
-	padding-top: 0.5rem;
+label {
+	padding-top: 1rem;
+	font-family: 'BrandonTextMedium', Verdana, sans-serif;
+	display: block;
+}
+
+.food_quan label,
+.food_quan .food_num {
+	padding: 0;
 }
 
 .review-block {
@@ -293,6 +304,19 @@ input:focus, textarea:focus {
 	text-align: left;
 	padding-bottom: 1rem;
 	margin-right: 2.5rem;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(219, 193, 124);;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(219, 193, 124);;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(219, 193, 124);;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgb(219, 193, 124);;
 }
 
 /*citation: https://css-tricks.com/crop-top/*/
@@ -360,7 +384,11 @@ input:focus, textarea:focus {
 
 }
 
-.block-content ul li {
+.reward {
+	margin-top: 1.5rem;
+}
+
+.note {
 	text-align: left;
 	font-size: 0.7rem;
 	font-style: italic;
@@ -523,6 +551,7 @@ input:focus, textarea:focus {
 }
 
 .price {
+	font-family: 'BrandonTextMedium', Verdana, sans-serif;
 	display: inline;
 	float: left;
 	margin: 0;
