@@ -113,10 +113,7 @@ img {
   margin: 1rem 2rem;
 }
 
-.quantity p, .quantity select {
-  display: inline;
-  margin-bottom: 1rem;
-}
+
 
 /* Header */
 
@@ -138,6 +135,36 @@ img {
 
 .single-product {
   margin-left: 4rem;
+}
+
+/*food selection*/
+
+.quantity {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.quantity p, .quantity select {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.food_quan {
+    border: 1px solid #ccc;
+    width: 25%;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+   
+}
+
+.food_num {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    height: auto;
 }
 
 /* Footer Styling */
