@@ -142,7 +142,7 @@
 
         <h3>Rendered element:</h3>
         <nav class="sub-nav">
-         <a href="home.html">In-Text-Link</a>
+         <a href="index.html">In-Text-Link</a>
         </nav>
 
       </section>
@@ -182,32 +182,32 @@
         <div class="code_section">
           <code>
             Input:
-            &lt;input type="text" id="name" placeholder="Name"&gt;<br>
+            &lt;input type="text" title="name" placeholder="Name"&gt;<br>
             Drop-box:
             &lt;div class="quantity"&gt; <br>
             &lt;div class="food_quan"&gt;<br>
-            &lt;label class="quan_label"&gt;Quantity&lt;/label&gt;<br>
-            &lt;select class="food_num"&gt;<br>
+            &lt;label class="quan_label" for="qty"&gt;Quantity&lt;/label&gt;<br>
+            &lt;select class="food_num" id="qty"&gt;<br>
             &lt;option&gt;1&lt;/option&gt;<br>
              &lt;/select&gt;<br>
               &lt;/div&gt;<br>
                &lt;/div&gt;
 
             Text-Area:
-            &lt;textarea type="text" name="Message" placeholder="Tell us about your experience"&gt;&lt;/textarea&gt;
+            &lt;textarea type="text" title="message" name="Message" placeholder="Tell us about your experience"&gt;&lt;/textarea&gt;
 
           </code>
         </div>
 
         <h3>Rendered element:</h3>
         <p>Input:</p>
-        <input type="text" id="name" placeholder="Name" >
+        <input type="text" title="name" placeholder="Name" >
         <p>Drop-Box:</p>
 
          <div class="quantity">
               <div class="food_quan">
-                <label class="quan_label">Quantity</label>
-                  <select class="food_num">
+                <label class="quan_label" for="qty">Quantity</label>
+                  <select class="food_num" id="qty">
                     <option value="1">1</option>
                   </select>
                 
@@ -215,7 +215,7 @@
           </div>  
 
         <p>Text-Area:</p>
-        <textarea name="Message" placeholder="Tell us about your experience"></textarea> 
+        <textarea name="Message" title="message" placeholder="Tell us about your experience"></textarea> 
       </section>
 
     </section>
@@ -359,12 +359,12 @@
                     <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu"> 
                     
                     <ul>
-                         <li><a href="#l">ABOUT</a></li>
-                         <li><a href="#">EVENTS</a></li>
-                         <li><a href="#">MENU</a></li>
-                         <li><a href="#">ORDER ONLINE</a></li>
-                         <li><a href="#">CONTACT</a></li>
-                         <li><a href="#">
+                         <li><a href="about.html">ABOUT</a></li>
+                         <li><a href="events.html">EVENTS</a></li>
+                         <li><a href="menu.html">MENU</a></li>
+                         <li><a href="listing.html">ORDER ONLINE</a></li>
+                         <li><a href="contact.html">CONTACT</a></li>
+                         <li><a href="http://www.opentable.com">
                          <i class="resv_icon"></i>RESERVATION
                          </a></li>
                          <li><a href="cart.html"><i class="cart_icon"></i></a></li> 
@@ -560,7 +560,7 @@
           </div>
         </div>
 
-        <div class="color-box-dgr grid-col-1of6 ">
+        <div class="color-box-dgr grid-col-1of6">
           <div class="color-text">
             <h2>Dark Grey</h2>
             <h2>#262626</h2>
@@ -568,7 +568,7 @@
           </div>
         </div>
 
-        <div class="color-box-ylw grid-col-1of6 ">
+        <div class="color-box-ylw grid-col-1of6">
           <div class="color-text">
             <h2>Gold</h2>
             <h2>#d5b57b</h2>
@@ -576,7 +576,7 @@
           </div>
         </div>
 
-        <div class="color-box-lgy grid-col-1of6 ">
+        <div class="color-box-lgy grid-col-1of6">
           <div class="color-text">
             <h2>Light Grey</h2>
             <h2>#eeeeee</h2>
@@ -584,7 +584,7 @@
           </div>
         </div>
 
-        <div class="color-box-bgy grid-col-1of6 ">
+        <div class="color-box-bgy grid-col-1of6">
           <div class="color-text">
             <h2>Bright Grey</h2>
             <h2>#f5f5f5</h2>
@@ -599,59 +599,30 @@
             <p>Icons, Title Text</p>
           </div>
         </div>
-        
-
-          
-           
-      
-
       </section>
-
   </section>
-
- 
 
   <footer>
       <section class="footer_section">
         <div id="social-media-icons" class="grid-col-1of2">
-          <a href="#"><img src="img/icons/fb.png" alt="facebook icon"></a>
-          <a href="#"><img src="img/icons/inst.png" alt="instgram icon"></a>
-          <a href="#"><img src="img/icons/twitter.png" alt="twitter icon"></a>
-
-
+          <a href="https://www.facebook.com/"><img src="img/icons/fb.png" alt="facebook icon"></a>
+          <a href="https://www.instagram.com/"><img src="img/icons/inst.png" alt="instgram icon"></a>
+          <a href="https://twitter.com/"><img src="img/icons/twitter.png" alt="twitter icon"></a>
         </div>
 
         <div id="copyright" class="grid-col-1of2">
           <p>All content © JOSA's Joanna &amp; Sally 2017</p>
 
           <div class="footer-source">
-            <p>|</p>
+            <p class="bar-hidden">|</p>
             <p><a href="style.html">Style Guide</a></p>
             <p>|</p>
             <p><a href="citation.html">Citations</a></p>
             <p>|</p>
             <p>GitHub Repository</p>
           </div>
-
         </div>
-
       </section>
-
     </footer>
-
-
-
-  
-    <!-- // COMBINED ELEMENTS SECTION -->
-
-
-
-	
-
-
-
-	
-
-</body>
-
+  </body>
 </html>
