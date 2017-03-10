@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/placeholder.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
@@ -47,40 +48,103 @@
        http://blog.christopherianmurphy.com/2016/01/responsive-pure-css-menu.html -->
     </header>
 
-    
-	  <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
-      <h1>JOSA - STYLE GUIDE </h1>
+    <div class="white-space"></div>
 
+  
+    <section id="cart-section">
+
+      <div class="grid-col-12of12">
+        
+        <div class="home-block">
+          <h1>STYLE GUIDE</h1>
+        </div>
+        
+      </div>
+
+    </section>
+
+    <!-- sub-nav -->
+    <nav class="need-white-space">
+      <nav class="sub-nav">
+        <a href="#IE">Interactive Elements</a>
+              <p> | </p>
+              <a href="#TE">Text Elements</a>
+              <p> | </p>
+              <a href="#CE">Combined Elements</a>
+              <p> | </p>
+              <a href="#DE">Design Elements</a>
+          </nav>
+      </nav>
+    
+
+	  <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="IE" class="need-white-space">
+
+      <h2>Interactive Elements: </h2>
       <!-- Default Button styling section -->
       <section> 
 
-      	<h2>Navigation Button</h2>
+      	<h2>NAVIGATION BUTTON </h2>
 
-        <h3>CSS selector:</h3>
-        <p>.button-nav</p>
+        <h4>CSS selector:</h4>
+        <p>.navBar</p>
+        <p>.wrapper</p>
 
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Sample code:</h4>
+
+        <div class="code_section">
+          <code >
+
+          &lt;nav class="navBar"&gt; <br>
+           &lt;nav class="wrapper"&gt; <br>
+             &lt;ul&gt; <br>
+              &lt;li&gt; <br>
+                &lt;a href="#" &gt;Nav Button&lt;/a&gt; <br>
+              &lt;/li&gt; <br>
+             &lt;/ul&gt;  <br>
+            &lt;/nav&gt;  <br>
+          &lt;/nav&gt;    <br>
+          
+          </code>
+         </div> 
+
 
         <h3>Rendered element:</h3>
-        <a class="button-nav" href="#">FOOD GALLERY</a>
-
+        
+          <nav>
+            <ul>
+              <li><a href="#" class="nav-but">Nav Button</a></li>
+            </ul> 
+          </nav>    
+    
       </section>
 
-    
-
-      <section>
-        <h2>In-text link</h2>
+      <!-- intext-link -->
+      <section class="intext-link">
+        <h2>In-text-link</h2>
 
         <h3>CSS selector:</h3>
-        <p>.intextlink</p>
+        <p>.sub-nav</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="intextlink"&gt;In-text Link&lt;/a&gt;</code>
+
+
+        <div class="code_section">
+          <code>
+           &lt;nav class="sub-nav"&gt; <br>
+          
+             &lt;a href="#" &gt;In-text Link&lt;/a&gt;<br>
+
+            &lt;/nav&gt;  
+
+          </code>
+         </div> 
 
         <h3>Rendered element:</h3>
-        <a class="intextlink" href="#">In-text Link</a>
+        <nav class="sub-nav">
+         <a href="home.html">In-Text-Link</a>
+        </nav>
 
       </section>
 
@@ -92,252 +156,437 @@
         <p>.button</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button"&gt;ORDER NOW&lt;/a&gt;</code>
-
+        <div class="code_section">
+          <code>
+          &lt;a href="#" class="button"&gt;SUBMIT&lt;/a&gt;
+          </code>
+        </div>
         <h3>Rendered element:</h3>
-        <a class="button" href="#">ORDER NOW</a>
+        <a class="button" href="#">SUBMIT</a>
 
       </section>
 
 
-      <section>
+      <section class="input_section">
         <h2>Text Input Field</h2>
 
 
         <h3>CSS selector:</h3>
-        <p>textinput</p>
+        <p>Input:</p>
+        <p>input{}</p>
+        <p>Drop-Box:</p>
+        <p>.quantity</p>
+        <p>.food_quan</p>
+        <p>.quan_label</p>
+        <p>.food_num</p>
+        <p>Text Area:</p>
+        <p>textarea{}</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;input type="text" id="name" placeholder="Name"&gt;Name&lt;&gt;</code>
+        <div class="code_section">
+          <code>
+            Input:
+            &lt;input type="text" id="name" placeholder="Name"&gt;<br>
+            Drop-box:
+            &lt;div class="quantity"&gt; <br>
+            &lt;div class="food_quan"&gt;<br>
+            &lt;label class="quan_label"&gt;Quantity &lt;/label&gt;<br>
+            &lt;select class="food_num"&gt;<br>
+            &lt;option &gt;1 &lt;/option&gt;<br>
+             &lt;/select&gt;<br>
+              &lt;/div&gt;<br>
+               &lt;/div&gt;
+
+            Text-Area:
+            &lt;textarea type="text" name="Message" placeholder="Tell us about your experience"&gt;&lt;/textarea&gt;
+
+          </code>
+        </div>
 
         <h3>Rendered element:</h3>
+        <p>Input:</p>
         <input type="text" id="name" placeholder="Name" >
-      </section>
+        <p>Drop-Box:</p>
 
+         <div class="quantity">
+              <div class="food_quan">
+                <label class="quan_label">Quantity</label>
+                  <select class="food_num">
+                    <option value="1">1</option>
+                  </select>
+                
+              </div>
+          </div>  
 
-    </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-
-      <section>
-        <h2>Headings</h2>
-         <h3>CSS selector:</h3>
-       	 <p>h1,h2,h3</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;h1 &gt;Heading 1 &lt;/h1&gt; <br/>
-        &lt;h2 &gt;Heading 2 &lt;/h2&gt;<br/>
-        &lt;h1 &gt;Heading 3 &lt;/h3&gt;
-
-
-        </code>
-
-        <h3>Rendered element:</h3>
-        <h2>Heading 1</h2>
-        <h3>Heading 2</h3>
-        <h4>Heading 3</h4>
-        
-      </section>
-
-      <section>
-        <h2>Paragraphs</h2>
-
-        <h3>CSS selector:</h3>
-       	 <p>p</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;p &gt;LOVEATS is a restaurant providing the service about west foods including the special menu, food descrption and gallery. It gives the recent news about the restautant and any updated event to notofy the food features and taste. &lt;/p&gt; </code> <br>
-
-        <h3>Rendered element:</h3>
-        <p>LOVEATS is a restaurant providing the service about west foods including the special menu, food descrption and gallery. It gives the recent news about the restautant and any updated event to notofy the food features and taste.</p>
-
-
-      </section>
-
-      <section>
-        <h2>Bulleted Lists</h2>
-
-        <h3>CSS selector:</h3>
-       	 <p>ul,li</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;ul &gt; <br>
-        &lt;li &gt;About Our Story &lt;/li&gt; <br>
-        &lt;li &gt;Food Menu &lt;/li&gt; <br>
-        &lt;li &gt;Food Gallery &lt;/li&gt; <br>
-        &lt;li &gt;Reservation &lt;/&gt; <br>
-        &lt;li &gt;Contact&lt;/li&gt; <br>
-
-        &lt;/ul&gt; </code> 
-
-        <h3>Rendered element:</h3>
-        <ul>
-        	<li>About Our Story</li>
-        	<li>Food Menu</li>
-        	<li>Food Gallery</li>
-        	<li>Reservation</li>
-        	<li>Contact</li>
-        </ul>
-
-
-      </section>
-
-      <section>
-        <h2>Numbered Lists</h2>
-
-        <h3>CSS selector:</h3>
-       	 <p>ol,li</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;ol &gt; <br>
-        &lt;li &gt;About Our Story &lt;/li&gt; <br>
-        &lt;li &gt;Food Menu &lt;/li&gt; <br>
-        &lt;li &gt;Food Gallery &lt;/li&gt; <br>
-        &lt;li &gt;Reservation &lt;/&gt; <br>
-        &lt;li &gt;Contact&lt;/li&gt; <br>
-
-        &lt;/ol&gt; </code> 
-
-        <h3>Rendered element:</h3>
-        <ol>
-        	<li>About Our Story</li>
-        	<li>Food Menu</li>
-        	<li>Food Gallery</li>
-        	<li>Reservation</li>
-        	<li>Contact</li>
-        </ol>
-
+        <p>Text-Area:</p>
+        <textarea type="text" name="Message" placeholder="Tell us about your experience"></textarea> 
       </section>
 
     </section>
-    <!-- // TEXT ELEMENTS SECTION -->
+
+
+ 
 
 
 
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
+      <!-- TEXT ELEMENTS SECTION // -->
+    <section id="TE" class="need-white-space">
 
-      <section>
-        <h2>Main Navigation</h2>
+        <section class="text_elements">
 
-        <nav class="navbar1" >
-			
-    			<!-- <a href="#home">Home</a> -->
-    			<a class="button-nav">ABOUT</a>
-    			<a class="button-nav" >MENU</a>
-    			<a class="button-nav">FOOD GALLERY</a>
-    			<a class="button-nav">CONTACT</a>
-    	
-		    </nav>
+       
+          <h2>Headings</h2>
+           <h3>CSS selector:</h3>
+         	 <p>h1,h2,h3</p>
 
+          <h3>Sample code:</h3> 
 
-        
-
-
-      </section>
+          <div class="code_section">
+            <code>&lt;h1 &gt;Heading 1 &lt;/h1&gt; <br>
+            &lt;h2&gt;Heading 2 &lt;/h2&gt;<br>
+            &lt;h3&gt;Heading 3 &lt;/h3&gt; <br>
+            &lt;h4&gt;Heading 4 &lt;/h4&gt; 
 
 
+            </code>
+          </div>
+
+          <h3>Rendered element:</h3> 
+          <br>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          
+        </section>
+
+        <section>
+          <h2>Paragraphs</h2>
+
+          <h3>CSS selector:</h3>
+         	 <p>p</p>
+
+          <h3>Sample code:</h3>
+          <div class="code_section">
+          <code>&lt;p &gt;Our service is attentive, warm and unpretentious. Our people are passionate about delivering food and experiences that will keep our guests coming back again and again. &lt;/p&gt; </code> <br>
+          </div>
+
+          <h3>Rendered element:</h3>
+          <p>Our service is attentive, warm and unpretentious. Our people are passionate about delivering food and experiences that will keep our guests coming back again and again.</p>
 
 
-      <section>
+        </section>
 
-        <h2>Product Listing</h2>
+        <section class="blist_section">
+          <h2>Bulleted Lists</h2>
 
-        <div class="productbox">
-        	<figure>
-					 <img src="img/food1.jpg" alt="food1" >
-						
-			   </figure>
+          <h3>CSS selector:</h3>
+         	 <p>ul,li</p>
 
-        </div>
+          <h3>Sample code:</h3>
+          <div class="code_section">
+          <code>&lt;ul &gt; <br>
+          &lt;li &gt;About Our Story &lt;/li&gt; <br>
+          &lt;li &gt;Food Menu &lt;/li&gt; <br>
+          &lt;li &gt;Food Gallery &lt;/li&gt; <br>
+          &lt;li &gt;Reservation &lt;/&gt; <br>
+          &lt;li &gt;Contact&lt;/li&gt; <br>
 
-        <div class="productbox">
-        	<figure>
-					<img src="img/food2.jpg" alt="food1" >
-						
-			   </figure>
+          &lt;/ul&gt; </code> 
+          </div>
 
-        </div>
+          <h3>Rendered element:</h3>
+          <ul>
+          	<li>
+                <img src="img/icons/time-y.png" class="contact_icon">
+                <span class="emphasis">Open Hour: </span> Monday - Sunday 10:00AM - 11:30PM
+            </li>
+          	<li><span class="emphasis">Phone: </span>604-716-2947</li>
+          	<li><span class="emphasis">Email: </span>hello@josa.com</li>
+          	<li><span class="emphasis">Location: </span>870 Denman Street, Vancouver BC</li>
+          	
+          </ul>
 
-         <div class="productbox">
-        	<figure>
-					<img src="img/food3.jpg" alt="food1" >
-						
-			   </figure>
 
-        </div>
+        </section>
 
-      </section>
 
 
         <section>
+          <h2>Numbered Lists</h2>
 
-        <h2>Grid Structures</h2>
+          <h3>CSS selector:</h3>
+         	 <p>ol,li</p>
+
+          <h3>Sample code:</h3>
+          <div class="code_section">
+            <code>&lt;ol &gt; <br>
+            &lt;li &gt;Name &lt;/li&gt; <br>
+            &lt;li &gt;Phone Number &lt;/li&gt; <br>
+            &lt;li &gt;Email &lt;/li&gt; <br>
+            &lt;li &gt;Address &lt;/&gt; <br>
+            &lt;li &gt;Card Number&lt;/li&gt; <br>
+
+            &lt;/ol&gt; </code> 
+          </div>
+
+          <h3>Rendered element:</h3>
+          <ol>
+          	<li>Name</li>
+          	<li>Phone Number</li>
+          	<li>Email</li>
+          	<li>Address</li>
+          	<li>Card Number</li>
+          </ol>
+
+        </section>
+
+   </section>
+     
 
 
-          <h3>TV Grid : 12 Column </h3>
 
-        
-          <figure>
-          <img src="img/tvgrid.jpg" alt="food1" >
-            
-      </figure>
+      <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="CE" class="need-white-space">
 
-    
+        <section class="nav-section">
 
-          <h3>Mobile Grid : 3 Column </h3>
-          <figure>
-          <img src="img/mobilegrid.jpg" alt="food1" >
-            
-      </figure>
+          <h2>Main Navigation</h2>
 
-        
+         <header>
+            <nav class="navBar">
+              <nav class="wrapper">
 
-        <h3>Smart Watch Grid : 2 Column </h3>
+                <div class="logo">
+                  <a href="index.html" class="nav-logo">JOSA</a>
+                </div>
 
-          <figure>
-          <img src="img/smgrid.jpg" alt="food1" >
-            
-      </figure>
+                    <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu"> 
+                    
+                    <ul>
+                         <li><a href="about.html">ABOUT</a></li>
+                         <li><a href="events.html">EVENTS</a></li>
+                         <li><a href="menu.html">MENU</a></li>
+                         <li><a href="listing.html">ORDER ONLINE</a></li>
+                         <li><a href="contact.html">CONTACT</a></li>
+                         <li><a href="http://www.opentable.com">
+                         <i class="resv_icon"></i>RESERVATION
+                         </a></li>
+                         <li><a href="cart.html"><i class="cart_icon"></i></a></li> 
+                    </ul> 
 
-    
+                    <label for="css-toggle-menu" id="css-toggle-menu"></label> 
+                  </nav>
+             </nav>
+             <!-- citation:
+             https://codepen.io/torbencolding/pen/OPwwOg
+             http://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page
+             http://blog.christopherianmurphy.com/2016/01/responsive-pure-css-menu.html -->
+          </header>
+
+
+          
+
+
+        </section>
+
+
+
+
+        <section >
+
+        <h2>Product Listing</h2>
+
+          <div class="grid-col-1of4">
+            <figure class="row-1of4">
+              <div class="listing-block">
+                
+                <div class="product-name">
+                  <h4>Oysters Rockefeller</h4>
+                </div>
+
+                <div class="food-listing">
+                  <img src="img/dishes/oysters-rockefeller.jpg">
+                </div>
+
+                <div class="listing-responsive">
+                  <div class="food-detail">
+
+                    <p>Eight Louisiana oysters with sautéed spinach, bacon, sambuca, and baked to a golden brown.</p>
+
+                    <p class="emphasis">$26.50</p>
+                  </div>
+                </div>
+              
+                <div class="overlay">
+                    <a href="oyster.html" class="order-now">ORDER NOW</a>
+                  </div>
+                </div>
+            </figure>
+          </div>
+
+          <div class="grid-col-1of4">
+            <figure class="row-1of4">
+              <div class="listing-block">
+                
+                <div class="product-name">
+                  <h4>Crispy Calamari</h4>
+                </div>
+
+                <div class="food-listing">
+                  <img src="img/dishes/calamari.jpg">
+                </div>
+
+                <div class="listing-responsive">
+                  <div class="food-detail">
+
+                    <p>Marinara sauce, lemon, dill caper dip. Crispy on the outside and tender on the inside.</p>
+
+                    <p class="emphasis">$14.95</p>
+                  </div>
+                </div>
+
+                <div class="overlay">
+                    <a href="calamari.html" class="order-now">ORDER NOW</a>
+                  </div>
+                </div>
+            </figure>
+          </div>
+
+          <div class="grid-col-1of4">
+            <figure class="row-1of4">
+
+              <div class="listing-block">
+                
+                <div class="product-name">
+                  <h4>Summer Salad</h4>
+                </div>
+
+                <div class="food-listing">
+                  <img src="img/dishes/summer-salad.jpg">
+                </div>
+
+                <div class="listing-responsive">
+                  <div class="food-detail">
+
+                    <p>A simple spinach salad topped with pomegranate and packed with vitamins and antioxidants that taste delicious.</p>
+
+                    <p class="emphasis">$10.50</p>
+                  </div>
+                </div>
+
+                <div class="overlay">
+                    <a href="salad.html" class="order-now">ORDER NOW</a>
+                  </div>
+                </div>
+            </figure>
+          </div>
+
+          <div class="grid-col-1of4">
+            <figure class="row-1of4">
+
+              <div class="listing-block">
+                
+                <div class="product-name">
+                  <h4>Seafood Platter</h4>
+                </div>
+
+                <div class="food-listing">
+                  <img src="img/dishes/seafood-platter.jpg">
+                </div>
+
+                <div class="listing-responsive">
+                  <div class="food-detail">
+
+                    <p>Canadian prime strip loin, prawns, atlantic lobster tail, mashed potatoes, seasonal vegetables, brussels sprouts.</p>
+
+                    <p class="emphasis">$120.50</p>
+                  </div>
+                </div>
+
+                <div class="overlay">
+                    <a href="seafood.html" class="order-now">ORDER NOW</a>
+                  </div>
+                </div>
+            </figure>
+          </div>
+
+
+        </section>
 
       </section>
 
-       <section>
+
+      <!-- Design Element  -->
+
+
+      <section id="DE" class="need-white-space">
+
+        <section>
+
+          <h2>Grid Structures</h2>
+
+
+            <h3>PC Grid : 12 Column </h3>
+
+          
+            <figure>
+               <img src="img/" alt="pc-grid" >
+              
+             </figure>
+
+      
+
+            <h3>Mobile Grid : 3 Column </h3>
+
+            <figure>
+               <img src="img/" alt="mobile-grid" >
+              
+            </figure>
+
+  
+       </section>
 
 
 
-        <h2>Colour Swatch</h2>
+
+
+
+      <section>
+
+
+        <h2>Colour Palette</h2>
 
         
-          <figure>
-          <img src="img/colour-swatch.jpg" alt="colour-swatch" >
-            
-      </figure>
-    
+        <div class="color-box">
+          <h4></h4>
+          <p></p>
+        </div>
 
-    </section>
+          
+           
+      
 
-    </section>
+      </section>
 
+  </section>
 
-    <footer>
+ 
+
+  <footer>
       <section>
         <div id="social-media-icons" class="grid-col-1of2">
-          <a href="product1.html"><img src="img/food2.jpg"></a>
-          <a href="product1.html"><img src="img/food2.jpg"></a>
-          <a href="product1.html"><img src="img/food2.jpg"></a>
+          <a href="#"><img src="img/icons/fb.png"></a>
+          <a href="#"><img src="img/icons/inst.png"></a>
+          <a href="#"><img src="img/icons/twitter.png"></a>
+
+
         </div>
 
         <div id="copyright" class="grid-col-1of2">
           <p>All content © JOSA's Joanna &amp; Sally 2017</p>
           <p>|</p>
-          <p>Style Guide</p>
+          <p><a href="style.html">Style Guide</a></p>
           <p>|</p>
           <p>Citations</p>
           <p>|</p>
