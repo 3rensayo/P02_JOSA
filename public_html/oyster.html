@@ -51,12 +51,12 @@
 
 		<nav class="need-white-space">
 			<nav class="sub-nav">
-				<a href="home.html">Home</a>
-	            <p> > </p>
+				<a href="index.html">Home</a>
+	            <p>&gt;</p>
 	            <a href="listing.html">All Dishes</a>
-	            <p> > </p>
+	            <p>&gt;</p>
 	            <a href="listing.html">Brunch</a>
-	            <p> > </p>
+	            <p>&gt;</p>
 	            <a href="oyster.html">Oysters Rockefeller</a>
 	        </nav>
 	    </nav>
@@ -78,15 +78,15 @@
 
 					<div class="quantity">
 						<div class="food_quan">
-							<label class="quan_label">Quantity</label>
-							<select class="food_num">
+							<label class="quan_label" for="select_qty">Quantity</label>
+							<select id="select_qty" class="food_num">
 							  <option value="1">1</option>
 							  <option value="2">2</option>
 							  <option value="3">3</option>
 							  <option value="4">4</option>
-							</select>				
+							</select>	
 						</div>
-					</div>	
+					</div>
 
 					<div>
 						<a href="cart.html" class="button">Add to Cart</a>
@@ -140,27 +140,22 @@
 			<div class="grid-col-1of2 right">
 				<form class="review-form">
 
-					<!-- citation: http://www.webdesignerforum.co.uk/topic/50139-simple-form-fields-initial-values-disappear-and-re-appear-on-click-and-click-out/ -->
+					<label for="order_num">Order Number For Verification</label>
+					<input type="text" name="OrderNumber" id="order_num" placeholder="Given in the confirmation email">
 
-					<label>Order Number For Verification</label>
-					<input type="text" name="OrderNumber" placeholder="Given in the confirmation email">
-
-					<label>First Name</label>
-					<input type="text" name="FirstName" placeholder="First">
+					<label for="first-name">First Name</label>
+					<input type="text" name="FirstName" id="first-name" placeholder="First">
 					
-					<label>Last Name</label>
-						<input type="text" name="LastName" placeholder="Last">
+					<label for="last-name">Last Name</label>
+						<input type="text" name="LastName" id="last-name" placeholder="Last">
 
-					<label>Subject</label>
-					<input type="text" name="Subject" placeholder="Subject">
+					<label for="subject">Subject</label>
+					<input type="text" name="Subject" id="subject" placeholder="Subject">
 
-					<label>Comment</label>
-					<textarea name="Comment" placeholder="Give us a review"></textarea> 
-					
-						
-					<div class="button-center">
-						<a href="#" class="button">Submit</a>
-					</div>
+					<label for="comment">Comment</label>
+					<textarea name="Comment" id="comment" placeholder="Give us a review"></textarea> 
+										
+					<input type="submit" value="Submit" class="button">	
 				</form>
 			</div>
 		</section>
@@ -168,23 +163,16 @@
 		<footer>
 			<section class="footer_section">
 				<div id="social-media-icons" class="grid-col-1of2">
-					<a href="https://www.facebook.com/">
-						<img src="img/icons/fb.png" alt="facebook icon">
-					</a>
-
-					<a href="https://www.instagram.com/">
-						<img src="img/icons/inst.png" alt="instgram icon">
-					</a>
-					<a href="https://twitter.com/">
-						<img src="img/icons/twitter.png" alt="twitter icon">
-					</a>
+					<a href="https://www.facebook.com/"><img src="img/icons/fb.png" alt="facebook icon"></a>
+					<a href="https://www.instagram.com/"><img src="img/icons/inst.png" alt="instgram icon"></a>
+					<a href="https://twitter.com/"><img src="img/icons/twitter.png" alt="twitter icon"></a>
 				</div>
 
 				<div id="copyright" class="grid-col-1of2">
 					<p>All content © JOSA's Joanna &amp; Sally 2017</p>
 
 					<div class="footer-source">
-						<p>|</p>
+						<p class="bar-hidden">|</p>
 						<p><a href="style.html">Style Guide</a></p>
 						<p>|</p>
 						<p><a href="citation.html">Citations</a></p>
