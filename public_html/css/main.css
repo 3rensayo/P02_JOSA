@@ -163,9 +163,15 @@ img {
     height: auto;
 }
 
-/* Footer Styling */
+/*  Styling */
 footer {
   background-color: #262626;
+  width: 100%;
+}
+
+.footer_section {
+  background-color: #262626;
+  height: 3.5rem;
   width: 100%;
 }
 
@@ -179,7 +185,7 @@ footer {
   display: inline;
   float: left;
   text-align: left;
-  padding: 0 0.5rem;
+  padding: 0.5rem 0.5rem 0 0.5rem;
   color: #fff;
 }
 

@@ -599,6 +599,10 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	.home-block h1 {
 		font-size: 3rem;
 	}
+
+	footer .footer_section {
+	  height: 8rem;
+	}
 }
 
 
