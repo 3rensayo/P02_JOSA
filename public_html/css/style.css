@@ -57,9 +57,12 @@ section {
   width: 12%;
 }
 
-
 .nav-section .navBar {
   position: relative;
+}
+
+.blist_section ul {
+  list-style: none;
 }
 
 [class^='color-box'] {
