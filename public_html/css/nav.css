@@ -35,13 +35,11 @@
 
 .cart_icon:hover {
 	content: url('../img/icons/cart-h.png');
-	
 
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	
 	/*citation:http://stackoverflow.com/questions/4717117/css-image-link-change-on-hover*/
-
 }
 
 .resv_icon {
@@ -53,23 +51,14 @@
 	vertical-align: middle;
 }
 
-
 .resv_icon:hover {
 	content: url('../img/icons/opentble-h.png');
 	
-
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	
 	/*citation:http://stackoverflow.com/questions/4717117/css-image-link-change-on-hover*/
-	
-
-
 }
-
-
-
-
 
 nav ul {
 	width: 80%;
@@ -160,16 +149,12 @@ nav label:before {
 		transition: all 0.5s ease;
 		-webkit-transition: all 0.5s ease;
   	}
-
-
 }
 
 @media only screen and (max-width: 69rem) {
 
 	.cart_icon {
-	width: 8%;
-	
-
+		width: 8%;
 	}
 
 	.resv_icon {
@@ -231,13 +216,11 @@ nav label:before {
 @media only screen and (max-width: 40rem) {
 
 	.cart_icon {
-	width: 13%;
-	
-
+		width: 13%;
 	}
 
 	.resv_icon {
-	width: 8%;
+		width: 8%;
 	}
 
 	nav input, nav label {

@@ -18,24 +18,17 @@
 	clear: both;
 }
 
-
 .grid-col-1of3 {
 	width: 33.33%;
 }
 
 .grid-col-1of4 {
 	width: 25%;
-
 }
 
 .grid-col-1of2 {
 	width: 50%;
-
 }
-
-
-
-
 
 /******** MEDIA QUERIES *********/
 
@@ -132,11 +125,9 @@
 
   	.food_quan {
     	width: 18%;  
-   
 	}
 
 	/*menu page*/
-
 	.half-col-section [id^='content'] .grid-col-1of2 {
 		margin: 0;
 	}
@@ -182,7 +173,6 @@
 	#copyright .footer-source .bar-hidden {
 		display: none;
 	}
-
 }
 
 
@@ -206,11 +196,9 @@
 /* Mobile */
 @media screen and (max-width: 40rem) {
 
-
 	.row-1of3 {
  	 margin: 1rem 1.5rem;
 	}
-
 
     .grid-col-1of4 {
         display: block;
@@ -225,10 +213,8 @@
   	.row-1of4 {
 		padding: 0;
 		margin: 0;
-
 	}
 
-	
 	.block-content {
 		padding: 0 1.5rem;
 	}
@@ -239,19 +225,16 @@
 
 	.sub-nav {
 	  padding: 3rem 3.8rem 1rem 3.8rem;
-	 
 	}
 
 	.menu-sub {
 		padding: 3rem 0rem 1rem 0rem;
-
 	}
 
 	.single-product {
   		margin: 0 0.5rem;
 	}
 
-	
 	.food_quan {
     	width: 40%;
 	}
@@ -310,6 +293,4 @@
 	.half-col-section [id^='content'] .right {
 		padding-left: 0;
 	}
-
-
 }

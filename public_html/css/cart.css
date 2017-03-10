@@ -3,12 +3,7 @@
 /*http://bootsnipp.com/snippets/featured/shopping-cart-bs-3*/
 
 
-
-
-
 /*cart title*/
-
-
 .line, .line1 {
 	border-bottom: 0.08em solid #333;
     display: inline-block;
@@ -16,17 +11,9 @@
 }
 
 .cart-content .food_quan {
-
 	width: 30%;
 	margin-top: 1rem;
-
 }
-
-.cart-title {
-	/*margin-left: 5rem;*/
-}
-
-
 
 /*cart content*/
 .cart-img {
@@ -40,13 +27,11 @@
 .cart-product-info {
     padding: 2.5rem 0rem 0rem 0;
 	text-align: left;
-
 }
 
 .cart-product-text {
 	padding-top: 3rem;
 	text-align: center;
-	
 }
 
 .cart-d-hidden {
@@ -61,21 +46,17 @@
 
 .order-summary .cart-d-hidden {
 	visibility: visible;
-	/*font-weight: bold;*/
 	font-family: 'BrandonTextMedium', Verdana, sans-serif;
 	padding-right: 1rem;
-
 }
 
 .cart-content .left .line1 {
 	visibility: hidden;
 }
 
-
 .cart-content .checkout-preview {
 	color: #ccc;
 }
-
 
 /*price summary*/
 .cart-price p {
@@ -113,7 +94,6 @@
 }
 
 /*buttons*/
-
 .button {
 	display: block;
 	width: 100%;
@@ -123,17 +103,9 @@
 .checkout-button .button {
 	width: 99%;
 	margin-top: 1rem;
-
-
 }
 
-
-
-
-
-
 /*checkout-section*/
-
 .order-summary p, .order-summary h3 {
 	text-align: left;
 	margin-top: -0.5rem;
@@ -152,13 +124,6 @@
 .confirm_section {
 	margin-left: 5rem;
 }
-
-
-
-
-
-
-
 
 /*grid*/
 *, *::after, *::before {
@@ -193,15 +158,11 @@
 .grid-col-cart-4of12{
 	width: 30%;
 	padding-left:1rem;
-
 }
-
 
 .grid-col-cart-2of12 {
 	width: 16.5%;
-
 }
-
 
 /*checkout section*/
 .grid-col-checkout-8of12 {
@@ -214,35 +175,24 @@
 	text-align: left;
 }
 
-
 .homebut {
 	width:100%;
 	margin-left: 4rem;
 	margin-right: 4rem;
 }
 
-
-
 .grid-col-checkout-6of12 {
 	width: 50%;
-
 }
 
 .grid-col-checkout-6of12-homebut {
-		width: 100%;
-		padding: 0rem 7rem;
-
-	}
-
-
-
+	width: 100%;
+	padding: 0rem 7rem;
+}
 
 .grid-col-checkout-4of12 {
 	width: 40%;
 }
-
-
-
 
 .grid-col-cart-2of12 {
 	width: 15%;
@@ -253,7 +203,6 @@
 .grid-col-cart-3of12 {
 	width: 27.5%;	
 }
-
 
 .grid-col-checkout-2of12 {
 	width: 20%;
@@ -275,16 +224,11 @@
 	margin-left: 0.1rem;
 }
 
-
-
-
 @media only screen and (max-width: 75rem) {
-
 
 	.cart-content .grid-col-1of2 {
 		margin-bottom: 0rem;
 	}
-
 
 	.cart-content .left {
 		padding-right: 0;
@@ -302,12 +246,7 @@
 	margin-left: 0rem;
 	}
 
-
-
-
-
 	/*payment*/
-
 	.grid-col-payment-4of6 {
 		width: 60%;
 		
@@ -323,34 +262,19 @@
 		width: 18%;
 		
 	}
-
-
-
-
-
-
 }
-
 
 /*tablet*/
 @media only screen and (max-width: 69rem) {
 
-
 	/*cart title*/
-
-
 	.cart-title {
 		display: none;
-
-
-
 	}
-
 
 	/*cart content*/
 	.grid-col-cart-3of12 {
 		width: 50%;
-
 	}
 
 	.cart-product-info {
@@ -370,44 +294,28 @@
 
 	.order-summary .grid-col-cart-3of12 {
 		width: 27.5%;
-
 	}
-
 
 	/*price summary*/
 	.grid-col-checkout-2of12 {
 		width: 20%;
 	}
-
-
-
-
 }
-
-
-
-
 
 /*moile*/
 @media screen and (max-width: 45rem) {
 
-
-/*cart content*/
-
+	/*cart content*/
 	.grid-col-cart-3of12 {
 		width: 100%;
-
 	}
 
 	.order-summary .grid-col-cart-3of12 {
 		width: 100%;
-
 	}
 
 	.grid-col-cart-2of12 {
-		width: 25%;
-		
-		
+		width: 25%;	
 	}
 
 	.cart-content .left {
@@ -418,64 +326,45 @@
 		padding-top: 5rem;
 	}
 
-
 	.cart-content .food_quan {
-
-	width: 40%;
-
-
+		width: 40%;
 	}
-
-
 
 	.sum {
 		width: 50%;
 		text-align: left;
 		margin-top: 0;	
-
 	}
-
 
 	.grid-col-cart-4of12{
 		width: 100%;
 		padding: 0rem 1.5rem 0rem 1.5rem;
 	}
 
-
 	/*cart-price-summary */
 	.grid-col-cart-8of12 {
 		width: 0;
 	}
 
-
-
-
 	.need-white-space {
 		padding: 2rem 0rem;
-
 	}
 
 	.cart-content h4,p {
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
-
 	}
-
-
-
 
 	/*checkout*/
 	.grid-col-checkout-8of12 {
 		width: 0;
 	}
 
-	.checkout-nav  {
-		
+	.checkout-nav  {	
 		padding: 0rem 1.5rem;
 	}
 
 	/*buttons*/
-
 	.grid-col-checkout-6of12 {
 		width: 100%;
 		padding: 0rem 1.5rem 0rem 1.5rem;
@@ -483,10 +372,7 @@
 
 	.grid-col-checkout-6of12-homebut {
 		padding: 0rem 1.5rem 0rem 1.5rem;
-
 	}
-
-
 
 	/*payment*/
 	.review-form p {
@@ -501,22 +387,15 @@
 
 	.grid-col-payment-2of6 {
 		width: 32.35%;
-
 	}
-
 
 	.grid-col-payment-4of6 {
 		width: 55%;
-		
 	}
-
 
 	.grid-col-payment-1of6 {
 		width: 21.2%;
-		
 	}
-
-
 }
 
 

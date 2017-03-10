@@ -23,24 +23,6 @@
 	border-color: rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 75rem) {
-
-	.home-block h1 {
-		font-size: 3rem;
-	}
-}
-
-@media screen and (max-width: 35rem) {
-
-	.home-block h1 {
-		font-size: 2rem;
-	}
-
-	.home-block p {
-		font-size: 1rem;
-	}
-}
-
 .title-section-home {
 	background: 
     linear-gradient(
@@ -75,7 +57,6 @@
 	height: 25rem;
 	display: flex;
     align-items: center; 
-
 /*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
 
@@ -104,13 +85,7 @@
 
 .listing-block {
 	background-color: #ffffff;
-/*	width: 100%;
-	height: 29.5rem;
-	text-align: center;
-	position: relative;*/
-
 	/*citation: https://www.w3schools.com/css/css3_shadows.asp*/
-
 	width: 100%;
     height: 29.5rem;
     float: left;
@@ -184,7 +159,6 @@
 #review-container {
 	height: 35rem;
 	overflow: scroll;
-
 }
 
 .review-form label {
@@ -202,7 +176,6 @@
 }
 
 input[type=submit] {
-
 	padding: 0.8em 5em 0.8em 5em ;
 	margin-top: 2rem;
 	background-color: rgba(255, 255, 255, 0);
@@ -215,7 +188,6 @@ input[type=submit] {
 
 input[type=text] {	
 	height: 3rem;
-
 }
 
 textarea {
@@ -279,9 +251,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 /*citation: https://css-tricks.com/crop-top/*/
 
-
 /* Story section on home page*/
-
 .half-col-flexbox {
 	background-color: #eee;
 
@@ -326,7 +296,6 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	text-align: center;
 }
 
-
 .block-content h3 {
 	text-align: left;
 }
@@ -343,7 +312,6 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	list-style: none;
 	margin-bottom: 2rem;
 	text-align: left;
-
 }
 
 .reward {
@@ -356,7 +324,6 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	font-style: italic;
 }
 
-
 .block-content p {
 	margin: 0;
 }
@@ -365,18 +332,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
     width: 95%;
 }
 
-
-    
-
-
-/*<<<<<<< Updated upstream*/
-/* other sections
-=======*/
-
-
-
 /* service sections on home*/
-
 .service-block {
 	width: 100%;
 }
@@ -388,50 +344,6 @@ label:not(#css-toggle-menu):not(.quan_label) {
 .service-block p{
 	font-size: 0.75rem;
 	text-align: left;
-}
-
-@media screen and (max-width: 75rem) {
-
-	.service-block img{
-	width: 15%;
-	}
-
-	.review-block {
-    
-    margin-right: 0;
-	}
-
-	.block-content .checkout-button .button {
-    width: 100%;
-	}
-}
-
-@media screen and (max-width: 35rem) {
-
-	.service-block img{
-	width: 30%;
-	}
-
-	.block-content ul {
-		margin-left: 0;
-	}
-
-	.review-form .button, .block-content .button  {
-
-		display: block;
-	
-	}
-
-	.review-form input[type=submit],
-	.button-center {
-		
-	    width: 100%;
-	}
-
-	.button-center1 {
-		margin: 2rem 1.5rem 1rem 1.5rem;
-	    
-	}
 }
 
 /*About*/
@@ -613,7 +525,6 @@ label:not(#css-toggle-menu):not(.quan_label) {
 }
 
 .contact_icon {
-
 	width: 6%;
 	margin-right: 2rem;
 	margin-bottom: 1rem;
@@ -672,22 +583,62 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	.half-col-section .right {
 		padding-left: 0rem;
 	}
+
+	.service-block img{
+		width: 15%;
+	}
+
+	.review-block {
+    	margin-right: 0;
+	}
+
+	.block-content .checkout-button .button {
+    	width: 100%;
+	}
+
+	.home-block h1 {
+		font-size: 3rem;
+	}
 }
 
 
 @media screen and (max-width: 35rem) {
-
 	
 	.contact_icon {
+		width: 8%;
+	}
 
-	width: 8%;
-	
+	.service-block img{
+		width: 30%;
+	}
 
-	} 
+	.block-content ul {
+		margin-left: 0;
+	}
 
+	.review-form .button, .block-content .button  {
+		display: block;
+	}
 
-	
+	.review-form input[type=submit],
+	.button-center {
+	    width: 100%;
+	}
 
+	.button-center1 {
+		margin: 2rem 1.5rem 1rem 1.5rem;  
+	}
 
+	.home-block h1 {
+		font-size: 2rem;
+	}
+
+	.home-block p {
+		font-size: 1rem;
+	}
 }
+
+
+	
+
 

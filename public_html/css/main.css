@@ -122,11 +122,6 @@ img {
 
 /* Header */
 
-
-/*.center-heading {
-  text-align: center;
-}*/
-
 ::-webkit-scrollbar { 
   display: none; 
 }
@@ -143,7 +138,6 @@ img {
 }
 
 /*food selection*/
-
 .quantity {
   display: block;
   float: left;
@@ -160,7 +154,6 @@ img {
     width: 29%;
     padding: 0.5rem 1rem;
     margin-bottom: 1rem;
-   
 }
 
 .food_num {
@@ -171,14 +164,13 @@ img {
 }
 
 /* Footer Styling */
-
 footer {
   background-color: #262626;
   width: 100%;
 }
 
 .footer-source a:visited{
-  color: white;
+  color: #ffffff;;
 }
 
 #copyright p {
@@ -201,13 +193,11 @@ footer {
 }
 
 /* In-Text Links Styling */
-
 a {
   text-decoration: none;
 }
 
 /* Sub Navigation Styling */
-
 .sub-nav a, .checkout-nav a{
   color: #000;
 }
@@ -228,10 +218,9 @@ a {
   display: inline;
   padding: 0 0.5rem;
   margin: 0;
-
 }
-/* Button Styling */
 
+/* Button Styling */
 .button {
   font-size: 0.75rem;
   letter-spacing: 0.05rem;
@@ -256,44 +245,4 @@ a {
   background-color: rgb(227, 212, 171);
   border-color: rgb(227, 212, 171);
   color: rgb(255, 255, 255);
- 
 }
-
-
-
-/*.topimg {
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(food3.jpg);
-  background-size: cover;
-  z-index: 5;
- 
-}
-*/
-
-
-
-/*.topimg h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
- 
-
-  
-  
-  font-size: 2rem;
-  
-  white-space: nowrap;
-  overflow-y: hidden;
-
-}
-*/
-
-
-

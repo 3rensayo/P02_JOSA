@@ -1,22 +1,14 @@
-
-
 /*interaction section*/
-
-
-
 #IE, #TE, #CE, #DE section {
   border: none;
 }
-
 
 .text_elements h1,h2 {
   text-transform: uppercase;
   text-align: left;
 }
 
-
-
- #IE h2 {
+#IE h2 {
   text-transform: uppercase;
   text-align: left;
 }
@@ -52,7 +44,7 @@ section {
   padding-top: 0;
 }
 
-.input_section input,textarea {
+.input_section input, textarea {
   width: 50%;
   
 }
@@ -68,11 +60,7 @@ section {
 
 .nav-section .navBar {
   position: relative;
-  }
-
-
-
-
+}
 
 [class^='color-box'] {
     display: inline-block;
@@ -89,7 +77,6 @@ section {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
-
 
 [class^='color-box'] h2 {
   font-size: 1.1em;
@@ -141,34 +128,20 @@ section {
 
 
 @media screen and (max-width: 78rem) {
-
-
   .grid-col-1of6 {
    width: 32%;
   }
-
-
-
-
-
 }
 
 
 @media screen and (max-width: 69rem) {
-
-
    .nav-section nav ul {
     display: none;
   }
-
-
-
-
 }
 
 
 @media screen and (max-width: 65rem) {
-
 
   .grid-col-1of6 {
    width: 49%;
@@ -177,20 +150,10 @@ section {
   .input_section .food_quan {
     width: 28%;
   }
-
-  
-
-
-
-
-
-
-
 }
 
 
 @media screen and (max-width: 35rem) {
-
 
   .grid-col-1of6 {
    width: 100%;
@@ -200,16 +163,9 @@ section {
     padding: 3rem 1.5rem 1.5rem;
   }
 
-  .input_section input,textarea {
-  width: 100%;
-  
+  .input_section input, textarea {
+    width: 100%;
   }
-
- 
-  
-
-
-
 }
 
 
