@@ -252,14 +252,13 @@
 	}
 
 	
-
-
 	.food_quan {
-    width: 40%;
-    
-   
+    	width: 40%;
 	}
 
+	.checkout-button .grid-col-checkout-6of12 {
+		padding: 0;
+	}
 
 	.half-col-flexbox .grid-col-1of2 .half-col-img {
 		/*display: flex;

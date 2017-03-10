@@ -260,8 +260,7 @@
 	margin-top: 2rem;
 }
 
-input[type=submit],
-input[type=button] {
+input[type=submit] {
 
 	padding: 0.8em 5em 0.8em 5em ;
 	margin-top: 2rem;
@@ -497,6 +496,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	
 	}
 
+	.review-form input[type=submit],
 	.button-center {
 		
 	    width: 100%;
