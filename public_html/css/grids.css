@@ -179,6 +179,10 @@
 		padding-bottom: 1rem;
 	}
 
+	#copyright .footer-source .bar-hidden {
+		display: none;
+	}
+
 }
 
 

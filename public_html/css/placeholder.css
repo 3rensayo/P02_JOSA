@@ -245,9 +245,10 @@
 
 }
 
-.review-form {
+.review-form label {
 	text-align: left;
 }
+
 
 .review-form .button-center {
 	display: block;
@@ -259,11 +260,19 @@
 	margin-top: 2rem;
 }
 
+input[type=submit] {
+	
+	padding: 0.8em 5em 0.8em 5em ;
+	margin-top: 2rem;
+	background-color: rgba(255, 255, 255, 0);
+	font-size: 0.75rem;
+}
+
 .checkout-button .button-center {
 	margin-top: 1rem;
 }
 
-input:not(.radio-option) {	
+input[type=text] {	
 	height: 3rem;
 
 }
@@ -272,7 +281,7 @@ textarea {
 	height: 5rem;
 }
 
-input, textarea {
+input[type=text], textarea {
 	font-family: 'BrandonTextLight', Verdana, sans-serif;
 	padding-left: 0.5rem;
 	color: rgb(0, 0, 0);
@@ -280,7 +289,7 @@ input, textarea {
 	border: 0.1rem solid rgb(0, 0, 0);
 }
 
-input:not(.radio-option), textarea {
+input[type=text], textarea  {
 	width: 100%;
 }
 
