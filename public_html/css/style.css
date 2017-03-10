@@ -72,5 +72,20 @@ section {
     text-align: center;
     width: 210px;
     height: 200px;
-    background-color: #262626;
+    color: white;
 }
+
+.color-box h2 {
+
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  }
+
+.color-box p {
+
+  text-align: center;
+
+  }
