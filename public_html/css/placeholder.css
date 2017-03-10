@@ -28,11 +28,7 @@
 	.home-block h1 {
 		font-size: 3rem;
 	}
-
-
 }
-
-
 
 @media screen and (max-width: 35rem) {
 
@@ -106,7 +102,6 @@
 	clear: both;
 }
 
-
 .listing-block {
 	background-color: #ffffff;
 /*	width: 100%;
@@ -137,20 +132,8 @@
 	height: auto;
 	background-color: #ffffff;
 	color: #3c4a50;
-/*	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,100%,0);*/
 	visibility: visible;
-
 }
-
-
-/*
-.listing-block:hover .listing-responsive {
-    -webkit-transform: translate3d(0,-10%,0);
-	transform: translate3d(0,-10%,0);
-}*/
 
 .listing-block .order-now {
 	text-decoration: none;
@@ -165,46 +148,6 @@
 	margin: 0px;
 	display: inline-block;
 }
-
-/*.listing-block .order-now {
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,200%,0);
-	transform: translate3d(0,200%,0);
-	visibility: visible;
-}*/
-
-/*.listing-block:hover .overlay,
-.listing-block:hover .order-now {
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-
-	-webkit-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-}
-
-.listing-block:hover .order-now {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
-}
-
-.listing-block:hover .overlay:hover,
-.listing-block:hover .order-now:hover {
-	background-color: rgb(227, 212, 171);
-}*/
-
-
-/*.order-now {
-	font-size: 1.5rem;
-	white-space: nowrap; 
-	color: white;
-	position: absolute;
-	overflow: hidden;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-}*/
 
 .product-name {
 	background-color: #fff;
@@ -225,8 +168,7 @@
 .food-detail {
 	margin-top: 1rem;
    padding: 1.5rem;
-    font-size: 0.9em;
-    
+    font-size: 0.9em;  
 }
 
 .food-detail .button {
@@ -248,7 +190,6 @@
 .review-form label {
 	text-align: left;
 }
-
 
 .review-form .button-center {
 	display: block;
@@ -324,16 +265,16 @@ label:not(#css-toggle-menu):not(.quan_label) {
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: rgb(219, 193, 124);;
+  color: rgb(219, 193, 124);
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: rgb(219, 193, 124);;
+  color: rgb(219, 193, 124);
 }
-:-ms-input-placeholder { /* IE 10+ */
-  color: rgb(219, 193, 124);;
+::-ms-input-placeholder { /* IE 10+ */
+  color: rgb(219, 193, 124);
 }
-:-moz-placeholder { /* Firefox 18- */
-  color: rgb(219, 193, 124);;
+::-moz-placeholder { /* Firefox 18- */
+  color: rgb(219, 193, 124);
 }
 
 /*citation: https://css-tricks.com/crop-top/*/
@@ -390,9 +331,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	text-align: left;
 }
 
-.block-content .button {
-   
-    
+.block-content .button {   
     text-align: center;
     margin-top: 2rem;
 }
@@ -424,16 +363,15 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 .block-content .checkout-button .button {
     width: 95%;
-   
 }
 
 
     
 
 
-<<<<<<< Updated upstream
-/* other sections*/
-=======
+/*<<<<<<< Updated upstream*/
+/* other sections
+=======*/
 
 
 
@@ -465,16 +403,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 	.block-content .checkout-button .button {
     width: 100%;
-   
-}
-
-
-	
-
-
-
-
-
+	}
 }
 
 @media screen and (max-width: 35rem) {
@@ -482,9 +411,6 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	.service-block img{
 	width: 30%;
 	}
-
-	
-
 
 	.block-content ul {
 		margin-left: 0;
@@ -506,13 +432,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 		margin: 2rem 1.5rem 1rem 1.5rem;
 	    
 	}
-
-
-
-
-
 }
-
 
 /*About*/
 .title-section-about {
@@ -532,7 +452,6 @@ label:not(#css-toggle-menu):not(.quan_label) {
 .whole-col-sec {
 	padding: 5rem;
 }
-
 
 
 /*menu page styling*/
@@ -706,30 +625,21 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	margin-left: 4rem;
 }
 
-
-
 .block-contet li {
 	margin-bottom: 1rem;
 }
-
-
-
 
 .map-section iframe {
 	width: 100%;
 	height: 20rem;
 	border: none;
-	pointer-events: none;
 	display: flex;
 	justify-content: center;
     align-items: center;
     overflow: hidden;
-
 }
 
-
 /* cart section styling*/
-
 #cart-section {
 	width: 100%;
 	height: 20rem;
