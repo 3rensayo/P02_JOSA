@@ -68,15 +68,15 @@
 				
 			    	<a href="cart.html">Cart</a>
 
-			    	<p class="checkout-preview"> > </p>
+			    	<p class="checkout-preview">&gt;</p>
 
 			    	<p>Contact Information</p>
 			    
-			    	<p class="checkout-preview"> > </p>
+			    	<p class="checkout-preview">&gt;</p>
 		    	
 			    	<p class="checkout-preview">Payment Method</p>			 
 			    
-			    	<p class="checkout-preview"> > </p>
+			    	<p class="checkout-preview">&gt;</p>
 			 
 			    	<p class="checkout-preview">Confirmation</p>
 
@@ -183,52 +183,64 @@
 				<h2>CUSTOMER CONTACT</h2>
 				
 
-				<form class="review-form">
+				<form class="review-form" action="payment.html">
 
 					<!-- citation: http://www.webdesignerforum.co.uk/topic/50139-simple-form-fields-initial-values-disappear-and-re-appear-on-click-and-click-out/ -->
 
 
-					<label>Name</label>
-					<input type="text" name="Name" placeholder="Name">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="Name" placeholder="Name">
 					
 					
-					<label>Phone Number</label>
-					<input type="text" name="Phone" placeholder="Phone">
+					<label for="phone">Phone Number</label>
+					<input type="text" id="phone" name="Phone" placeholder="Phone">
 					
-					<label>Email</label>
-						<input type="text" name="Email" placeholder="Email">
+					<label for="email">Email</label>
+					<input type="text" id="email" name="Email" placeholder="Email">
 					<!-- citation: https://css-tricks.com/almanac/selectors/p/placeholder/ -->
 
 					<div class="quantity">
 						<div class="food_quan">
-							<label class="quan_label">Pickup Time</label>
-								<select class="food_num">
-								    <option value="1">10:00AM</option>
-									<option value="2">10:30AM</option>
-									 <option value="3">11:00AM</option>
-									 <option value="4">11:30AM</option>
-									 <option value="1">12:00PM</option>
-									 <option value="2">12:30PM</option>
-									 <option value="3">01:00PM</option>
-									 <option value="4">01:30PM</option>
-									 <option value="1">02:00PM</option>
-									 <option value="2">02:30PM</option>
-									 <option value="3">03:00PM</option>
-									 <option value="4">03:30PM</option>
-									 <option value="1">04:00PM</option>
-									 <option value="2">04:30PM</option>
-									 <option value="3">05:00PM</option>
-									 <option value="4">5:30PM</option>
-									 <option value="1">06:00PM</option>
-									 <option value="2">06:30PM</option>
-									 <option value="3">07:00PM</option>
-									 <option value="4">07:30PM</option>
-									 <option value="3">08:00PM</option>
-									 <option value="4">08:30PM</option>
-									 <option value="1">09:00PM</option>
-								</select>	 
-							
+							<label for="pickup" class="quan_label">Pickup Time</label>
+							<select id="pickup" class="food_num">
+							    <option value="1">10:00AM</option>
+								<option value="2">10:30AM</option>
+								 <option value="3">11:00AM</option>
+								 <option value="4">11:30AM</option>
+								 <option value="1">12:00PM</option>
+								 <option value="2">12:30PM</option>
+								 <option value="3">01:00PM</option>
+								 <option value="4">01:30PM</option>
+								 <option value="1">02:00PM</option>
+								 <option value="2">02:30PM</option>
+								 <option value="3">03:00PM</option>
+								 <option value="4">03:30PM</option>
+								 <option value="1">04:00PM</option>
+								 <option value="2">04:30PM</option>
+								 <option value="3">05:00PM</option>
+								 <option value="4">5:30PM</option>
+								 <option value="1">06:00PM</option>
+								 <option value="2">06:30PM</option>
+								 <option value="3">07:00PM</option>
+								 <option value="4">07:30PM</option>
+								 <option value="3">08:00PM</option>
+								 <option value="4">08:30PM</option>
+								 <option value="1">09:00PM</option>
+							</select>	 							
 						</div>			
+					</div>
+
+					<div class="checkout-button">
+						<div class="grid-col-checkout-6of12">
+							<a href="cart.html" class="button">RETURN TO CART</a>
+						</div>
+
+						<div class="grid-col-checkout-6of12">
+							<!-- <a href="payment.html" class="button">PROCEED TO PAYMENT</a> -->
+							
+							<input type="submit" value="PROCEED TO PAYMENT" class="button">
+							
+						</div>
 					</div>
 
 				</form>
@@ -236,7 +248,7 @@
 				<!-- buttons -->
 
 				
-				<div class="checkout-button">
+				<!-- <div class="checkout-button">
 					<div class="grid-col-checkout-6of12">
 						<a href="cart.html" class="button">RETURN TO CART</a>
 					</div>
@@ -244,7 +256,7 @@
 					<div class="grid-col-checkout-6of12">
 						<a href="payment.html" class="button">PROCEED TO PAYMENT</a>
 					</div>
-				</div>
+				</div> -->
 
 				
 			</div>
@@ -259,9 +271,9 @@
 		<footer>
 			<section class="footer_section">
 				<div id="social-media-icons" class="grid-col-1of2">
-					<a href="#"><img src="img/icons/fb.png" alt="facebook icon"></a>
-					<a href="#"><img src="img/icons/inst.png" alt="instgram icon"></a>
-					<a href="#"><img src="img/icons/twitter.png" alt="twitter icon"></a>
+					<a href="https://www.facebook.com/"><img src="img/icons/fb.png" alt="facebook icon"></a>
+					<a href="https://www.instagram.com/"><img src="img/icons/inst.png" alt="instgram icon"></a>
+					<a href="https://twitter.com/"><img src="img/icons/twitter.png" alt="twitter icon"></a>
 
 
 				</div>
@@ -270,7 +282,7 @@
 					<p>All content © JOSA's Joanna &amp; Sally 2017</p>
 
 					<div class="footer-source">
-						<p>|</p>
+						<p class="bar-hidden">|</p>
 						<p><a href="style.html">Style Guide</a></p>
 						<p>|</p>
 						<p><a href="citation.html">Citations</a></p>
