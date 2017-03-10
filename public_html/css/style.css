@@ -32,6 +32,10 @@ section {
   width: 100%;
 }
 
+.footer_section {
+  padding: 0rem 0rem;
+}
+
 .nav-but {
   background-color: #262626;
   width: 100%;
