@@ -31,7 +31,8 @@
 
 .cart-product-text {
 	padding-top: 3rem;
-	text-align: center;
+    text-align: left;
+    padding-left: 1rem;
 }
 
 .cart-d-hidden {
@@ -202,6 +203,7 @@
 
 .grid-col-cart-3of12 {
 	width: 27.5%;	
+	padding-right: 2rem;
 }
 
 .grid-col-checkout-2of12 {
@@ -277,6 +279,7 @@
 		width: 50%;
 	}
 
+
 	.cart-product-info {
 		padding: 0;
 	}
@@ -284,6 +287,7 @@
 	.cart-product-text {
 		text-align: left;
 		padding-top: 0rem;
+		padding-left: 0rem;
 	}
 
 	.cart-d-hidden {
@@ -316,6 +320,10 @@
 
 	.grid-col-cart-2of12 {
 		width: 25%;	
+	}
+
+	.cart-product-text {
+    padding-left: 1.5rem;
 	}
 
 	.cart-content .left {
