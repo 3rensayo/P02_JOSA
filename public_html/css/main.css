@@ -175,9 +175,24 @@ footer {
   width: 100%;
 }
 
-.footer-source a:visited{
-  color: #ffffff;;
+.footer-source a {
+  text-decoration: none;
+  color: #ffffff;
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
+
+.footer-source a:hover, .footer-source a:focus, .footer-source a:active {
+  color: rgb(219, 193, 124);
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/*.footer-source a:visited{
+  color: #ffffff;;
+}*/
 
 #copyright p {
   font-family: 'BrandonTextLight', Verdana, sans-serif;
@@ -201,6 +216,17 @@ footer {
 /* In-Text Links Styling */
 a {
   text-decoration: none;
+  color: #000;
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+a:hover, a:focus, a:active {
+  color: rgb(219, 193, 124);
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 /* Sub Navigation Styling */
