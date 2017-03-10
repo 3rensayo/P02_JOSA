@@ -252,10 +252,17 @@
 	text-align: left;
 }
 
-.review-form .button {
-	text-align: center;
-	margin: 0;
+.review-form .button-center {
 	display: block;
+}
+
+.button-center {
+	text-align: center;
+	display: inline-block;
+	margin-top: 2rem;
+}
+
+.checkout-button .button-center {
 	margin-top: 1rem;
 }
 
@@ -477,10 +484,24 @@ label:not(#css-toggle-menu):not(.quan_label) {
 		margin-left: 0;
 	}
 
+	.review-form .button, .block-content .button  {
 
-
-
+		display: block;
 	
+	}
+
+	.button-center {
+		
+	    width: 100%;
+	}
+
+	.button-center1 {
+		margin: 2rem 1.5rem 1rem 1.5rem;
+	    
+	}
+
+
+
 
 
 }
