@@ -158,6 +158,27 @@
 	.half-col-section [id^='content'] .right {
 		padding-left: 0;
 	}
+
+	/*footer*/
+	.footer_section .grid-col-1of2 {
+		width: 100%;
+	}
+
+	#social-media-icons img {
+		float: none;
+	}
+
+	#copyright p {
+    
+     float: none; 
+     text-align: center;
+	}
+
+	.footer-source{
+		padding-top:0.5rem;
+		padding-bottom: 1rem;
+	}
+
 }
 
 

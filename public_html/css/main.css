@@ -177,6 +177,10 @@ footer {
   width: 100%;
 }
 
+.footer-source a:visited{
+  color: white;
+}
+
 #copyright p {
   font-family: 'BrandonTextLight', Verdana, sans-serif;
   font-size: 0.73rem;
