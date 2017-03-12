@@ -144,8 +144,6 @@ label .bar1, label .bar2, label .bar3 {
     -webkit-transition: all 0.5s ease;
   	transition: all 0.5s ease;
 
-
-
 /*    width: 1.8rem;
     height: 1px;
     background-color: #fff;
@@ -155,7 +153,7 @@ label .bar1, label .bar2, label .bar3 {
 
 /* Rotate first bar */
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-0.1rem, 1rem) ;
+    -webkit-transform: rotate(-45deg) translate(-0.1rem, 1rem);
     transform: rotate(-45deg) translate(-0.1rem, 1rem);
 }
 
@@ -166,14 +164,9 @@ label .bar1, label .bar2, label .bar3 {
 
 /* Rotate last bar */
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    -webkit-transform: rotate(45deg) translate(-0.5rem, -0.6rem);
     transform: rotate(45deg) translate(-0.5rem, -0.6rem);
 }
-
-/*nav label:before {
-	content: "\f0c9";
-	text-align: center;
-}*/
 
 /*************** MEDIA QUERIES *******************/
 @media only screen and (max-width: 90rem) {

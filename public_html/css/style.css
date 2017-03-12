@@ -64,6 +64,9 @@ section {
   list-style: none;
 }
 
+.style-nav {
+  z-index: -1;
+}
 
 [class^='color-box'] {
     display: inline-block;
