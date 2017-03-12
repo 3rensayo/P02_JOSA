@@ -2,20 +2,6 @@
 
 /*http://bootsnipp.com/snippets/featured/shopping-cart-bs-3*/
 
-/* cart section styling*/
-.cart-section {
-	width: 100%;
-	height: 20rem;
-	display: flex;
-    align-items: center; 
-    background-color: #262626;
-/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
-}
-
-.cart-section h1, .cart-section p {
-	color: #fff;
-}
-
 .cart-title h2 {
 	padding: 0;
 	margin: 0;
