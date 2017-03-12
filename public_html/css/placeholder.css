@@ -29,7 +29,7 @@
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
       ),
-    url('../img/dishes/food3.jpg');
+    url('../img/home.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -261,7 +261,6 @@ label:not(#css-toggle-menu):not(.quan_label) {
   	flex-direction: row;
   	align-items: center;
   	flex-wrap: wrap;
-  	
 }
 
 .half-col-flexbox::after {
@@ -350,7 +349,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 /*About*/
 .title-section-about {
-	background-image: url('../img/abou1.jpg');
+	background-image: url('../img/about.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -370,7 +369,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 /*menu page styling*/
 .title-section-menu {
-	background-image: url('../img/dishes/food5.jpg');
+	background-image: url('../img/menu.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -443,7 +442,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 /*events page styling*/
 
 .title-section-events {
-	background-image: url('../img/rest2.jpg');
+	background-image: url('../img/events.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -514,7 +513,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 /*contact section*/
 .title-section-contact {
-	background-image: url('../img/rest1.jpg');
+	background-image: url('../img/contact.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -616,12 +615,12 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	      rgba(0, 0, 0, 0.3),
 	      rgba(0, 0, 0, 0.3)
 	      ),
-		url(../img/dishes/food3-small.jpg);
+		url(../img/home-small.jpg);
 		background-position: top center;
 	}
 
 	section.title-section-about {
-		background: url(../img/abou1-small.jpg);
+		background: url(../img/about-small.jpg);
 		background-position: top center;
 	}
 
@@ -631,7 +630,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	}
 
 	section.title-section-menu {
-		background: url(../img/dishes/menu-small.jpg);
+		background: url(../img/menu-small.jpg);
 		background-position: top center;
 	}
 
