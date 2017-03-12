@@ -2,6 +2,24 @@
 
 /*http://bootsnipp.com/snippets/featured/shopping-cart-bs-3*/
 
+/* cart section styling*/
+.cart-section {
+	width: 100%;
+	height: 20rem;
+	display: flex;
+    align-items: center; 
+    background-color: #262626;
+/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
+}
+
+.cart-section h1, .cart-section p {
+	color: #fff;
+}
+
+.cart-title h2 {
+	padding: 0;
+	margin: 0;
+}
 
 /*cart title*/
 .line, .line1 {
@@ -55,7 +73,7 @@
 	visibility: hidden;
 }
 
-.cart-content .checkout-preview {
+.checkout-nav .checkout-preview {
 	color: #ccc;
 }
 
@@ -326,10 +344,6 @@
     padding-left: 1.5rem;
 	}
 
-	.cart-content .left {
-		padding-top: 5rem;
-	}
-
 	.cart-content .right {
 		padding-top: 5rem;
 	}
@@ -366,10 +380,6 @@
 	/*checkout*/
 	.grid-col-checkout-8of12 {
 		width: 0;
-	}
-
-	.checkout-nav  {	
-		padding: 0rem 1.5rem;
 	}
 
 	/*buttons*/

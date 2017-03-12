@@ -552,34 +552,6 @@ label:not(#css-toggle-menu):not(.quan_label):not(#toggle-menu) {
     overflow: hidden;
 }
 
-/* cart section styling*/
-#cart-section {
-	width: 100%;
-	height: 20rem;
-	display: flex;
-    align-items: center; 
-    background-color: #262626;
-/*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
-}
-
-#cart-section h1, #cart-section p {
-	color: #fff;
-}
-
-.cart-title h2 {
-	padding: 0;
-	margin: 0;
-}
-
-#cart_icon {
-	width: 30%;
-	margin-top: 0.25rem;
-}
-#cart_icon:hover {
-    content: url('../img/icons/cart-h.png');
-/*    height: 70px;
-    width: 120px;*/
-}
 
 @media screen and (max-width: 75rem) {
 	.half-col-section .right {
