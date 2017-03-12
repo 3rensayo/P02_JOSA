@@ -28,7 +28,7 @@
     linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ),
+      ),
     url('../img/dishes/food3.jpg');
 	background-position: top center;
 	background-attachment: fixed;
@@ -442,7 +442,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 /*events page styling*/
 
-.title-section-news {
+.title-section-events {
 	background-image: url('../img/rest2.jpg');
 	background-position: top center;
 	background-attachment: fixed;
@@ -456,18 +456,18 @@ label:not(#css-toggle-menu):not(.quan_label) {
 /*    citation: http://sixrevisions.com/css/responsive-background-image/;*/
 }
 
-.news-detail {
+.events-detail {
 	padding: 1.5rem;
 }
 
-.news-detail h4 {
+.events-detail h4 {
 	margin: 0;
 	padding: 0 0 1rem 0;
 	text-align: left;
 
 }
 
-.news-detail p {
+.events-detail p {
 	margin: 0;
 	text-align: left;
 }
@@ -479,26 +479,26 @@ label:not(#css-toggle-menu):not(.quan_label) {
 	color: rgb(219, 193, 124);
 }
 
-.news-listing {
+.events-listing {
 	background-color: #ccc;
 	height: 19rem;
 	overflow: hidden;
 }
 
-.news-listing img {
+.events-listing img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
 }
 
-.news-listing::after {
+.events-listing::after {
 	content: "";
 	display: block;
 	clear: both;
 }
 
-.news-block {
+.events-block {
 	background-color: #ffffff;
 	width: 100%;
 	height: 43rem;
@@ -507,7 +507,7 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 }
 
-.news-section {
+.events-section {
 	background-color: rgb(245, 245, 245);
 }
 
@@ -605,6 +605,44 @@ label:not(#css-toggle-menu):not(.quan_label) {
 
 	footer .footer_section {
 	  height: 8rem;
+	}
+}
+
+@media screen and (max-width: 40rem) {
+		/*title image*/
+	section.title-section-home {
+		background: 
+    	linear-gradient(
+	      rgba(0, 0, 0, 0.3),
+	      rgba(0, 0, 0, 0.3)
+	      ),
+		url(../img/dishes/food3-small.jpg);
+		background-position: top center;
+	}
+
+	section.title-section-about {
+		background: url(../img/abou1-small.jpg);
+		background-position: top center;
+	}
+
+	section.title-section-events {
+		background: url(../img/events-small.jpg);
+		background-position: top center;
+	}
+
+	section.title-section-menu {
+		background: url(../img/dishes/menu-small.jpg);
+		background-position: top center;
+	}
+
+	section.title-section-listing {
+		background: url(../img/orderonline-small.jpg);
+		background-position: top center;
+	}
+
+	section.title-section-contact {
+		background: url(../img/contact-small.jpg);
+		background-position: top center;
 	}
 }
 
