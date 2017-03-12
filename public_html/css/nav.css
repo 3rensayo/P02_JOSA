@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
 /***************** NAVIGATION ********************/
 .navBar {
 	background-color: #262626;
@@ -11,6 +16,8 @@
 	display: inline-block;
   	padding-top: 1.5rem;
   	padding-bottom: 1.5rem;
+  	font-size: 1.5rem;
+  	letter-spacing: 0.3rem;
 
     -webkit-transition: all 0.5s ease;
   	transition: all 0.5s ease;
@@ -28,7 +35,7 @@
 .cart_icon {
 	content: url('../img/icons/cart.png');
 
-	width: 30%;
+	width: 1.7rem;
 	vertical-align: middle;
 	margin-bottom: 0.5rem;
 }
@@ -45,7 +52,7 @@
 .resv_icon {
 	content: url('../img/icons/opentble.png');
 	
-	width: 10%;
+	width: 1.3rem;
 	margin-right: 0.2rem;
 	margin-bottom: 0.3rem;
 	vertical-align: middle;
@@ -97,19 +104,19 @@ nav li {
 
 nav input, nav label {
 	display: none;
-	width: 3rem; 
+/*	width: 3rem; 
 	height: 3rem; 
 	background: rgb(213, 181, 123);
 	color: #ffffff; 
 	text-align: center; 
 	line-height: 3rem;
 	font-size: 1.6rem;
-	border-radius: 0.3em;
+	border-radius: 0.3em;*/
 } 
 
 nav label {
 	position: absolute;
-	top: 0.7rem;
+	top: 0.9rem;
 	right: 2rem;
 
 	transition: 0.4s;
@@ -120,10 +127,47 @@ nav label:hover {
 	cursor:pointer;
 }
 
-nav label:before {
+label .bar {
+    width: 2rem;
+    height: 1px;
+    background-color: #fff;
+    margin: 0.6rem 0;
+}
+
+label .container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+label .bar1, label .bar2, label .bar3 {
+    width: 1.8rem;
+    height: 1px;
+    background-color: #fff;
+    margin: 0.6rem 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+/*nav label:before {
 	content: "\f0c9";
 	text-align: center;
-}
+}*/
 
 /*************** MEDIA QUERIES *******************/
 @media only screen and (max-width: 90rem) {
@@ -154,11 +198,11 @@ nav label:before {
 @media only screen and (max-width: 69rem) {
 
 	.cart_icon {
-		width: 8%;
+		width: 2rem;
 	}
 
 	.resv_icon {
-		width: 5%;
+		width: 1.5rem;
 	}
 
 	nav ul {
@@ -180,7 +224,7 @@ nav label:before {
 		border-bottom: solid 1px #777;
 		padding: 1.5em 0;
 		text-align: center;
-  	} 
+  	}
 
 	nav li:last-child {
     	margin-bottom: 4rem;
@@ -213,15 +257,14 @@ nav label:before {
   	}
 }
 
-@media only screen and (max-width: 40rem) {
+@media only screen and (max-width: 69rem) and (max-height: 50rem) {
 
-	.cart_icon {
-		width: 13%;
-	}
+	nav li {		
+		padding: 1em 0;
+  	} 
+}
 
-	.resv_icon {
-		width: 8%;
-	}
+@media only screen and (max-width: 40rem){
 
 	nav input, nav label {
 		width: 2.5rem; 
@@ -232,4 +275,11 @@ nav label:before {
 		transition: all 1s ease;
 		-webkit-transition: all 1s ease;
   	} 
+
+}
+
+@media only screen and (max-width: 40rem) and (max-height: 40rem) {
+	 nav li {
+  		padding:  0.3rem 0;
+  	}
 }

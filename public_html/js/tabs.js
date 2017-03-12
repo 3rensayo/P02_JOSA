@@ -4,3 +4,7 @@ $(".sub-navbar a").click(function(e){
     var toShow = $(this).attr('href');
     $(toShow).show();
 });
+
+function myFunction(x) {
+    x.classList.toggle("change");
+};
