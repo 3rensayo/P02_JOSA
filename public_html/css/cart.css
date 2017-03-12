@@ -37,7 +37,7 @@
 
 .cart-d-hidden {
 	visibility: hidden;
-	font-weight: bold;
+	font-family: 'BrandonTextMedium', Verdana, sans-serif;
 	padding-right: 1rem;
 }
 
