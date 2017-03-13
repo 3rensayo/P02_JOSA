@@ -60,10 +60,16 @@ section {
   position: relative;
 }
 
-.blist_section ul {
+.blist_section ul  {
   list-style: none;
   padding-left: 0;
 }
+
+.orlist_section ol {
+  padding-left: 1rem;
+
+}
+
 
 .style-nav {
   z-index: -1;
