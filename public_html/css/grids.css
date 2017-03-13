@@ -284,6 +284,7 @@
 		text-align: left;
 		padding-top: 0;
 		width: 20%;
+		padding-left: 1.5rem;
 	}
 
 	.half-col-section [id^='content'] .left {
