@@ -33,11 +33,28 @@
 	text-align: left;
 }
 
+
 .cart-product-text {
 	padding-top: 3rem;
     text-align: left;
     padding-left: 1rem;
 }
+
+
+.order-summary .cart-product-info {
+	padding: 0rem;
+
+
+}
+
+.order-summary .cart-product-text {
+	padding-top: 2rem;
+	padding-left: 0rem;
+
+
+}
+
+
 
 .cart-d-hidden {
 	visibility: hidden;
@@ -80,6 +97,7 @@
 	margin-bottom: 0;
 	font-size: 1.3em;
 	text-align: left;
+	padding-left: 1rem;
 }
 
 .checkout-price {
@@ -326,8 +344,10 @@
 		width: 25%;	
 	}
 
-	.cart-product-text {
-    padding-left: 1.5rem;
+	.cart-product-text, .order-summary .cart-product-text {
+
+	    padding-left: 1.5rem;
+	    padding-top: 0rem;
 	}
 
 	.cart-content .right {
@@ -358,7 +378,7 @@
 		padding: 2rem 0rem;
 	}
 
-	.cart-content h4,p {
+	.cart-content h4,p, .order-summary .cart-product-info {
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
 	}
